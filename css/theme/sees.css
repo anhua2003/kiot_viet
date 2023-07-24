@@ -1,0 +1,413 @@
+/* 
+* Màu chủ đạo của theme
+*/
+
+:root {
+    --main-color: #f7941d;
+    --MAIN-COLOR: #f7941d;
+    --main-color-hover: #e28617;
+    --MAIN-COLOR-HOVER: #e28617;
+    --main-color-hover-sub: #d78118;
+    --MAIN-COLOR-HOVER-SUB: #d78118;
+}
+
+.menu-new,
+.bg-gray,
+.main-home .total_bill,
+div.pop_up_T,
+.bootstrap-dialog-header,
+.modal-header.noborder>h4,
+h4#title_menu {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.dropdown-menu {
+    background: url(../../assets/img/sees/bg-sees.png);
+    background-size: cover;
+    background-position: center center;
+    border: none;
+}
+
+
+/**/
+
+.menu-new ul.menu1 li:nth-child(1).active>a,
+.menu-new ul.menu1 li:nth-child(1):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -50px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(2).active>a,
+.menu-new ul.menu1 li:nth-child(2):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -150px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(3).active>a,
+.menu-new ul.menu1 li:nth-child(3):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -230px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(4).active>a,
+.menu-new ul.menu1 li:nth-child(4):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -350px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(5).active>a,
+.menu-new ul.menu1 li:nth-child(5):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -450px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(6).active>a,
+.menu-new ul.menu1 li:nth-child(6):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -550px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(7).active>a,
+.menu-new ul.menu1 li:nth-child(7):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -700px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(8).active>a,
+.menu-new ul.menu1 li:nth-child(8):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -970px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(9).active>a,
+.menu-new ul.menu1 li:nth-child(9):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -1060px 0px;
+}
+
+.menu-new ul.menu1 li:nth-child(10).active>a,
+.menu-new ul.menu1 li:nth-child(10):hover>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -1190px 0px;
+}
+
+
+/**/
+
+.menu-new ul.menu1>li:nth-child(1)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -450px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(2)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -1650px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(3)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -1350px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(4)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -1350px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(5)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -4450px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(6)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -3700px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(7)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -5550px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(8)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -8500px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(9)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -11000px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(10)>.sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -13300px 0px;
+}
+
+
+/**/
+
+.menu-new ul.menu1>li:nth-child(1)>.sub>li .sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -750px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(6)>.sub>li .sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -4000px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(8)>.sub>li .sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -5000px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(9)>.sub>li .sub {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -6800px 0px;
+}
+
+
+/**/
+
+.menu-new ul.menu1>li:nth-child(1) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(1) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: 0px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(2) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(2) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -50px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(3) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(3) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -200px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(4) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(4) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -250px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(5) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(5) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -300px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(6) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(6) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -500px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(7) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(7) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -650px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(8) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(8) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: 450px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(9) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(9) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -800px 0px;
+}
+
+.menu-new ul.menu1>li:nth-child(10) .sub>li:hover>a,
+.menu-new ul.menu1>li:nth-child(10) .sub>li.active>a {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -950px 0px;
+}
+
+
+/**/
+
+.nav-admin>li .sub-menu {
+    background: url(../../assets/img/sees/bg-menu-sees.jpg);
+    background-size: cover;
+    background-position: -10800px 0px;
+}
+
+
+/**/
+
+body .btn-success,
+#btn_add_order,
+body .btn-primary,
+body .btn-danger,
+body .btn-warning,
+body .btn-info {
+    /* background: url(../../assets/img/sees/bg-sees.png);
+    background-size: cover;
+    background-position: center right; */
+    border: none !important;
+    padding: 7px 12px !important;
+}
+
+body .btn-primary.btn-search-eye {
+    background: url(../../assets/img/sees/bg-sees.png);
+    background-size: cover;
+    background-position: center right;
+    border: none !important;
+    padding: 7px 12px !important;
+}
+
+body .btn-success:hover,
+#btn_add_order:hover,
+body .btn-primary:hover,
+body .btn-danger:hover,
+body .btn-warning:hover,
+body .btn-info:hover {
+    background: url(../../assets/img/sees/bg-sees.png) !important;
+    background-size: cover !important;
+    background-position: center right !important;
+    border: none !important;
+    padding: 7px 12px !important;
+}
+
+.profile_info .nav-storing.nav-tabs>li.active>a,
+.profile_info .nav-storing.nav-tabs>li.active>a:hover,
+.profile_info .nav-storing.nav-tabs>li.active>a:focus {
+    color: #000 !important;
+    -webkit-text-fill-color: inherit !important;
+}
+
+body .btn-main,
+.main-home .btn-success1 .th {
+    background: url(../../assets/img/sees/bg-sees.png) !important;
+    background-size: cover !important;
+    background-position: center right !important;
+    border: none !important;
+    padding: 7px 12px !important;
+}
+
+body .btn-main:hover {
+    border: none !important;
+}
+
+.main-home .btn-success1 .th {
+    padding: 8px 12px !important;
+}
+
+a.menu-home {
+    background: url(../../assets/img/sees/bg-sees.png) !important;
+    background-size: cover !important;
+    background-position: center right !important;
+}
+
+/* .home-new .item .iframe:hover{
+    background: url(../../assets/img/sees/bg-sees.png) !important;
+    background-size: cover !important;
+    background-position: center right !important;
+}
+.home-new .item .iframe:hover .title, .home-new .item .iframe:hover .img span{
+    color: #fff;
+    background: none !important;
+    -webkit-text-fill-color: inherit !important;
+} */
+/**/
+
+
+/* 
+input.btn_brand_sm,
+button.btn_brand_sm,
+a.btn_brand_sm {
+    background: url(../../assets/img/sees/bg-sees.png);
+    background-size: cover;
+    background-position: center right;
+    border: none !important;
+}
+
+input.btn_brand_sm:hover,
+button.btn_brand_sm:hover,
+a.btn_brand_sm:hover {
+    background: url(../../assets/img/sees/bg-sees.png) !important;
+    background-size: cover !important;
+    background-position: center right !important;
+    border: none !important;
+} */
+
+.home-new .item .iframe .title,
+h4.title,
+.nav-admin a span,
+h2.title-page,
+.nav-tabs>li.active>a,
+a.menu-home+a,
+.hd-coffers>span, .title-form-first,
+.home-new .item .iframe .img span {
+    background: -webkit-linear-gradient( 45deg, #5d2c79, #2a2862, #1773af, #49a86a, #cda739, #de7632, #d7512f, #bf2e2c) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display: inline-block;
+}
+
+.nav-tabs>li.active>a {
+    display: block;
+}
+
+.step-setting-theme ul li.active a span:nth-child(2) {
+    font-weight: 600;
+    background: -webkit-linear-gradient( 45deg, #5d2c79, #2a2862, #1773af, #49a86a, #cda739, #de7632, #d7512f, #bf2e2c) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.step-setting-theme ul li.active a span:nth-child(1),
+.step-setting-theme ul li.active a span:nth-child(1) i,
+.step-setting-theme ul li.active span:nth-child(1)::after,
+.step-setting-theme ul li.active span:nth-child(1)::before,
+.step-setting-theme ul li.active.active1 a::before {
+    background: -webkit-linear-gradient( 45deg, #5d2c79, #2a2862, #1773af, #49a86a, #cda739, #de7632, #d7512f, #bf2e2c) !important;
+}
+
+.step-setting-theme ul li.active a::before {
+    background: linear-gradient( 90deg, var(--main-color), transparent);
+    background: -webkit-linear-gradient( 45deg, #5d2c79, transparent, #2a2862, transparent, #1773af, transparent, #49a86a, transparent, #cda739, transparent, #de7632, transparent, #d7512f, transparent, #bf2e2c, transparent) !important;
+}

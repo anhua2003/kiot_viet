@@ -1,0 +1,283 @@
+
+
+****** 07/11/23 10:00:02 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:00:20 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:00:38 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:00:55 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"297","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"},{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_b-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"\u0110en-XXL"}]}
+
+****** 07/11/23 10:01:11 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:01:21 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"40","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"22","order_id":"40","name_product":"Laptop Gaming MSI GL63 9SE-831VN","unique_prop":"","price":"39990000","quantity":"4","name":"HuaAn","email":"hongan212003a@gmail.com","address":"12 Tr\u1ecbnh \u0110\u00ecnh Th\u1ea3o","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""}]}
+
+****** 07/11/23 10:01:25 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"517","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"23","order_id":"517","name_product":"Laptop gaming Gigabyte G5 GD 51VN123SO","unique_prop":"","price":"17990000","quantity":"1","name":"HuaHongThanhAn","email":"hongan212003@gmail.com","address":"12 Tr\u1ecbnh \u0110\u00ecnh Th\u1ea3o","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""}]}
+
+****** 07/11/23 10:01:28 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"94","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"24","order_id":"94","name_product":"Laptop Dell Vostro 3510 7T2YC2","unique_prop":"","price":"20990000","quantity":"1","name":"HoVanHao","email":"adu@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""}]}
+
+****** 07/11/23 10:01:29 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:01:43 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"297","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"},{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_b-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"\u0110en-XXL"}]}
+
+****** 07/11/23 10:01:47 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:02:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:02:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:02:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:03:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:03:53 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:04:11 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:04:29 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:04:35 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"297","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"},{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_b-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"\u0110en-XXL"}]}
+
+****** 07/11/23 10:04:47 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"297","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"},{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_b-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"\u0110en-XXL"}]}
+
+****** 07/11/23 10:05:03 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:05:21 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:05:39 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:05:57 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:06:15 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:06:33 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:06:51 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:07:09 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:07:27 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:07:45 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:08:03 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:08:21 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:08:39 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:08:57 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:09:15 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:09:33 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:09:51 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:10:09 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:10:27 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:10:45 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:11:03 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:11:21 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"297","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"},{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_b-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"\u0110en-XXL"}]}
+
+****** 07/11/23 10:11:37 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:11:55 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:12:02 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"297","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"},{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_b-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"\u0110en-XXL"}]}
+
+****** 07/11/23 10:12:15 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:12:33 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:12:51 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:13:09 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:13:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:14:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:15:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:16:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:17:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:18:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:19:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:20:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:21:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:21:59 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:22:09 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:22:27 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:22:45 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:23:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:24:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:25:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:26:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:27:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:28:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:29:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:30:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:31:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:32:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:33:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:34:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:35:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:35:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:35:57 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:36:15 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:36:33 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:37:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:38:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:39:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:40:11 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:40:27 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:40:41 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"297","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"},{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_b-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"\u0110en-XXL"}]}
+
+****** 07/11/23 10:40:51 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:41:09 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:41:27 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:41:45 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:42:03 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:42:21 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:42:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:42:46 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"297","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"},{"id":"18","order_id":"297","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_b-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"\u0110en-XXL"}]}
+
+****** 07/11/23 10:43:02 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:43:20 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:43:38 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:43:56 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:44:14 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:44:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:45:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:46:09 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:46:35 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:46:53 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:47:11 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:47:29 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:48:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:48:59 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:49:17 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:50:11 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:50:28 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"867","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"25","order_id":"867","id_product":"9SE831VN","name_product":"Laptop Gaming MSI GL63 9SE-831VN","unique_prop":"","price":"39990000","quantity":"4","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"82XV00D5VN","name_product":"Laptop gaming Lenovo LOQ 15IRH8 82XV00D5VN","unique_prop":"","price":"35990000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"HN188W","name_product":"Laptop Asus Tuf FX506LHB HN188W","unique_prop":"","price":"23290000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"G102P","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"}]}
+
+****** 07/11/23 10:50:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:50:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:51:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:51:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:51:49 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:52:07 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:52:25 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:53:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:53:24 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"867","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"25","order_id":"867","id_product":"9SE831VN","name_product":"Laptop Gaming MSI GL63 9SE-831VN","unique_prop":"","price":"39990000","quantity":"4","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"82XV00D5VN","name_product":"Laptop gaming Lenovo LOQ 15IRH8 82XV00D5VN","unique_prop":"","price":"35990000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"HN188W","name_product":"Laptop Asus Tuf FX506LHB HN188W","unique_prop":"","price":"23290000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"G102P","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"}]}
+
+****** 07/11/23 10:53:39 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:53:58 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:54:16 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:54:33 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:54:35 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"index","nod":"rating_order"}:[POST]:{"order_id":"867","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":[{"id":"25","order_id":"867","id_product":"9SE831VN","name_product":"Laptop Gaming MSI GL63 9SE-831VN","unique_prop":"","price":"39990000","quantity":"4","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"82XV00D5VN","name_product":"Laptop gaming Lenovo LOQ 15IRH8 82XV00D5VN","unique_prop":"","price":"35990000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"HN188W","name_product":"Laptop Asus Tuf FX506LHB HN188W","unique_prop":"","price":"23290000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":""},{"id":"25","order_id":"867","id_product":"G102P","name_product":"Chu\u1ed9t Logitech G102 Prodigy RGB","unique_prop":"G102P_w-G102P_xxl","price":"400000","quantity":"1","name":"HuaHongThanhAn","email":"nicknro21@gmail.com","address":"12TrinhDinhThao","city":"HoChiMinh","country":"Vietnam","phone":"0909461549","unique_txt":"Tr\u1eafng-XXL"}]}
+
+****** 07/11/23 10:54:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:55:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:55:28 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:55:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:56:28 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:56:39 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:56:57 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:57:15 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:57:34 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:57:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:58:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:58:27 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:58:45 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:59:03 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:59:21 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:59:39 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/11/23 10:59:57 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request

@@ -1,0 +1,11 @@
+/* 
+* Màu chủ đạo của theme
+*/
+:root {
+    --main-color: #FCB018;
+    --MAIN-COLOR: #FCB018;
+    --main-color-hover: #efa716;
+    --MAIN-COLOR-HOVER: #efa716;
+    --main-color-hover-sub: #e39f17;
+    --MAIN-COLOR-HOVER-SUB: #e39f17;
+}

@@ -1,0 +1,27 @@
+/* 
+* Màu chủ đạo của theme
+*/
+:root {
+    --main-color: #5ab6cc !important;
+    --MAIN-COLOR: #5ab6cc !important;
+    --main-color-hover: #5caec1 !important;
+    --MAIN-COLOR-HOVER: #5caec1 !important;
+    --main-color-hover1: #5caec1 !important;
+    --MAIN-COLOR-HOVER1: #5caec1 !important;
+}
+.menu-new {
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#5ab6cc), color-stop(51%, #823b98), to(#5ab6cc));
+    background-image: -webkit-linear-gradient(left, #5ab6cc 0%, #823b98 51%, #5ab6cc 100%);
+    background-image: -moz-linear-gradient(left, #5ab6cc 0%, #823b98 51%, #5ab6cc 100%);
+    background-image: -o-linear-gradient(left, #5ab6cc 0%, #823b98 51%, #5ab6cc 100%);
+    background-image: linear-gradient(to right, #5ab6cc 0%, #823b98 51%, #5ab6cc 100%);
+}
+.home-new .item .iframe .img span {
+    color: #65bfd3;
+    background: -webkit-linear-gradient( 45deg, #85c6d9, #6497bf, #1773af, #6496bf, #7072af, #823a98, #7e479d, #813f9a) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display: inline-block;
+}

@@ -1,0 +1,567 @@
+
+
+****** 11/19/22 11:00:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:00:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:00:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:00:55 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:01:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:01:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:01:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:01:56 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:02:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:02:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:02:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:02:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:03:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:03:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:03:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:03:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:04:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:04:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:04:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:04:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:05:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:05:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:05:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:05:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:06:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:06:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:06:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:06:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:07:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:07:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:07:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:07:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:08:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:08:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:08:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:08:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:01 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:07 ******:[GET]:{"apikey":"panel812js19JN123","m":"panel_members","act":"gmid","nod":"list"}:[POST]:{"browser":"Chrome"}[dUser]{"id":"35","strID":"AW","username":"0918694438","fullname":"\u0110\u1eb7ng Th\u1ecb Thu Ho\u00e0i","password":"455e19a10497015c683cb9debd34f105","salt":"se3cXX33Kb","gid":"-1","mobile":"0918694438","phone":"0918694438","email":"dangthituhhoai1710@gmail.com","address":"","note":"","bank_name":"","bank_account":"","bank_branch":"","bank_id":"","shop_id":"1","status":"Active","security":"19b650660b253761af189682e03501dd","create_user":"khohangsi_Admin","accessed":";","add_device":"0","lang":"en","total_coffers":"0","permission":":panelindex:panelindex:paneluser:panel_useridx:;:panel_useradd:;:panel_usergid:;:panelindex:panelcalendar:panel_calendarshop_user:panel_calendarsave_day:panel_calendarget_by_user:panelcalendar:;:panel_userdelete:;:panel_useredit:;:panel_userreset:;:panelmembers:panelmembers:panel_membersidx:panel_membersliabilities:;:panel_membersdl_members:;:panel_membersimport_members:;:panel_membersadd:;:panel_membersedit:;:panel_membersmembers_group:;:panelnotifications:panel_notificationidx:panelnotifications:panel_notificationsearch_members:panel_notificationsave:;:panel_membersdelete:;:panel_membersweb:;:panelintroduce:page_website_configidx:page_website_configsave:;:panelmenu:panel_menuidx:panel_menusave:panel_menudelete:panel_menuhidden:;:panelfooter:panel_website_configidx:panel_website_configsave:;:panelslide:panel_slideidx:panel_slidesave:panel_slidedelete:panel_slidehidden:;:panelnewsconfig:;:panelnews_category:panel_news_categoryidx:panel_news_categorynews:panel_news_categorydelete:panel_news_categoryhidden:;:panelnews:panel_newsidx:panel_newsnews:panel_newsdelete:panel_newshidden:;:panelcontact:page_website_configidx:page_website_configsave:;:panelcontact_list:panel_contact_listidx:panel_contact_listsave:;:settingindx:settingpos:settingidx:userajax_change_pass:;","vehicle":"","unit_cost":"0","session_token":"","wallet_accessed":null}:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"l":[{"id":"1","name":"level 1","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"2","name":"level 2","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"3","name":"level 3","default_permission":":homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"4","name":" level max","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]}]}}
+
+****** 11/19/22 11:09:11 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:20 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:38 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:09:56 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:10:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:10:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:10:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:10:14 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:10:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:10:32 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:10:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:10:50 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:08 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:26 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:44 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:11:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:02 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:20 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:38 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:12:56 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:13:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:13:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:13:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:13:14 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:13:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:13:32 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:13:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:13:50 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:14:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:14:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:14:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:14:51 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:15:01 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:15:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:15:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:15:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:16:02 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:16:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:16:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:16:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:17:03 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:17:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:17:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:17:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:18:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:18:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:18:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:18:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:19:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:19:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:19:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:19:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:20:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:20:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:20:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:20:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:21:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:21:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:21:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:22:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:22:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:22:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:22:07 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:23:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:23:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:23:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:23:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:24:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:24:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:24:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:24:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:25:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:25:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:25:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:25:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:26:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:26:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:26:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:26:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:27:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:27:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:27:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:27:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:28:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:28:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:28:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:28:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:29:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:29:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:29:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:29:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:30:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:30:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:30:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:30:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:31:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:31:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:31:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:31:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:32:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:32:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:32:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:32:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:33:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:33:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:33:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:33:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:34:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:34:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:34:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:34:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:35:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:35:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:35:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:35:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:36:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:36:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:36:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:36:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:37:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:37:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:37:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:37:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:38:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:38:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:38:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:38:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:39:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:39:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:39:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:39:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:40:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:40:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:40:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:40:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:41:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:41:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:41:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:41:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:42:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:42:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:42:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:42:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:43:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:43:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:43:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:43:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:44:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:44:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:44:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:44:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:45:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:45:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:45:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:45:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:46:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:46:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:46:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:46:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:47:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:47:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:47:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:47:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:48:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:48:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:48:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:48:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:49:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:49:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:49:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:49:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:50:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:50:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:50:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:50:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:51:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:51:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:51:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:51:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:52:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:52:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:52:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:52:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:53:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:53:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:53:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:53:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:54:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:54:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:54:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:54:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:55:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:55:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:55:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:55:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:56:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:56:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:56:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:56:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:57:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:57:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:57:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:57:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:14 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:16 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:32 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:34 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:41 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:48 ******:[GET]:{"apikey":"panel812js19JN123","m":"panel_members","act":"gmid","nod":"list"}:[POST]:{"browser":"Chrome"}[dUser]{"id":"35","strID":"AW","username":"0918694438","fullname":"\u0110\u1eb7ng Th\u1ecb Thu Ho\u00e0i","password":"455e19a10497015c683cb9debd34f105","salt":"se3cXX33Kb","gid":"-1","mobile":"0918694438","phone":"0918694438","email":"dangthituhhoai1710@gmail.com","address":"","note":"","bank_name":"","bank_account":"","bank_branch":"","bank_id":"","shop_id":"1","status":"Active","security":"19b650660b253761af189682e03501dd","create_user":"khohangsi_Admin","accessed":";","add_device":"0","lang":"en","total_coffers":"0","permission":":panelindex:panelindex:paneluser:panel_useridx:;:panel_useradd:;:panel_usergid:;:panelindex:panelcalendar:panel_calendarshop_user:panel_calendarsave_day:panel_calendarget_by_user:panelcalendar:;:panel_userdelete:;:panel_useredit:;:panel_userreset:;:panelmembers:panelmembers:panel_membersidx:panel_membersliabilities:;:panel_membersdl_members:;:panel_membersimport_members:;:panel_membersadd:;:panel_membersedit:;:panel_membersmembers_group:;:panelnotifications:panel_notificationidx:panelnotifications:panel_notificationsearch_members:panel_notificationsave:;:panel_membersdelete:;:panel_membersweb:;:panelintroduce:page_website_configidx:page_website_configsave:;:panelmenu:panel_menuidx:panel_menusave:panel_menudelete:panel_menuhidden:;:panelfooter:panel_website_configidx:panel_website_configsave:;:panelslide:panel_slideidx:panel_slidesave:panel_slidedelete:panel_slidehidden:;:panelnewsconfig:;:panelnews_category:panel_news_categoryidx:panel_news_categorynews:panel_news_categorydelete:panel_news_categoryhidden:;:panelnews:panel_newsidx:panel_newsnews:panel_newsdelete:panel_newshidden:;:panelcontact:page_website_configidx:page_website_configsave:;:panelcontact_list:panel_contact_listidx:panel_contact_listsave:;:settingindx:settingpos:settingidx:userajax_change_pass:;","vehicle":"","unit_cost":"0","session_token":"","wallet_accessed":null}:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"l":[{"id":"1","name":"level 1","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"2","name":"level 2","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"3","name":"level 3","default_permission":":homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"4","name":" level max","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]}]}}
+
+****** 11/19/22 11:58:49 ******:[GET]:{"apikey":"panel812js19JN123","m":"panel_members","act":"gmid","nod":"detail"}:[POST]:{"id":"3","browser":"Chrome"}[dUser]{"id":"35","strID":"AW","username":"0918694438","fullname":"\u0110\u1eb7ng Th\u1ecb Thu Ho\u00e0i","password":"455e19a10497015c683cb9debd34f105","salt":"se3cXX33Kb","gid":"-1","mobile":"0918694438","phone":"0918694438","email":"dangthituhhoai1710@gmail.com","address":"","note":"","bank_name":"","bank_account":"","bank_branch":"","bank_id":"","shop_id":"1","status":"Active","security":"19b650660b253761af189682e03501dd","create_user":"khohangsi_Admin","accessed":";","add_device":"0","lang":"en","total_coffers":"0","permission":":panelindex:panelindex:paneluser:panel_useridx:;:panel_useradd:;:panel_usergid:;:panelindex:panelcalendar:panel_calendarshop_user:panel_calendarsave_day:panel_calendarget_by_user:panelcalendar:;:panel_userdelete:;:panel_useredit:;:panel_userreset:;:panelmembers:panelmembers:panel_membersidx:panel_membersliabilities:;:panel_membersdl_members:;:panel_membersimport_members:;:panel_membersadd:;:panel_membersedit:;:panel_membersmembers_group:;:panelnotifications:panel_notificationidx:panelnotifications:panel_notificationsearch_members:panel_notificationsave:;:panel_membersdelete:;:panel_membersweb:;:panelintroduce:page_website_configidx:page_website_configsave:;:panelmenu:panel_menuidx:panel_menusave:panel_menudelete:panel_menuhidden:;:panelfooter:panel_website_configidx:panel_website_configsave:;:panelslide:panel_slideidx:panel_slidesave:panel_slidedelete:panel_slidehidden:;:panelnewsconfig:;:panelnews_category:panel_news_categoryidx:panel_news_categorynews:panel_news_categorydelete:panel_news_categoryhidden:;:panelnews:panel_newsidx:panel_newsnews:panel_newsdelete:panel_newshidden:;:panelcontact:page_website_configidx:page_website_configsave:;:panelcontact_list:panel_contact_listidx:panel_contact_listsave:;:settingindx:settingpos:settingidx:userajax_change_pass:;","vehicle":"","unit_cost":"0","session_token":"","wallet_accessed":null}:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"id":"3","name":"level 3","default_permission":":homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]}}
+
+****** 11/19/22 11:58:52 ******:[GET]:{"apikey":"panel812js19JN123","m":"panel_members","act":"gmid","nod":"update_permission"}:[POST]:{"id":"3","default_permission":":clientprofile:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;","shop_accessed":";","browser":"Chrome"}[dUser]{"id":"35","strID":"AW","username":"0918694438","fullname":"\u0110\u1eb7ng Th\u1ecb Thu Ho\u00e0i","password":"455e19a10497015c683cb9debd34f105","salt":"se3cXX33Kb","gid":"-1","mobile":"0918694438","phone":"0918694438","email":"dangthituhhoai1710@gmail.com","address":"","note":"","bank_name":"","bank_account":"","bank_branch":"","bank_id":"","shop_id":"1","status":"Active","security":"19b650660b253761af189682e03501dd","create_user":"khohangsi_Admin","accessed":";","add_device":"0","lang":"en","total_coffers":"0","permission":":panelindex:panelindex:paneluser:panel_useridx:;:panel_useradd:;:panel_usergid:;:panelindex:panelcalendar:panel_calendarshop_user:panel_calendarsave_day:panel_calendarget_by_user:panelcalendar:;:panel_userdelete:;:panel_useredit:;:panel_userreset:;:panelmembers:panelmembers:panel_membersidx:panel_membersliabilities:;:panel_membersdl_members:;:panel_membersimport_members:;:panel_membersadd:;:panel_membersedit:;:panel_membersmembers_group:;:panelnotifications:panel_notificationidx:panelnotifications:panel_notificationsearch_members:panel_notificationsave:;:panel_membersdelete:;:panel_membersweb:;:panelintroduce:page_website_configidx:page_website_configsave:;:panelmenu:panel_menuidx:panel_menusave:panel_menudelete:panel_menuhidden:;:panelfooter:panel_website_configidx:panel_website_configsave:;:panelslide:panel_slideidx:panel_slidesave:panel_slidedelete:panel_slidehidden:;:panelnewsconfig:;:panelnews_category:panel_news_categoryidx:panel_news_categorynews:panel_news_categorydelete:panel_news_categoryhidden:;:panelnews:panel_newsidx:panel_newsnews:panel_newsdelete:panel_newshidden:;:panelcontact:page_website_configidx:page_website_configsave:;:panelcontact_list:panel_contact_listidx:panel_contact_listsave:;:settingindx:settingpos:settingidx:userajax_change_pass:;","vehicle":"","unit_cost":"0","session_token":"","wallet_accessed":null}:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"l":[{"id":"1","name":"level 1","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"2","name":"level 2","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"3","name":"level 3","default_permission":":clientprofile:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"4","name":" level max","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]}]}}
+
+****** 11/19/22 11:58:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:58:52 ******:[GET]:{"apikey":"panel812js19JN123","m":"panel_members","act":"gmid","nod":"update_permission"}:[POST]:{"id":"3","default_permission":":clientprofile:;:clientupdate:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;","shop_accessed":";","browser":"Chrome"}[dUser]{"id":"35","strID":"AW","username":"0918694438","fullname":"\u0110\u1eb7ng Th\u1ecb Thu Ho\u00e0i","password":"455e19a10497015c683cb9debd34f105","salt":"se3cXX33Kb","gid":"-1","mobile":"0918694438","phone":"0918694438","email":"dangthituhhoai1710@gmail.com","address":"","note":"","bank_name":"","bank_account":"","bank_branch":"","bank_id":"","shop_id":"1","status":"Active","security":"19b650660b253761af189682e03501dd","create_user":"khohangsi_Admin","accessed":";","add_device":"0","lang":"en","total_coffers":"0","permission":":panelindex:panelindex:paneluser:panel_useridx:;:panel_useradd:;:panel_usergid:;:panelindex:panelcalendar:panel_calendarshop_user:panel_calendarsave_day:panel_calendarget_by_user:panelcalendar:;:panel_userdelete:;:panel_useredit:;:panel_userreset:;:panelmembers:panelmembers:panel_membersidx:panel_membersliabilities:;:panel_membersdl_members:;:panel_membersimport_members:;:panel_membersadd:;:panel_membersedit:;:panel_membersmembers_group:;:panelnotifications:panel_notificationidx:panelnotifications:panel_notificationsearch_members:panel_notificationsave:;:panel_membersdelete:;:panel_membersweb:;:panelintroduce:page_website_configidx:page_website_configsave:;:panelmenu:panel_menuidx:panel_menusave:panel_menudelete:panel_menuhidden:;:panelfooter:panel_website_configidx:panel_website_configsave:;:panelslide:panel_slideidx:panel_slidesave:panel_slidedelete:panel_slidehidden:;:panelnewsconfig:;:panelnews_category:panel_news_categoryidx:panel_news_categorynews:panel_news_categorydelete:panel_news_categoryhidden:;:panelnews:panel_newsidx:panel_newsnews:panel_newsdelete:panel_newshidden:;:panelcontact:page_website_configidx:page_website_configsave:;:panelcontact_list:panel_contact_listidx:panel_contact_listsave:;:settingindx:settingpos:settingidx:userajax_change_pass:;","vehicle":"","unit_cost":"0","session_token":"","wallet_accessed":null}:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"l":[{"id":"1","name":"level 1","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"2","name":"level 2","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"3","name":"level 3","default_permission":":clientprofile:;:clientupdate:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"4","name":" level max","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]}]}}
+
+****** 11/19/22 11:58:53 ******:[GET]:{"apikey":"panel812js19JN123","m":"panel_members","act":"gmid","nod":"update_permission"}:[POST]:{"id":"3","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;","shop_accessed":";","browser":"Chrome"}[dUser]{"id":"35","strID":"AW","username":"0918694438","fullname":"\u0110\u1eb7ng Th\u1ecb Thu Ho\u00e0i","password":"455e19a10497015c683cb9debd34f105","salt":"se3cXX33Kb","gid":"-1","mobile":"0918694438","phone":"0918694438","email":"dangthituhhoai1710@gmail.com","address":"","note":"","bank_name":"","bank_account":"","bank_branch":"","bank_id":"","shop_id":"1","status":"Active","security":"19b650660b253761af189682e03501dd","create_user":"khohangsi_Admin","accessed":";","add_device":"0","lang":"en","total_coffers":"0","permission":":panelindex:panelindex:paneluser:panel_useridx:;:panel_useradd:;:panel_usergid:;:panelindex:panelcalendar:panel_calendarshop_user:panel_calendarsave_day:panel_calendarget_by_user:panelcalendar:;:panel_userdelete:;:panel_useredit:;:panel_userreset:;:panelmembers:panelmembers:panel_membersidx:panel_membersliabilities:;:panel_membersdl_members:;:panel_membersimport_members:;:panel_membersadd:;:panel_membersedit:;:panel_membersmembers_group:;:panelnotifications:panel_notificationidx:panelnotifications:panel_notificationsearch_members:panel_notificationsave:;:panel_membersdelete:;:panel_membersweb:;:panelintroduce:page_website_configidx:page_website_configsave:;:panelmenu:panel_menuidx:panel_menusave:panel_menudelete:panel_menuhidden:;:panelfooter:panel_website_configidx:panel_website_configsave:;:panelslide:panel_slideidx:panel_slidesave:panel_slidedelete:panel_slidehidden:;:panelnewsconfig:;:panelnews_category:panel_news_categoryidx:panel_news_categorynews:panel_news_categorydelete:panel_news_categoryhidden:;:panelnews:panel_newsidx:panel_newsnews:panel_newsdelete:panel_newshidden:;:panelcontact:page_website_configidx:page_website_configsave:;:panelcontact_list:panel_contact_listidx:panel_contact_listsave:;:settingindx:settingpos:settingidx:userajax_change_pass:;","vehicle":"","unit_cost":"0","session_token":"","wallet_accessed":null}:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"l":[{"id":"1","name":"level 1","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"2","name":"level 2","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"3","name":"level 3","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingupdateseen:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:categoryfollowdelete:;:categoryfollowupdate:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]},{"id":"4","name":" level max","default_permission":":clientprofile:;:clientupdate:;:clientupdatepass:;:clientnotification:;:clientcategoryholding:;:clientlogout:;:homecategoryholding:;:homecategoryfollow:;:categoryholingaddnav:;:categoryholingfilter:;:categoryholingbuy:;:categorytabviewcategory:;:categorytabviewseen:;:categorychartholding:;:categoryparameter:;:categoryholingupdate:;:categoryholdingsell:;:categoryholdingnote:;:categoryfollowadd:;:categoryfollowview:;:supervisorindex:","default_report":"","permission_resellers":"","shop_accessed":";","bank_change_allow":null,"treasurer_allow_all":"0","wallet_accessed":null,"bank_change_list":[],"wallet_list":[]}]}}
+
+****** 11/19/22 11:59:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:28 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/19/22 11:59:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request

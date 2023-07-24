@@ -1,0 +1,7 @@
+1. Import toan bo css va js vao trang can upload
+
+2. Dac file upload.php va import class dung cho upload file (file xu ly upload)
+
+3. Su dung cac function trong uploadfuction.js vao $(document).ready
+
+4. Setup 2 input: 1 text input file và 1 input text xong.

@@ -1,0 +1,307 @@
+
+
+****** 11/22/22 13:35:51 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:35:51 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:35:51 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:36:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:36:41 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:36:41 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:36:52 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter"}:[POST]:{"status":"1","buyFrom":"","buyTo":"","sellFrom":"","sellTo":"","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":[{"id":"110","client_id":"174","stock":"VIT","transac_date":"1669050000","transac_vol":"1000.0000","transac_price":"1000.0000","transac_total":"1000000.0000","transac_type":"Mua","transac_no":"1","transac_status":"M\u1edf","note_1":"","note_2":"","note_3":"","is_hidden":"0","deleted":"0","created_at":"1669092595","htcv_take_profit":"19601.0000","htcv_cut_loss":"17151.0000","htcv_valuation_price":"12880.0000","market_price":"17500.0000","total_sell":"0.0000","total_buy":"1000.0000","transac_date_max":"1669050000","total_price":"1000.0000","st_sell_percentage":"Ti\u1ebfp t\u1ee5c n\u1eafm gi\u1eef","lt_sell_percentage":"Ti\u1ebfp t\u1ee5c n\u1eafm gi\u1eef"}]}
+
+****** 11/22/22 13:36:52 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter_profile"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"nav":"1000000.0000","bought":"2500000.0000","ratioBuy":2.5,"tpal":"54000000.00000000","rpal":21.6}}
+
+****** 11/22/22 13:36:52 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter_char"}:[POST]:{"status":"1","buyFrom":"","buyTo":"","sellFrom":"","sellTo":"","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":[]}
+
+****** 11/22/22 13:36:52 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"loadOption"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"rtp":null,"apm":null,"aps":null,"ropsb":null,"apvm":"0.00000000","anosm":"0.0833","apvps":"0.000000000000"}}
+
+****** 11/22/22 13:37:11 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:37:29 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:37:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:37:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:37:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:38:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:38:23 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:38:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:38:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:38:41 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:38:47 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter_char"}:[POST]:{"status":"1","buyFrom":"","buyTo":"","sellFrom":"","sellTo":"","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":[]}
+
+****** 11/22/22 13:38:47 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter_profile"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"nav":"1000000.0000","bought":"2500000.0000","ratioBuy":2.5,"tpal":"54000000.00000000","rpal":21.6}}
+
+****** 11/22/22 13:38:48 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter"}:[POST]:{"status":"1","buyFrom":"","buyTo":"","sellFrom":"","sellTo":"","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":[{"id":"110","client_id":"174","stock":"VIT","transac_date":"1669050000","transac_vol":"1000.0000","transac_price":"1000.0000","transac_total":"1000000.0000","transac_type":"Mua","transac_no":"1","transac_status":"M\u1edf","note_1":"","note_2":"","note_3":"","is_hidden":"0","deleted":"0","created_at":"1669092595","htcv_take_profit":"19601.0000","htcv_cut_loss":"17151.0000","htcv_valuation_price":"12880.0000","market_price":"17500.0000","total_sell":"0.0000","total_buy":"1000.0000","transac_date_max":"1669050000","total_price":"1000.0000","st_sell_percentage":"Ti\u1ebfp t\u1ee5c n\u1eafm gi\u1eef","lt_sell_percentage":"Ti\u1ebfp t\u1ee5c n\u1eafm gi\u1eef"}]}
+
+****** 11/22/22 13:38:48 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"loadOption"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"rtp":null,"apm":null,"aps":null,"ropsb":null,"apvm":"0.00000000","anosm":"0.0833","apvps":"0.000000000000"}}
+
+****** 11/22/22 13:38:49 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_follow","act":"idx","nod":"filter"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":[{"stock":"VIT","hf_id":"78","hf_resistance_final":"19600.0000","hf_support_final":"17150.0000","hf_valuation_price":"12879.8271","id":"34854","ticker":"VIT","date_time":"1661126400","market_price":"17500.0000","last_major_support":"17040.0009","last_minor_support":"17200.0008","last_major_resistance":"21139.9994","last_minor_resistance":"19940.0005","gap_resistance":"-0.1200","gap_support":"0.0200","resistance_final":"19600.0000","support_final":"17150.0000","take_profit":"19600.0000","cut_loss":"17150.0000","valuation_price":"12879.8271","buy_portion":"0.0000","market_trend":"UP","market_portion":"0.7500","pros_cons":"6.0000","pros_cons_portion":"1.0000","st_buy_percentage":"0.0000","st_buy_strategy":"BUY_0PERCENT_NAV_AT17500","lt_buy_percentage":"0.0000","lt_buy_strategy":"BUY_0_PERCENT","gap_valuation":"0.3587"}]}
+
+****** 11/22/22 13:38:50 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter_profile"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"nav":"1000000.0000","bought":"2500000.0000","ratioBuy":2.5,"tpal":"54000000.00000000","rpal":21.6}}
+
+****** 11/22/22 13:38:50 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter_char"}:[POST]:{"status":"1","buyFrom":"","buyTo":"","sellFrom":"","sellTo":"","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":[]}
+
+****** 11/22/22 13:38:50 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"filter"}:[POST]:{"status":"1","buyFrom":"","buyTo":"","sellFrom":"","sellTo":"","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":[{"id":"110","client_id":"174","stock":"VIT","transac_date":"1669050000","transac_vol":"1000.0000","transac_price":"1000.0000","transac_total":"1000000.0000","transac_type":"Mua","transac_no":"1","transac_status":"M\u1edf","note_1":"","note_2":"","note_3":"","is_hidden":"0","deleted":"0","created_at":"1669092595","htcv_take_profit":"19601.0000","htcv_cut_loss":"17151.0000","htcv_valuation_price":"12880.0000","market_price":"17500.0000","total_sell":"0.0000","total_buy":"1000.0000","transac_date_max":"1669050000","total_price":"1000.0000","st_sell_percentage":"Ti\u1ebfp t\u1ee5c n\u1eafm gi\u1eef","lt_sell_percentage":"Ti\u1ebfp t\u1ee5c n\u1eafm gi\u1eef"}]}
+
+****** 11/22/22 13:38:51 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_holding","act":"idx","nod":"loadOption"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":{"rtp":null,"apm":null,"aps":null,"ropsb":null,"apvm":"0.00000000","anosm":"0.0833","apvps":"0.000000000000"}}
+
+****** 11/22/22 13:38:51 ******:[GET]:{"apikey":"Client0123kSKm123123","m":"category_follow","act":"idx","nod":"filter"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":"success","data":[{"stock":"VIT","hf_id":"78","hf_resistance_final":"19600.0000","hf_support_final":"17150.0000","hf_valuation_price":"12879.8271","id":"34854","ticker":"VIT","date_time":"1661126400","market_price":"17500.0000","last_major_support":"17040.0009","last_minor_support":"17200.0008","last_major_resistance":"21139.9994","last_minor_resistance":"19940.0005","gap_resistance":"-0.1200","gap_support":"0.0200","resistance_final":"19600.0000","support_final":"17150.0000","take_profit":"19600.0000","cut_loss":"17150.0000","valuation_price":"12879.8271","buy_portion":"0.0000","market_trend":"UP","market_portion":"0.7500","pros_cons":"6.0000","pros_cons_portion":"1.0000","st_buy_percentage":"0.0000","st_buy_strategy":"BUY_0PERCENT_NAV_AT17500","lt_buy_percentage":"0.0000","lt_buy_strategy":"BUY_0_PERCENT","gap_valuation":"0.3587"}]}
+
+****** 11/22/22 13:39:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:39:15 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:39:28 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:39:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:39:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:39:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:39:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:40:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:40:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:40:22 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:40:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:40:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:40:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:40:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:40:58 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:41:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:41:16 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:41:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:41:34 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:41:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:41:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:41:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:41:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:42:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:42:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:42:28 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:42:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:42:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:42:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:42:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:43:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:43:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:43:22 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:43:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:43:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:43:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:43:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:43:58 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:44:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:44:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:44:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:44:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:44:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:44:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:45:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:45:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:45:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:45:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:45:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:46:07 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:46:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:46:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:46:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:46:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:47:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:47:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:47:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:47:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:47:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:47:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:48:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:48:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:48:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:48:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:48:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:49:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:49:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:49:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:49:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:49:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:50:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:50:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:50:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:50:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:50:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:50:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:51:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:51:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:51:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:51:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:51:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:52:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:52:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:52:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:52:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:52:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:53:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:53:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:53:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:53:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:53:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:53:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:54:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:54:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:54:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:54:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:54:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:55:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:55:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:55:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:55:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:55:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:56:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:56:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:56:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:56:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:56:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:57:14 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:57:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:57:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:57:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:57:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:58:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:58:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:58:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:58:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:58:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:59:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:59:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:59:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:59:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:59:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 11/22/22 13:59:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"19b650660b253761af189682e03501dd"}[dUser]null:[dUserClient]null:\nMissing apikey request

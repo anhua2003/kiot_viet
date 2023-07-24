@@ -1,0 +1,101 @@
+<IfModule mod_rewrite.c>
+ErrorDocument 404 /404
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+#url admin
+RewriteRule ^admin$ /?m=panel&act=login [L]
+RewriteRule ^([^%]*)\%20(.*)$ $1-$2 [N,NE]
+#url client
+RewriteRule ^trang-chu$ /?m=home&act=index [L]
+RewriteRule ^trang-chu/$ /?m=home&act=index [L]
+RewriteRule ^tai-khoan$ /?m=user&act=index [L]
+RewriteRule ^tai-khoan/$ /?m=user&act=index [L]
+RewriteRule ^trang-chu/([0-9]+)$ /?m=home&act=index&page=$1 [L]
+RewriteRule ^detail/(.*?)/(.*?)$ /?m=product&act=detail&id=$1&n=$2 [L]
+RewriteRule ^detail/(.*?)/(.*?)/$ /?m=product&act=detail&id=$1&n=$2 [L]
+
+RewriteRule ^tim-kiem/(.*?)$ /?m=product&act=index&key=$1 [L]
+# RewriteRule ^san-pham-chi-tiet&id=([0-9]+)/$ /?m=product&act=detail&id=$1 [L]
+RewriteRule ^tai-ung-dung$ /?m=home&act=down_app [L]
+# RewriteRule ^san-pham$ /?m=home&act=product [L]
+RewriteRule ^san-pham$ /?m=product&act=index [L]
+RewriteRule ^checkout$ /?m=cart&act=checkout [L]
+RewriteRule ^checkout/$ /?m=cart&act=checkout [L]
+RewriteRule ^order-detail/id=([0-9]+)$ /?m=user&act=rating_order&order_id=$1 [L]
+RewriteRule ^order-detail-tiktok/id=([0-9]+)$ /?m=user&act=order_tiktok_detail&order_id=$1 [L]
+RewriteRule ^san-pham/limit=([0-9]+)$ /?m=product&act=index&limit=$1 [L]
+RewriteRule ^san-pham/([0-9]+)$ /?m=product&act=index&page=$1 [L]
+RewriteRule ^san-pham-rf(.*)$ /?m=product&act=index&referral=$1 [L]
+RewriteRule ^san-pham-rf(.*)/([0-9]?)$ /?m=product&act=index&referral=$1&page=$2 [L]
+RewriteRule ^(.*)-c([0-9]+)$ /?m=product&act=index&link=$1&cat_id=$2 [L]
+RewriteRule ^(.*)-c([0-9]+)/([0-9]?)$ /?m=product&act=index&link=$1&cat_id=$2&page=$3 [L]
+RewriteRule ^(.*)-p([0-9]+)$ /?m=product&act=detail&link=$1&id=$2 [L]
+RewriteRule ^(.*)-p([0-9]+)/(.*)$ /?m=product&act=detail&link=$1&id=$2&referral=$3 [L]
+RewriteRule ^cart$ /?m=cart&act=index [L]
+RewriteRule ^cart/$ /?m=cart&act=index [L]
+RewriteRule ^thanh-toan$ /?m=cart&act=payment [L]
+RewriteRule ^contact$ /?m=home&act=contact [L]
+RewriteRule ^tuyen-dung$ /?m=home&act=recruit [L]
+RewriteRule ^news$ /?m=home&act=news [L]
+RewriteRule ^news/$ /?m=home&act=news [L]
+RewriteRule ^news/([0-9]+)$ /?m=home&act=news&page=$1 [L]
+RewriteRule ^news-detail&id=([0-9]+)$ /?m=home&act=news-detail&id=$1 [L]
+RewriteRule ^(.*)-cn([0-9]+)$ /?m=home&act=news&link=$1&id=$2 [L]
+RewriteRule ^(.*)-cn([0-9]+)/([0-9]?)$ /?m=home&act=news&link=$1&id=$2&page=$3 [L]
+RewriteRule ^(.*)-cn([0-9]+)/(.*)$ /?m=home&act=news&link=$1&id=$2&keyword=$3 [L]
+RewriteRule ^(.*)-cn([0-9]+)/(.*)/([0-9]?)$ /?m=home&act=news&link=$1&id=$2&keyword=$3&page=$4 [L]
+RewriteRule ^(.*)-dn([0-9]+)$ /?m=home&act=news_detail&link=$1&id=$2 [L]
+RewriteRule ^thong-tin$ /?m=client&act=profile [L]
+RewriteRule ^thong-tin-thanh-toan$ /?m=user&act=paymentcard [L]
+RewriteRule ^dang-nhap$ /?m=home&act=login [L]
+RewriteRule ^dang-nhap/$ /?m=home&act=login [L]
+RewriteRule ^quen-mat-khau$ /?m=home&act=forgotps [L]
+RewriteRule ^quen-mat-khau/$ /?m=home&act=forgotps [L]
+RewriteRule ^dang-xuat$ /?m=home&act=logout [L]
+RewriteRule ^dang-xuat/$ /?m=home&act=logout [L]
+RewriteRule ^dang-ky$ /?m=home&act=register [L]
+RewriteRule ^dang-ky-tai-khoan$ /?m=user&act=register [L]
+RewriteRule ^dang-ky-tai-khoan/(.*)$ /?m=user&act=register&user_id=$1 [L]
+RewriteRule ^quen-mat-khau$ /?m=user&act=forgotpassword [L]
+RewriteRule ^quan-ly-don-hang$ /?m=user&act=order [L]
+RewriteRule ^thong-bao$ /?m=client&act=notification [L]
+RewriteRule ^so-dia-chi$ /?m=user&act=address [L]
+RewriteRule ^quan-ly-vi$ /?m=user&act=wallet [L]
+RewriteRule ^quan-ly-chung-chi$ /?m=user&act=training [L]
+RewriteRule ^doi-mat-khau$ /?m=client&act=change_password [L]
+
+#chart
+RewriteRule ^thi-truong$ /?m=chart&act=chart_market_trend [L]
+RewriteRule ^thi-truong/$ /?m=chart&act=chart_market_trend [L]
+
+RewriteRule ^nganh$ /?m=chart&act=chart_industry [L]
+RewriteRule ^nganh/$ /?m=chart&act=chart_industry [L]
+
+RewriteRule ^bo-loc-tuy-chinh$ /?m=chart&act=chart_filter [L]
+RewriteRule ^bo-loc-tuy-chinh/$ /?m=chart&act=chart_filter [L]
+
+RewriteRule ^phan-tich-co-phieu$ /?m=chart&act=chart_stock_analysis [L] 
+RewriteRule ^phan-tich-co-phieu/$ /?m=chart&act=chart_stock_analysis [L]
+
+RewriteRule ^chien-luoc-mua-ban$ /?m=chart&act=chart_strategy [L]
+RewriteRule ^chien-luoc-mua-ban/$ /?m=chart&act=chart_strategy [L]
+
+RewriteRule ^so-sanh-co-phieu$ /?m=chart&act=chart_stock_comparison [L]
+RewriteRule ^so-sanh-co-phieu/$ /?m=chart&act=chart_stock_comparison [L]
+
+RewriteRule ^bao-cao-tai-chinh-va-chi-so$ /?m=chart&act=chart_financial_report [L] 
+RewriteRule ^bao-cao-tai-chinh-va-chi-so/$ /?m=chart&act=chart_financial_report [L]
+
+RewriteRule ^vi-mo$ /?m=chart&act=chart_macro [L]
+RewriteRule ^vi-mo/$ /?m=chart&act=chart_macro [L]
+
+# Tan them category
+RewriteRule ^holding$ /?m=category&act=holding [L]
+RewriteRule ^follow$ /?m=category&act=follow [L]
+#url tong quan
+RewriteRule ^404$ /?m=home&act=error [L]
+
+</IfModule>

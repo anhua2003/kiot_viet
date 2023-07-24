@@ -1,0 +1,711 @@
+.top10 {
+    margin-top: 10px !important;
+}
+
+.top15 {
+    margin-top: 15px !important;
+}
+
+.top20 {
+    margin-top: 20px !important;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.title-chart, .highcharts-title {
+    text-align: center;
+    margin: 6px 0px 15px;
+    font-size: 18px;
+    color: #666 !important;
+    fill: #666 !important;
+    display: inline-block;
+    font-family: 'Inter-SemiBold' !important;
+}
+
+.title-chart1 {
+    font-size: 15px;
+    margin: -5px 0px 0px;
+    font-weight: 400;
+    color: #555;
+}
+
+.title-chart2 {
+    font-size: 18px;
+    margin: 8px 0px 6px;
+    font-weight: 600;
+    color: #555;
+    font-family: 'Inter-SemiBold';
+}
+
+.title-chart2+p {
+    color: #777;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.title-chart2+span {
+    float: right;
+    font-size: 12px;
+    margin-top: -22px;
+    color: #666;
+}
+
+.title-chart3 {
+    font-size: 15px;
+    margin: 12px 0px 10px;
+    font-weight: 400;
+    color: #333;
+}
+
+.title-chart4 {
+    font-size: 15px;
+    margin: 12px 0px 10px;
+    font-weight: 600;
+    color: #444;
+    font-family: 'Inter-SemiBold' !important;
+}
+
+.title-chart5 {
+    font-size: 14px;
+    margin: 12px 0px 10px;
+    font-weight: 600;
+    color: #444;
+    font-family: 'Inter-SemiBold' !important;
+}
+
+.wrap-chartdiv {
+    position: relative;
+    font-size: 13px;
+}
+
+#chart_home_1 {
+    height: 538px;
+}
+
+#chart_thitruong_2,
+.chart_ptcp,
+.chart_ptkt_ct {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.chart_ptkt_ct>img,
+.chart_ptcp>img,
+#chart_thitruong_2>img {
+    position: absolute;
+    left: 64px;
+    bottom: 24px;
+    width: 122px;
+    display: none;
+}
+
+.chart_ptkt_ct>span,
+.chart_ptcp>span,
+#chart_thitruong_2>span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 75px;
+    height: 20px;
+    z-index: 9;
+}
+
+#chart_ptkt_ct_1,
+#chart_ptcb_ct_1 {
+    width: 320px;
+    height: 180px;
+}
+
+#chart_ptcb_ct_1>img,
+#chart_ptkt_ct_1>img {
+    position: absolute;
+    left: 58px;
+    bottom: 32px;
+    width: 204px;
+}
+
+#chart_ptcb_ct_2 {
+    width: 320px;
+    height: 180px;
+}
+
+#chart_ptcb_ct_2>img {
+    position: absolute;
+    left: 72px;
+    bottom: 28px;
+    width: 176px;
+}
+
+#chart_ptcb_ct_3,
+#chart_ptcb_ct_4,
+#chart_ptcb_ct_5,
+#chart_ptcb_ct_6 {
+    height: 250px;
+}
+
+#chart_ptcb_ct_7 {
+    height: 140px;
+}
+
+.wrap_chart_thitruong_1+span {
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+    background: #fff;
+    width: 58px;
+    height: 20px;
+    z-index: 9;
+}
+
+#chart_thitruong_1 {
+    height: 220px;
+}
+
+#chart_thitruong_3 {
+    /* width: calc(100% + 30px);
+    margin: 0px -15px; */
+    width: 100%;
+    height: 500px;
+}
+
+#chart_thitruong_3+span {
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    background: #fff;
+    width: 58px;
+    height: 20px;
+    z-index: 9;
+}
+
+#chart_thitruong_4,
+#chart_thitruong_5 {
+    width: 100%;
+    height: 294px;
+}
+
+#chart_thitruong_5+span {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    background: #fff;
+    width: 58px;
+    height: 20px;
+    z-index: 9;
+}
+
+#chart_ptcp_3,
+#chart_ptcp_4 {
+    height: 240px;
+}
+
+#chart_ptcp_5,
+#chart_ptcp_6 {
+    height: 300px;
+}
+
+#chart_ptcp_7 {
+    height: 220px;
+}
+
+#chart_ptcp_7+span {
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    background: #fff;
+    width: 58px;
+    height: 20px;
+    z-index: 9;
+}
+
+#chart_ptcp_9 {
+    height: 180px;
+}
+
+#chart_ptcp_9>span {
+    position: absolute;
+    bottom: 0;
+    left: -6px;
+    background: #fff;
+    width: 75px;
+    height: 20px;
+    z-index: 9;
+}
+
+.chart_ptkt_ct+div>p {
+    display: inline-block;
+    margin: 0px 8px;
+    color: #666;
+    font-size: 13px;
+}
+
+#chart_nganh_1,
+#chart_nganh_3 {
+    width: 100%;
+    height: 400px;
+}
+
+#chart_nganh_2 {
+    width: 100%;
+    height: 360px;
+}
+
+#chart_nganh_1+span,
+#chart_nganh_2+span,
+#chart_nganh_3+span {
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    background: #92d050;
+    width: 58px;
+    height: 20px;
+    z-index: 9;
+}
+
+#chart_nganh_2+span,
+#chart_nganh_3+span {
+    background: #fff;
+}
+
+.chart_bctc_chart {
+    width: 100%;
+    height: 350px;
+}
+
+#chart_bctc_chart_6 {
+    height: 360px;
+}
+
+#chart_bctc_chart_1+span {
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    background: #fff;
+    width: 58px;
+    height: 20px;
+    z-index: 9;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table.table-border>thead>tr>th,
+.table.table-border>tbody>tr>td {
+    border: 1px solid #f1f1f1 !important;
+}
+
+.table>thead>tr>th {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+table tr {
+    cursor: pointer;
+}
+
+table tr td {
+    border-top: 1px dashed #e2e2e2 !important;
+    background: #fff !important;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+table.no-wrap tr td {
+    white-space: normal;
+}
+
+.tab-content .table-responsive {
+    max-height: 180px;
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+
+.tab-content .table-responsive::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.tab-content .table-responsive::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.tab-content .table-responsive::-webkit-scrollbar-thumb {
+    background-color: #999;
+}
+
+table tr:hover td {
+    background: #f9f9f9 !important;
+}
+
+table.middle tr td {
+    vertical-align: middle;
+}
+
+table.no-border {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+table.no-border tr td,
+table.no-border tr th {
+    border: none !important;
+    padding: 1px 0;
+    background: None !important;
+}
+
+table.center tr td,
+table.center tr th {
+    text-align: center;
+}
+
+table.center tr td:first-child,
+table.center tr th:first-child {
+    text-align: left;
+}
+
+table.no-border.talbe-td-pb-5 tr td,
+table.no-border.talbe-td-pb-5 tr th {
+    padding: 5px 0px;
+    margin-bottom: 0;
+}
+
+table.no-border.talbe-td-pb-6 tr td,
+table.no-border.talbe-td-pb-6 tr th {
+    padding: 6px 0px;
+    margin-bottom: 0;
+}
+
+table.no-border.talbe-td-pb-8 tr td,
+table.no-border.talbe-td-pb-8 tr th {
+    padding: 8px 0px;
+    margin-bottom: 0;
+}
+
+table.no-border.talbe-td-pb-3-6 tr td,
+table.no-border.talbe-td-pb-3-6 tr th {
+    padding: 3px 6px;
+    margin-bottom: 0;
+}
+
+table tr:first-child td {
+    border-top: none !important;
+}
+
+table.table_in tr td:first-child {
+    font-weight: 600;
+}
+
+table tr.active td {
+    background: #EDF4FA !important;
+}
+
+.detail1 {
+    font-size: 13px;
+}
+
+.detail1 p {
+    margin: 3px 0px;
+}
+
+.detail1>div:last-child {
+    border-left: 1px solid #ddd;
+    padding-left: 18px !important;
+}
+
+.detail0 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.detail0 p {
+    margin: 0;
+}
+
+.table-p p {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+
+/**/
+
+.relative {
+    position: relative;
+}
+
+.nav-tabs {
+    padding: 0 0px;
+    margin-top: 10px;
+    /* margin-bottom: -1px; */
+    border-bottom: 1px solid #ececec;
+    /* white-space: nowrap; */
+    /* overflow-x: auto; */
+}
+
+.nav-tabs>li {
+    float: none;
+    display: inline-block;
+}
+
+.nav-tabs>li>a {
+    padding: 7px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    border: 1px solid #ececec;
+    border-bottom-color: transparent;
+}
+
+.bottom15 {
+    margin-bottom: 15px;
+}
+
+.bottom10 {
+    margin-bottom: 10px;
+}
+
+.green {
+    color: #92D050;
+}
+
+.red {
+    color: #ed1d25;
+}
+
+.header111 {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 12px;
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.content-chart .header111>.row .item {
+    padding-right: 30px !important;
+}
+
+.content-chart .header111>.row .item:last-child {
+    padding-right: 5px !important;
+}
+
+.header111 .title-chart {
+    margin: 10px 0px 18px;
+    /* font-size: 18px; */
+    /* color: #555; */
+    /* -webkit-background-clip: initial !important; */
+    /* -webkit-text-fill-color: inherit !important; */
+    /* display: inline-block; */
+    /* background: none !important;*/
+}
+
+@media(max-width: 767px) {
+    .content-chart .header111>.row .item {
+        padding-right: 5px !important;
+    }
+    .header111 .title-chart {
+        margin: 15px 0px 10px;
+        display: block;
+        border-top: 1px solid #f1f1f1;
+        padding-top: 12px;
+    }
+}
+
+.header111 table tr td {
+    border: none !important;
+    padding: 1px 0px;
+}
+
+.header111 .table {
+    position: relative;
+}
+
+.header111 .table:before {
+    content: '';
+    background: -moz-linear-gradient(94deg, #5AB6CC 0, #823B98 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, 94deg, color-stop(0, 5AB6CC), color-stop(100%, 823B98));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(94deg, #5AB6CC 0, #823B98 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(94deg, #5AB6CC 0, #823B98 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(94deg, #5AB6CC 0, #823B98 100%);
+    /* IE10+ */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1');
+    /* for IE */
+    background: linear-gradient(94deg, #5AB6CC 0, #823B98 100%);
+    /* W3C */
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    right: -20px;
+    top: 0;
+}
+
+.header111>.row>.item:last-child .table:before {
+    display: none;
+}
+
+@media(max-width: 767px) {
+    .header111 .table:before {
+        display: none;
+    }
+}
+
+.line-up,
+.line-down {
+    position: relative;
+    display: inline-block;
+    padding: 0px 6px;
+    cursor: pointer;
+}
+
+.line-up img {
+    width: 8px;
+    position: absolute;
+    top: 0;
+    right: -8px;
+}
+
+.line-down img {
+    width: 8px;
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+}
+
+.btn-up {
+    background: #92D050;
+    border-radius: 0;
+}
+
+.wrap-progress-pie-chart {
+    /* width: 140px; */
+    height: 120px;
+    margin: 0px auto 0px;
+}
+
+.progress-pie-chart.gt-50 {
+    background-color: #92D050;
+}
+
+.progress-pie-chart {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    /* box-shadow: 0 0 3px #555; */
+}
+
+.ppc-progress {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 60px);
+    top: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+    clip: rect(0, 120px, 120px, 60px);
+}
+
+.gt-50 .ppc-progress {
+    clip: rect(0, 60px, 120px, 0);
+}
+
+.ppc-progress .ppc-progress-fill {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 60px);
+    top: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+    clip: rect(0, 60px, 120px, 0);
+    background: #92D050;
+    transform: rotate(60deg);
+}
+
+.gt-50 .ppc-progress .ppc-progress-fill {
+    clip: rect(0, 120px, 120px, 60px);
+    background: #E5E5E5;
+}
+
+.ppc-percents {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 105px/2);
+    top: calc(50% - 105px/2);
+    width: 105px;
+    height: 105px;
+    background: #fff;
+    text-align: center;
+    display: table;
+}
+
+.pcc-percents-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pcc-percents-wrapper span {
+    font-size: 22px;
+    color: #92d050;
+    font-family: 'Inter-SemiBold';
+}
+
+.highcharts-credits {
+    display: none !important;
+}
+
+.anychart-credits {
+    display: none !important;
+}
+
+
+/**/
+
+.list_chart_branch_1 {
+    padding: 0 0 0 40px;
+    margin: 0 0 12px;
+}
+
+.list_chart_branch_1:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.list_chart_branch_1 li {
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    margin: 3px 0px;
+    cursor: pointer;
+}
+
+.list_chart_branch_1 li i {}
