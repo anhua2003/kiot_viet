@@ -5128,3 +5128,7 @@ body .ui-tooltip {
 .content_detail li{
     margin: 5px 0px;
 }
+
+.bootstrap-dialog .modal-header .close {
+    display: none;
+}

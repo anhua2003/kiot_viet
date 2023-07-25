@@ -27933,4 +27933,8 @@ pre[class*="language-"] {
   }
 }
 
+.bootstrap-dialog .modal-header .close {
+  display: none;
+}
+
 /*# sourceMappingURL=dashboard-free.css.map */

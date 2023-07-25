@@ -1,0 +1,5 @@
+
+
+****** 07/25/23 16:28:51 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"products","act":"add","nod":"add"}:[POST]:{"Name":"anne","Code":"AN_21082003","Price":"100000","onHand":"","browser":"Chrome"}[dUser]null:[dUserClient]null:\n{"responseStatus":{"errorCode":"KvValidateProductException","message":"Nhóm hàng được chọn không tồn tại hoặc đã bị xóa khỏi hệ thống","errors":[]}}1done##{"status":200,"message":null,"data":null}
+
+****** 07/25/23 16:31:09 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"products","act":"add","nod":"add"}:[POST]:{"Name":"fdbdsf","Code":"AN_21082003","Price":"100000","onHand":"","browser":"Chrome"}[dUser]null:[dUserClient]null:\n{"responseStatus":{"errorCode":"KvValidateProductException","message":"Nhóm hàng được chọn không tồn tại hoặc đã bị xóa khỏi hệ thống","errors":[]}}1done##{"status":200,"message":null,"data":null}

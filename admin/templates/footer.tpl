@@ -2,6 +2,8 @@
 <!--   Core JS Files   -->
   <script src="{$domain}/admin/js/jquery.min.js"></script>
   <script src="{$domain}/admin/js/bootstrap-dialog.js"></script>
+  <script src="{$domain}/admin/js/global.js"></script>
+  <script src="{$domain}/admin/js/main.js"></script>
   <script src="{$domain}/admin/public/js/core/popper.min.js"></script>
   <script src="{$domain}/admin/public/js/core/bootstrap.min.js"></script>
   <script src="{$domain}/admin/public/js/plugins/perfect-scrollbar.min.js"></script>

@@ -161,5 +161,141 @@
         return $data;
     }
 
+    public function update_products($id, $name, $code, $basePrice)
+        {
+            $data = array(
+                "name" => $name,
+                "code" => $code,
+                "basePrice" => $basePrice,
+                // "barCode" => "1234567890123456",
+                // "categoryId" => 1,
+                // "allowsSale" => true,
+                // "description" => "Mô tả sản phẩm",
+                // "hasVariants" => false,
+                // "attributes" => array(
+                //     array(
+                //         "attributeName" => "Màu sắc",
+                //         "attributeValue" => "Đỏ"
+                //     ),
+                //     array(
+                //         "attributeName" => "Kích thước",
+                //         "attributeValue" => "L"
+                //     )
+                // ),
+                // "unit" => "Cái",
+                // "masterUnitId" => null,
+                // "conversionValue" => null,
+                // "inventories" => array(
+                //     array(
+                //         "branchId" => 1,
+                //         "branchName" => "Chi nhánh A",
+                //         "onHand" => 100,
+                //         "cost" => 10.5,
+                //         "reserved" => 20
+                //     ),
+                //     array(
+                //         "branchId" => 2,
+                //         "branchName" => "Chi nhánh B",
+                //         "onHand" => 150,
+                //         "cost" => 11.2,
+                //         "reserved" => 30
+                //     )
+                // ),
+                // "basePrice" => 25.0,
+                // "weight" => 0.5,
+                // "isActive" => true,
+                // "isRewardPoint" => true
+            );
+            
+            // Chuyển dữ liệu thành chuỗi JSON
+            $jsonData = json_encode($data);
+    
+            $ch = curl_init();
+    
+            curl_setopt($ch, CURLOPT_URL, $this->url.'/products/'.$id.'?code='.$code);
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/json',
+                'Retailer:'.$this->retailer,
+                'Authorization: Bearer ' . $this->getAccessToken()
+            ]);
+    
+            // Thực thi yêu cầu cURL và lấy kết quả
+            $response = curl_exec($ch);
+
+            // Kiểm tra xem có lỗi xảy ra không
+            if (curl_errno($ch)) {
+                echo 'Lỗi cURL: ' . curl_error($ch);
+            }
+
+            // Đóng cURL
+            curl_close($ch);
+
+            // Xử lý kết quả (tuỳ thuộc vào cách API phản hồi dữ liệu)
+            echo $response;
+        }
+
+    public function Delete_product($id)
+    {
+        $ch = curl_init();
+    
+            curl_setopt($ch, CURLOPT_URL, $this->url.'/products/'.$id);
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Retailer:'.$this->retailer,
+                'Authorization: Bearer ' . $this->getAccessToken()
+            ]);
+    
+            // Thực thi yêu cầu cURL và lấy kết quả
+            $response = curl_exec($ch);
+
+            // Kiểm tra xem có lỗi xảy ra không
+            if (curl_errno($ch)) {
+                echo 'Lỗi cURL: ' . curl_error($ch);
+            }
+
+            // Đóng cURL
+            curl_close($ch);
+
+            // Xử lý kết quả (tuỳ thuộc vào cách API phản hồi dữ liệu)
+            echo $response;
+    }
+
+    public function add_product($post)
+    {
+        $data = array(
+            "name" => $post['name'],
+            "code" => $post['code'],
+            "basePrice" => $post['price'],
+        );
+        $jsonData = json_encode($data);
+    
+            $ch = curl_init();
+    
+            curl_setopt($ch, CURLOPT_URL, $this->url.'/products');
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/json',
+                'Retailer:'.$this->retailer,
+                'Authorization: Bearer ' . $this->getAccessToken()
+            ]);
+    
+            // Thực thi yêu cầu cURL và lấy kết quả
+            $response = curl_exec($ch);
+
+            // Kiểm tra xem có lỗi xảy ra không
+            if (curl_errno($ch)) {
+                echo 'Lỗi cURL: ' . curl_error($ch);
+            }
+
+            // Đóng cURL
+            curl_close($ch);
+
+            // Xử lý kết quả (tuỳ thuộc vào cách API phản hồi dữ liệu)
+            echo $response;
+    }
+
 }
 ?>
