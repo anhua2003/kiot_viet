@@ -47,10 +47,10 @@
               <i class="material-icons opacity-10">table_view</i>
             </div>
 
-            <span class="nav-link-text ms-1">Products</span>
+            <span class="nav-link-text ms-1">Tiktok shop</span>
             </a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="./product_list">List Products</a></li>
+                <li><a class="dropdown-item" href="/admin/?m=tiktokshop&act=orders">List Orders</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
@@ -68,7 +68,7 @@
             </a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="/admin/product_list_kiot_viet">List Products</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="/admin/?m=orders&act=index">List Orders</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
           </div>

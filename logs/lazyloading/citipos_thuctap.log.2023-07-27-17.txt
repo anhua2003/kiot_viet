@@ -1,0 +1,55 @@
+
+
+****** 07/27/23 17:00:00 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:00:18 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:00:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:00:54 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:01:12 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:01:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:01:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:02:06 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:02:24 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:02:42 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:03:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:04:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:05:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:06:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:07:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:08:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:18:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:19:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:20:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:21:05 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:22:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:23:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:24:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:25:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:26:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:27:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 07/27/23 17:28:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request

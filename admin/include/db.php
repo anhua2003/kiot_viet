@@ -142,6 +142,7 @@ class db {
 		$query = mysqli_query ( $this->link, $sql );
 		if( !$query ){
 			trigger_error("Query Failed! SQL: $sql - Error: ".mysqli_error($this->link), E_USER_ERROR);
+			// return false;
 		}
 
 		switch ($return_format) {

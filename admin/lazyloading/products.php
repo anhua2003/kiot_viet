@@ -14,8 +14,10 @@ if ($act == 'product_detail') {
         $name = $main->post('Name');
         $code = $main->post('Code');
         $price = $main->post('Price');
+        $img = $main->post('img');
+        $onhand = $main->post('onHand');
         $kiotviet = new kiotviet();
-        $result = $kiotviet->update_products($id, $name, $code, $price);
+        $result = $kiotviet->update_products($id, $name, $code, $price, $img, $onhand);
         echo $result;
         $db->close();
         exit();
@@ -33,6 +35,8 @@ if ($act == 'product_detail') {
         $post['name'] = $main->post('Name');
         $post['code'] = $main->post('Code');
         $post['price'] = $main->post('Price');
+        $post['img'] = $main->post('img');
+        $post['onHand'] = $main->post('onHand');
         $kiotviet = new kiotviet();
         $kiotviet->add_product($post);
         echo 'done##'.$main->toJsonData(200, null, null);

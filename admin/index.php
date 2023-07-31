@@ -146,7 +146,7 @@ $meta_url 	= $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 $st->assign('meta_url', $meta_url);
 $st->assign('meta_title', $setup['meta_title']);
 $st->assign('meta_description', $setup['meta_description']);
-$st->assign('meta_image', $setup['meta_image']);
+// $st->assign('meta_image', $setup['meta_image']);
 $st->assign('decimal', 0 + $setup['decimal']);
 
 $news_category 	= new news_category();

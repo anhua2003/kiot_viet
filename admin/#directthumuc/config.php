@@ -3,9 +3,9 @@
 $server_sql = 'localhost';
 $user_sql   = 'root';
 $pass_sql   = '';
-$database   = 'citipos_thuctap';//vinateks db
-$app_key = '69dg90ohf003s';
-$app_secret = '8acdc621450d76843b6c3ab6bbaf3c8295033fa9';
+$database   = 'citipos_khohangtongtestsql';//vinateks db
+$app_key = '69gsq1pldk324';
+$app_secret = '5fc8330d34eb32ba0153248e1c136bf62eb1517e';
 
 $db = new db();
 $db->setServer ( $server_sql );
