@@ -8,11 +8,7 @@
         $list_invoice = $user1->getOrder_id($id);
         $st->assign('account', $result);
         $st->assign('list_invoice', $list_invoice);
-        $orders = $client->Order->getOrderList([
-            // 'order_status' => 100, // Unpaid order
-            'page_size' => 50,
-        ]);
-        $st->assign('orderList', $orders);
+       
     } else if($act == 'rating_order')
     {
         $title .= 'Order detail';

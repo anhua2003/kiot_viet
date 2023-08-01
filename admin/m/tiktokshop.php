@@ -61,20 +61,31 @@
             // $created_at = $create_at->format('Y-m-d H:i:s');
             // $timestamp = strtotime();
             $order = new order();
-            $order->set('shop_id', 37);
+            $order->set('shop_id', 41);
             $order->set('order_id', $item['order_id']);
             $order->set('created_at', $item['create_time']/1000);
             $order->set('user_add', $item['recipient_address']['name']);
             $order->set('total_paid', $item['payment_info']['total_amount']);
+            $order->set('order_status', $item['order_status']);
+            $order->set('last_update', $item['update_time']);
             $result = $order->clonex();
-            echo '<pre>';
-            print_r($result);
-            // print_r($result);
-            // exit();
-            // echo '<pre>';
-            // print_r($item['payment_info']['total_amount']);
+            foreach($item['item_list'] as $x)
+            {
+                $detail_order->set('product_id', $x['product_id']);
+                $detail_order->set('sku_id', $x['sku_id']);
+                $detail_order->set('quantity', $x['quantity']);
+                $detail_order->set('name', $x['product_name']);
+                $detail_order->set('price', $x['sku_original_price']);
+                $detail_order->set('default_price', $x['sku_original_price']);
+                $detail_order->set('root_price', $x['sku_original_price']);
+                $detail_order->set('decrement', $x['sku_seller_discount']);
+                $detail_order->set('order_id', $item['order_id']);
+                $detail_order->add(41,$item['create_time']/1000);
+            }
         }
-        exit();
+        // echo '<pre>';
+        // print_r($orderDetail['order_list']);
+        // exit();
         for ($i = 0; $i < count($orders['order_list']); $i++) {
             $order = $orders['order_list'][$i];
             $orders['order_list'][$i]['update_time'] = date('d/m/Y H:i:s',  $order['update_time']);

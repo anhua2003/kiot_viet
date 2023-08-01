@@ -22,7 +22,6 @@
         					<li class="active"><a data-toggle="tab" href="#tab1"><span class="fa fa-user"></span> Information</a></li>
         					<li><a data-toggle="tab" href="#tab2"><span class="fa fa-credit-card"></span> My order</a></li>
         					<li><a data-toggle="tab" href="#tab3"><span class="fa fa-lock"></span> Change password</a></li>
-        					<li><a data-toggle="tab" href="#tab4"><span class="fa fa-lock"></span> Tiktok Shop</a></li>
         				</ul>
         			</nav>
                 </div>
@@ -143,49 +142,6 @@
                                 </div>
                                 <div class="card-footer">
 
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="tab4" class="tab-pane">
-                            <!-- Billing history card-->
-                            <div class="card mb-4">
-                                <div class="card-header">My Order</div>
-                                <div class="card-body p-0">
-                                    <!-- Billing history table-->
-                                    <div class="table-responsive table-billing-history">
-                                    {if $orderList|count == 0}
-                                                    Không có hóa đơn nào
-                                    {else}
-                                        <table class="table mb-0">
-                                            
-                                                <tr>
-                                                    <th class="border-gray-200" scope="col">#</th>
-                                                    <th class="border-gray-200" scope="col">Date</th>
-                                                    <th class="border-gray-200" scope="col">Status</th>
-                                                </tr>
-                                            
-                                            
-                                                
-                                                {foreach $orderList['order_list'] as $item}
-                                                <tr>
-                                                    <td>#{$item.order_id}</td>
-                                                    {assign var="date" value=$item.update_time|date_format:"%Y-%m-%d"}
-                                                    <td>{$date}</td>
-                                                    <td><span class="badge bg-primary text-dark">{$item.order_status}</span></td>
-                                                    <td><a href="/order-detail-tiktok/id={$item.order_id}">Detail</a></td>
-                                                    {if $item.order_status != 140}
-                                                    <td><button id="cancel_order" data-order-id-tiktok="{$item.order_id}" data-order-status="{$item.order_status}">Cancel</button></td>
-                                                    {else}
-                                                    <td><button id="cancel_order" disabled>Cancel</button></td>
-                                                    {/if}
-                                                </tr>
-                                                {/foreach}
-                                                
-                                            
-                                        </table>
-                                    {/if}
-                                    </div>
                                 </div>
                             </div>
                         </div>

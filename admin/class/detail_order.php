@@ -54,74 +54,100 @@ class detail_order extends model
 	protected $cashback_value; //Giá trị cashback: % hay giá trị nhập
 	protected $cashback_is_value; //Loại cashback: theo giá trị hay theo % = 1 theo giá trị; = 0 theo %
 
+	public function checkTable_exist($shop_id, $created_at)
+	{
+		global $db;
+		$table_name = substr($db->tbl_fix, 0, -1);
+		$sql = "SELECT table_name FROM information_schema.tables WHERE table_schema = '$table_name'  AND table_name = 'detail_order_" . $shop_id . "_" . date('Y', $created_at) . "'";
+		$result = $db->executeQuery_list($sql);
+		if (count($result) == 0) {
+			return 0;
+		}
+		return 1;
+	}
+
 	public function add($shop_id, $order_created_at)
 	{
 		global $db, $main;
+		$order_id = $this->get('order_id');
+		$product_id = $this->get('product_id');
+		$c = $this->checkTable_exist($shop_id, $order_created_at);
+		if ($c == 0) {
+			$sql = "CREATE TABLE detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . " AS SELECT * FROM $db->tbl_fix`detail_order_1_2021` WHERE 1 = 0";
+			$db->executeQuery($sql);
+		}
+		$sql1 = "SELECT od.*
+			FROM " . $db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "` `od`
+			WHERE od.`order_id` = '$order_id' and od.`product_id` = '$product_id' LIMIT 0,1 ";
+		$arr = $db->executeQuery($sql1, 1);
 
-		$arr['id'] 						= $id = $this->get_id($shop_id, $this->get('user_add'));
-		$arr['order_id'] 				= $this->get('order_id');
-		$arr['product_id'] 				= $this->get('product_id') + 0;
-		$arr['sku_id'] 					= $this->get('sku_id');
+		if ($arr == []) {
+			$arr['id'] 						= rand(0, 9999);
+			$arr['order_id'] 				= $this->get('order_id');
+			$arr['product_id'] 				= $product_id;
+			$arr['sku_id'] 					= $this->get('sku_id');
 
-		$arr['quantity'] 				= $this->get('quantity');
-		$arr['quantity_paid'] 			= 0;//$this->get('quantity');
-		$arr['returned'] 				= 0;
-		$arr['max_allowed_order'] 		= $this->get('max_allowed_order') + 0;
-		$arr['date_add'] 				= time();
-		$arr['name'] 					= $this->get('name');
-		$arr['note'] 					= $this->get('note');
-		$arr['price'] 					= $this->get('price');
-		$arr['default_price'] 			= $this->get('default_price') + 0;
-		$arr['root_price'] 				= $this->get('root_price');
-		$arr['wh_history_id'] 			= $this->get('wh_history_id');
+			$arr['quantity'] 				= $this->get('quantity');
+			$arr['quantity_paid'] 			= 0; //$this->get('quantity');
+			$arr['returned'] 				= 0;
+			$arr['max_allowed_order'] 		= $this->get('max_allowed_order') + 0;
+			$arr['date_add'] 				= time();
+			$arr['name'] 					= $this->get('name');
+			$arr['note'] 					= $this->get('note');
+			$arr['price'] 					= $this->get('price');
+			$arr['default_price'] 			= $this->get('default_price') + 0;
+			$arr['root_price'] 				= $this->get('root_price');
+			$arr['wh_history_id'] 			= $this->get('wh_history_id');
 
-		if ($this->get('decrement') != 0)
-			$arr['decrement'] 			= $this->get('decrement');
-		else
-			$arr['decrement'] 			= 0;
+			if ($this->get('decrement') != 0)
+				$arr['decrement'] 			= $this->get('decrement');
+			else
+				$arr['decrement'] 			= 0;
 
-		$arr['vat'] 					= 0;
-		$arr['user_decrement'] 			= '';
-		$arr['last_update'] 			= time();
-		$arr['user_add'] 				= $this->get('user_add');
+			$arr['vat'] 					= 0;
+			$arr['user_decrement'] 			= '';
+			$arr['last_update'] 			= time();
+			$arr['user_add'] 				= $this->get('user_add');
 
-		if( $this->get('sale_price') >= 0 )
-			$arr['sale_price'] 				= $this->get('sale_price')+0;//nếu có set thì chỉnh lại giá là giá được set
-		else
-			$arr['sale_price'] 				= 0;///không có set cho bằng 0
-		
-		if( $this->get('sale_decrement') >= 0 )
-			$arr['sale_decrement'] 				= $this->get('sale_decrement')+0;//nếu có set thì chỉnh lại giảm giá là giá được set
-		else
-			$arr['sale_decrement'] 				= 0;//không có set cho bằng 0
-		
-		$arr['attribute_1'] 			= $this->get('attribute_1');
-		$arr['attribute_2'] 			= $this->get('attribute_2');
-		$arr['attribute_3'] 			= $this->get('attribute_3');
-		$arr['attribute_4'] 			= $this->get('attribute_4');
-		$arr['attribute_5'] 			= $this->get('attribute_5');
+			if ($this->get('sale_price') >= 0)
+				$arr['sale_price'] 				= $this->get('sale_price') + 0; //nếu có set thì chỉnh lại giá là giá được set
+			else
+				$arr['sale_price'] 				= 0; ///không có set cho bằng 0
 
-		$arr['sku_name'] 				= $this->get('sku_name');
-		$arr['same_groups'] 			= $this->get('same_groups') + 0;
-		$arr['wh_history_return_id'] 	= $this->get('wh_history_return_id') + 0;
+			if ($this->get('sale_decrement') >= 0)
+				$arr['sale_decrement'] 				= $this->get('sale_decrement') + 0; //nếu có set thì chỉnh lại giảm giá là giá được set
+			else
+				$arr['sale_decrement'] 				= 0; //không có set cho bằng 0
 
-		$arr['is_coupon'] 				= $this->get('is_coupon') + 0;
-		$arr['coupon_id'] 				= $this->get('coupon_id') + 0;
-		$arr['is_cancel'] 				= $this->get('is_cancel') + 0;
-		$arr['cancel_report_id'] 		= $this->get('cancel_report_id') + 0;
-		$arr['delivered'] 				= $this->get('delivered') + 0;
-		$arr['inverse'] 				= $this->get('inverse') + 0;
-		$arr['expire_date'] 			= $this->get('expire_date') + 0;
-		$arr['ratio_convert'] 			= $this->get('ratio_convert') + 0;
+			$arr['attribute_1'] 			= $this->get('attribute_1');
+			$arr['attribute_2'] 			= $this->get('attribute_2');
+			$arr['attribute_3'] 			= $this->get('attribute_3');
+			$arr['attribute_4'] 			= $this->get('attribute_4');
+			$arr['attribute_5'] 			= $this->get('attribute_5');
 
-		$arr['barcode'] 				= $this->get('barcode') . '';
+			$arr['sku_name'] 				= $this->get('sku_name');
+			$arr['same_groups'] 			= $this->get('same_groups') + 0;
+			$arr['wh_history_return_id'] 	= $this->get('wh_history_return_id') + 0;
 
-		$arr['cashback_value'] 			= $this->get('cashback_value') + 0;
-		$arr['cashback_is_value'] 		= $this->get('cashback_is_value') + 0;
+			$arr['is_coupon'] 				= $this->get('is_coupon') + 0;
+			$arr['coupon_id'] 				= $this->get('coupon_id') + 0;
+			$arr['is_cancel'] 				= $this->get('is_cancel') + 0;
+			$arr['cancel_report_id'] 		= $this->get('cancel_report_id') + 0;
+			$arr['delivered'] 				= $this->get('delivered') + 0;
+			$arr['inverse'] 				= $this->get('inverse') + 0;
+			$arr['expire_date'] 			= $this->get('expire_date') + 0;
+			$arr['ratio_convert'] 			= $this->get('ratio_convert') + 0;
 
-		$db->record_insert($db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "`", $arr);
+			$arr['barcode'] 				= $this->get('barcode') . '';
 
-		return $id;
+			$arr['cashback_value'] 			= $this->get('cashback_value') + 0;
+			$arr['cashback_is_value'] 		= $this->get('cashback_is_value') + 0;
+
+			$db->record_insert($db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "`", $arr);
+		}
+		// echo $arr['product_id'];
+		// exit();
+		return $arr;
 	}
 
 	public function clonex($new_order_id)
@@ -473,7 +499,7 @@ class detail_order extends model
 		$shop_id 					= $this->get('shop_id');
 		$order_created_at 			= $this->get('date_add');
 		$id 						= $this->get('id');
-		
+
 		$arr['sale_price'] 			= $this->get('sale_price');
 		$arr['sale_decrement'] 		= $this->get('sale_decrement');
 
@@ -509,7 +535,7 @@ class detail_order extends model
 		return true;
 	}
 
-	public function update_barcode_debt( $shop_id )
+	public function update_barcode_debt($shop_id)
 	{
 		global $db;
 
@@ -655,7 +681,7 @@ class detail_order extends model
 
 		$arr['decrement'] = $percent;
 		$arr['note'] = $note;
-	
+
 		$db->record_update($db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "`", $arr, " `id`='" . $id . "'");
 
 		return true;
@@ -665,11 +691,11 @@ class detail_order extends model
 	{
 		global $db;
 
-		$coupon_id=$this->get('coupon_id');
+		$coupon_id = $this->get('coupon_id');
 		$arr['decrement'] = $percent;
 		$arr['coupon_id'] = $coupon_id;
 		$arr['note'] = $note;
-	
+
 		$db->record_update($db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "`", $arr, " `id`='" . $id . "'");
 
 		return true;
@@ -732,7 +758,7 @@ class detail_order extends model
 	}
 
 	//update giá trị của coupon
-	public function update_price_coupon($shop_id,$created_at)
+	public function update_price_coupon($shop_id, $created_at)
 	{
 		global $db;
 		$id = $this->get('id');
@@ -788,29 +814,31 @@ class detail_order extends model
 		return $result;
 	}
 
-	public function listby_order_by_supplier( $shop_id, $client_id, $supplier_id, $order_id, $order_created_at ){
+	public function listby_order_by_supplier($shop_id, $client_id, $supplier_id, $order_id, $order_created_at)
+	{
 		global $db;
 
 		$sqlSup = '';
-		if( $supplier_id !== '' )
+		if ($supplier_id !== '')
 			$sqlSup = "AND `pro`.supplier_id  = '$supplier_id' ";
 
 		$sql = "SELECT `dt`.*, IFNULL(`SKU`.code, '') sku_code, IFNULL(pro.`unit_import`, '') unit_import, IFNULL(pro.`unit_export`, '') unit_export, IFNULL(`pro`.web_id, 0) web_id, IFNULL(`pro`.product_commission_id, 0) product_commission_id, IFNULL(pro.`pro_type`, 0) pro_type
 						, IF(SKU.`img_1` IS NOT NULL AND SKU.`img_1` <> '', IFNULL(SKU.`img_1`, ''), IFNULL(pro.`img_1`, '')) `image`
 						, IFNULL(SKU.`on_stock`, 0) `on_stock`
 						, IFNULL(SKU.`unique_id`, 0) `unique_id`, pro.`point`
-				FROM ".$db->tbl_fix."`detail_order_".$shop_id."_".date('Y', $order_created_at)."` dt
+				FROM " . $db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "` dt
 				LEFT JOIN `SKU` ON `SKU`.id = `dt`.sku_id AND `SKU`.product_id = `dt`.product_id
 				LEFT JOIN `product` pro ON `pro`.id = `dt`.product_id
 				LEFT JOIN `supplier` sup ON `sup`.id = `pro`.supplier_id
 				WHERE `order_id` = '$order_id' AND `sup`.client_id = '$client_id' $sqlSup
 				ORDER BY `last_update` DESC";
-		$result = $db->executeQuery_list( $sql );
-		
+		$result = $db->executeQuery_list($sql);
+
 		return $result;
 	}
 
-	public function listby_order_with_point( $shop_id, $order_id, $order_created_at ){
+	public function listby_order_with_point($shop_id, $order_id, $order_created_at)
+	{
 
 		global $db;
 
@@ -1319,13 +1347,12 @@ class detail_order extends model
 		$kq = array();
 		$kq_discount = array();
 		while ($row = mysqli_fetch_assoc($result)) {
-			
-			if ($row['pro_type'] == 4)
-			{
-				$order_detail_combo->set('shop_id',$shop_id);
-				$order_detail_combo->set('product_id',$row['product_id']);
-				$order_detail_combo->set('detail_order_id',$row['detail_order_id']);
-				$row['detail_combo'] = $order_detail_combo -> get_product_by_order_detail();
+
+			if ($row['pro_type'] == 4) {
+				$order_detail_combo->set('shop_id', $shop_id);
+				$order_detail_combo->set('product_id', $row['product_id']);
+				$order_detail_combo->set('detail_order_id', $row['detail_order_id']);
+				$row['detail_combo'] = $order_detail_combo->get_product_by_order_detail();
 			}
 
 			if ($row['quantity'] == -1 && $row['product_id'] == 0) {
@@ -1387,7 +1414,7 @@ class detail_order extends model
 		$sql = "SELECT sum((`quantity`*`price`*(100-`decrement`)/100)) as `sum`
 				FROM " . $db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "` 
 				WHERE order_id='$order_id'";
-				// WHERE order_id='$order_id' AND `is_coupon`=0";
+		// WHERE order_id='$order_id' AND `is_coupon`=0";
 
 		$result = $db->executeQuery($sql, 1);
 		return $result['sum'];
@@ -1402,8 +1429,8 @@ class detail_order extends model
 		$sql = "SELECT sum((`quantity`*`default_price`) as `sum` 
 				FROM " . $db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "` 
 				WHERE order_id='$order_id'";
-				// WHERE order_id='$order_id' AND `is_coupon`=0";
-				
+		// WHERE order_id='$order_id' AND `is_coupon`=0";
+
 		$result = $db->executeQuery($sql, 1);
 
 		return $result['sum'];
@@ -1590,7 +1617,7 @@ class detail_order extends model
 				" . $db->tbl_fix . "`detail_order_" . $shop_id . "_" . date('Y', $order_created_at) . "`
 				WHERE `order_id` = '$order_id' AND `product_id` = '$product_id' AND `sku_id` = '$sku_id' AND `coupon_id`='$coupon_id' AND `is_coupon`='$is_coupon'
 				LIMIT 1";
-	
+
 		$result = $db->executeQuery($sql, 1);
 
 		return $result;
@@ -1716,7 +1743,7 @@ class detail_order extends model
 
 		$dShop = $shop->get_detail($shop_id);
 
-		if ( !isset($dSKU['id']) ) {
+		if (!isset($dSKU['id'])) {
 			$product->set('id', $dProduct['id']);
 			$dProDefault = $product->get_detail();
 			$detail_order->set('default_price', $dProDefault['price']);
@@ -1803,85 +1830,85 @@ class detail_order extends model
 					$detail_order_id = $dExistPro['id'];
 				}
 			}
-			
+
 			// AnCode: Nếu là sản phẩm Combo thì thêm sản phẩm vào bảng order_detail_combo
-			if($dProduct['pro_type']==4){
+			if ($dProduct['pro_type'] == 4) {
 				// lấy list sản phẩm Combo của sản phẩm đó
 				$product_combo = new product_combo();
-				$product_combo->set('product_combo_id',$dProduct['id']);
-				$lCombo = $product_combo -> list_by_product_combo();
+				$product_combo->set('product_combo_id', $dProduct['id']);
+				$lCombo = $product_combo->list_by_product_combo();
 				// lấy từng sản phẩm trong combo thêm vào bảng order_detail_combo
 				foreach ($lCombo as $key => $dCombo) {
 					// lấy dữ liệu của sản phẩm combo ra kiểm tra
 					$order_detail_combo = new order_detail_combo();
-					$order_detail_combo->set('detail_order_id',$detail_order_id);
-					$order_detail_combo->set('product_id',$dCombo['product_id']);
+					$order_detail_combo->set('detail_order_id', $detail_order_id);
+					$order_detail_combo->set('product_id', $dCombo['product_id']);
 					$dExistCombo = $order_detail_combo->get_exist_product($shop_id);
 					// nếu đã tồn tại thì cập nhật số lượng không thêm mới.
-					if(empty($dExistCombo['id'])){
+					if (empty($dExistCombo['id'])) {
 						//thêm mới vào order_detail_combo 
 						$order_detail_combo = new order_detail_combo();
-						$order_detail_combo->set('product_combo_id',$dProduct['id']);
-						$order_detail_combo->set('product_id',$dCombo['product_id']);
-						$order_detail_combo->set('unique_id',$dCombo['unique_id']);
+						$order_detail_combo->set('product_combo_id', $dProduct['id']);
+						$order_detail_combo->set('product_id', $dCombo['product_id']);
+						$order_detail_combo->set('unique_id', $dCombo['unique_id']);
 						$order_detail_combo->set('price_sale', $dCombo['price_sale']);
 						$order_detail_combo->set('quantity', $dCombo['quantity']);
 						$order_detail_combo->set('price', $dCombo['price']);
-						$order_detail_combo->set('shop_id',$shop_id);
-						$order_detail_combo->set('order_id',$order_id);
-						$order_detail_combo->set('detail_order_id',$detail_order_id);
-						$order_detail_combo->set('order_created_at',$detail_order_id);
-						$order_detail_combo->set('wh_history_id',$wh_history_id);
-						$order_detail_combo_id=$order_detail_combo->add();
-					}else{
+						$order_detail_combo->set('shop_id', $shop_id);
+						$order_detail_combo->set('order_id', $order_id);
+						$order_detail_combo->set('detail_order_id', $detail_order_id);
+						$order_detail_combo->set('order_created_at', $detail_order_id);
+						$order_detail_combo->set('wh_history_id', $wh_history_id);
+						$order_detail_combo_id = $order_detail_combo->add();
+					} else {
 						// cập nhập lại số lượng
-						$dQuantity=$quantity*$dCombo['quantity'];
+						$dQuantity = $quantity * $dCombo['quantity'];
 						$order_detail_combo->update_quantity($dExistCombo['id'], $dQuantity);
 					}
 				}
 			}
-			
+
 			/**
 			 * begin cập nhật phí giao hàng
 			 */
 			//kiểm tra xem đơn hàng có phí vận chuyển không nếu có khi xóa hay thêm sản phẩm thì xóa đi
-			$detail_order->set('order_id',$order_id);
-			$detail_order->set('product_id',isset($setup['pro_ship_fee']) && $setup['pro_ship_fee']>0 ? $setup['pro_ship_fee']:0);
-			$detail_order->set('sku_id',0);
-			$detail_order->set('coupon_id',0);
-			$detail_order->set('is_coupon',0);
+			$detail_order->set('order_id', $order_id);
+			$detail_order->set('product_id', isset($setup['pro_ship_fee']) && $setup['pro_ship_fee'] > 0 ? $setup['pro_ship_fee'] : 0);
+			$detail_order->set('sku_id', 0);
+			$detail_order->set('coupon_id', 0);
+			$detail_order->set('is_coupon', 0);
 			//kiểm tra xem có tồn tại phí giao hàng không
 			$dExistShippingFee = $detail_order->get_exist_shipping_fee($shop_id, $created_at);
 			//nếu có phí giao hàng thì xóa đi khi xóa 1 item trong đơn hàng hiện tại
-			if (isset($dExistShippingFee['id']) && $dExistShippingFee['id']!=''){
-				$detail_order->set('shop_id',$shop_id);
-				$detail_order->set('id',$dExistShippingFee['id']);
-				$detail_order->set('date_add',$created_at);
+			if (isset($dExistShippingFee['id']) && $dExistShippingFee['id'] != '') {
+				$detail_order->set('shop_id', $shop_id);
+				$detail_order->set('id', $dExistShippingFee['id']);
+				$detail_order->set('date_add', $created_at);
 				$detail_order->delete_item();
 				//sau khi xóa sản phẩm phí vận chuyển update lại dịch vụ vận chuyển của đơn hàng là rỗng
 				$delivery = new delivery();
-				$delivery->set('order_id',$order_id);
-				$delivery->set('shop_id',$shop_id);
+				$delivery->set('order_id', $order_id);
+				$delivery->set('shop_id', $shop_id);
 				$dDelivery = $delivery->get_by_order_id();
-				if(isset($dDelivery['id']) && $dDelivery['id']!=''){
+				if (isset($dDelivery['id']) && $dDelivery['id'] != '') {
 					//lấy đơn vị vận chuyển đang tích hợp ở setting
-					if(isset($setup['default_shipping_system']) && $setup['default_shipping_system']!=''){
+					if (isset($setup['default_shipping_system']) && $setup['default_shipping_system'] != '') {
 						$partner_id = $setup['default_shipping_system'];
-					}else{
+					} else {
 						$partner_id = 1;
 					}
-					$delivery->set('id',$dDelivery['id']);
-					$delivery->set('rate_id','');
-					$delivery->set('rate_info','');
-					$delivery->set('carrier',$partner_id);
+					$delivery->set('id', $dDelivery['id']);
+					$delivery->set('rate_id', '');
+					$delivery->set('rate_info', '');
+					$delivery->set('carrier', $partner_id);
 					//update lại delivery khi xóa phí vận chuyển
 					$delivery->update_service_delivery();
 				}
 				//update lại service_fee 
-				$order->set('shop_id',$shop_id);
-				$order->set('id',$order_id);
-				$order->set('created_at',$created_at);
-				$order->set('service_fee',0);
+				$order->set('shop_id', $shop_id);
+				$order->set('id', $order_id);
+				$order->set('created_at', $created_at);
+				$order->set('service_fee', 0);
 				$order->update_service_fee();
 			}
 
@@ -1902,29 +1929,28 @@ class detail_order extends model
 			//cập nhật commission vào trong order cho khách hàng
 			if (isset($dOrder['status']) && ($dOrder['status'] == 0 or $dOrder['status'] == -2) && $dOrder['id_customer'] > 0) {
 				//kiểm tra xem đơn hàng có coupon không
-				$detail_order->set('order_id',$order_id);
+				$detail_order->set('order_id', $order_id);
 				$check_coupon = $detail_order->check_exist_coupon($shop_id, $created_at);
 				// nếu tồn tại thì kiểm tra
-				if(isset($check_coupon['id']) && $check_coupon['id']!=''){
+				if (isset($check_coupon['id']) && $check_coupon['id'] != '') {
 					$ecoupon = new ecoupon();
-					$ecoupon->set('id',$check_coupon['coupon_id']);
+					$ecoupon->set('id', $check_coupon['coupon_id']);
 					$dCoupon = $ecoupon->get_detail();
 					// nếu mã giảm theo chiết khấu hoặc loại giảm theo sản phẩm
 					// thì cập nhật lại chiết khấu đơn hàng theo KH
-					if($dCoupon['by_type_price']==0 || $dCoupon['type']==3){
+					if ($dCoupon['by_type_price'] == 0 || $dCoupon['type'] == 3) {
 						$detail_order->update_commission_for_customer($shop_id, $dOrder['id_customer'], $order_id, $created_at);
 						// tính lại giá tiền mã giảm giá
-						$detail_order->set('order_id',$order_id);
-						$detail_order->set('id',$check_coupon['id']);
-						$status_coupon=$detail_order->update_coupon_item($shop_id, $created_at, $dCoupon);
+						$detail_order->set('order_id', $order_id);
+						$detail_order->set('id', $check_coupon['id']);
+						$status_coupon = $detail_order->update_coupon_item($shop_id, $created_at, $dCoupon);
 						// thông báo trạng thái coupoun
-						if(isset($status_coupon['status'])){
+						if (isset($status_coupon['status'])) {
 							$hasAlert = true;
 							$hasAlertMSG = $status_coupon['msg'];
 						}
 					}
-					
-				}else{
+				} else {
 					// nếu không có thì update lại bth
 					$detail_order->update_commission_for_customer($shop_id, $dOrder['id_customer'], $order_id, $created_at);
 				}
@@ -1933,7 +1959,7 @@ class detail_order extends model
 			$dOrder['listItems'] 	= $detail_order->listby_order($shop_id, $order_id, $created_at);
 
 			// thông báo của khi áp dụng mã giảm giá
-			$dOrder['hasAlert'] = array('status'=> $hasAlert, 'msg' => $hasAlertMSG );
+			$dOrder['hasAlert'] = array('status' => $hasAlert, 'msg' => $hasAlertMSG);
 
 			return $dOrder;
 		} else {
@@ -1941,148 +1967,148 @@ class detail_order extends model
 		}
 	}
 	//thêm 1 coupon vào đơn hàng
-	public function add_coupon_item($shop_id, $username, $order_id, $created_at, $dEcoupon, $ship_fee=0)
+	public function add_coupon_item($shop_id, $username, $order_id, $created_at, $dEcoupon, $ship_fee = 0)
 	{
 		global $shop, $order, $setup;
 
 		$ecoupon_apply = new ecoupon_apply();
-		$price=0;
-		$chiet_khau=0;
-		$gia_le=0;
-		$gia_le_item=0;
-		$gia_chiet_khau=0;
-		$total=0;
+		$price = 0;
+		$chiet_khau = 0;
+		$gia_le = 0;
+		$gia_le_item = 0;
+		$gia_chiet_khau = 0;
+		$total = 0;
 		$list_order = $this->listby_order($shop_id, $order_id, $created_at);
-		foreach($list_order as $key=>$val){
-			if($val['coupon_id']==0){
-				$total = $val['price']*$val['quantity']*((100-$val['decrement'])/100);
-				$gia_le_item = $val['default_price']* $val['quantity'];
-				$gia_le+= $gia_le_item;
-				$chiet_khau+= $gia_le_item-$total;
+		foreach ($list_order as $key => $val) {
+			if ($val['coupon_id'] == 0) {
+				$total = $val['price'] * $val['quantity'] * ((100 - $val['decrement']) / 100);
+				$gia_le_item = $val['default_price'] * $val['quantity'];
+				$gia_le += $gia_le_item;
+				$chiet_khau += $gia_le_item - $total;
 			}
 		}
 		//kiểm tra loại coupon
-		if($dEcoupon['type']=='2' || $dEcoupon['type']=='4'){
+		if ($dEcoupon['type'] == '2' || $dEcoupon['type'] == '4') {
 			//by_price_type 1||0 //0 là tính theo giá chiết khấu 1 là tính theo giá lẻ
-			if($dEcoupon['by_type_price']=="1"){ 
-				if($gia_le >= $dEcoupon['is_total']){//kiểm tra xem đơn hàng đã đạt giá trị tối thiểu để áp dụng coupon chưa
-					if($dEcoupon['value_type']=="0"){//0 là % 1 là tiền
-						$price = ($dEcoupon['value']/100) * $gia_le;
-						if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max của đơn hàng thì lấy giá trị max
+			if ($dEcoupon['by_type_price'] == "1") {
+				if ($gia_le >= $dEcoupon['is_total']) { //kiểm tra xem đơn hàng đã đạt giá trị tối thiểu để áp dụng coupon chưa
+					if ($dEcoupon['value_type'] == "0") { //0 là % 1 là tiền
+						$price = ($dEcoupon['value'] / 100) * $gia_le;
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max của đơn hàng thì lấy giá trị max
 							$price = $dEcoupon['value_max'];
 						}
-					}else{
+					} else {
 						$price = $dEcoupon['value'];
 					}
 				}
-			}else{
-				$gia_chiet_khau=$gia_le - $chiet_khau;
-				if($gia_chiet_khau >= $dEcoupon['is_total']){
-					if($dEcoupon['value_type']=="0"){//0 là % 1 là tiền
-						$price = ($dEcoupon['value']/100) * $gia_chiet_khau;
-						if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max của đơn hàng thì lấy giá trị max
+			} else {
+				$gia_chiet_khau = $gia_le - $chiet_khau;
+				if ($gia_chiet_khau >= $dEcoupon['is_total']) {
+					if ($dEcoupon['value_type'] == "0") { //0 là % 1 là tiền
+						$price = ($dEcoupon['value'] / 100) * $gia_chiet_khau;
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max của đơn hàng thì lấy giá trị max
 							$price = $dEcoupon['value_max'];
 						}
-					}else{
+					} else {
 						$price = $dEcoupon['value'];
 					}
 				}
 			}
-		}else if($dEcoupon['type']=='3'){
-			if($gia_le >= $dEcoupon['is_total']){//kiểm tra xem đơn hàng có đạt giá trị tối thiểu không
+		} else if ($dEcoupon['type'] == '3') {
+			if ($gia_le >= $dEcoupon['is_total']) { //kiểm tra xem đơn hàng có đạt giá trị tối thiểu không
 				//truyền coupon_id qua để check sản phẩm
-				$ecoupon_apply->set('ecoupon_id',$dEcoupon['id']);
-				$lProductApply = $ecoupon_apply->check_product_order($list_order,$order_id,$shop_id);
+				$ecoupon_apply->set('ecoupon_id', $dEcoupon['id']);
+				$lProductApply = $ecoupon_apply->check_product_order($list_order, $order_id, $shop_id);
 
-				if($dEcoupon['value_type']=="0"){
-					foreach($lProductApply as $key=>$item){
-						if($dEcoupon['value'] > $item['decrement']){
-							$this->set('coupon_id',$dEcoupon['id']);
-							$this->discount_percentItem($shop_id,$item['id'], 0, '', $created_at);
-							$tien_sau_giam  = $item['price'] * $item['quantity']*((100 - $dEcoupon['value'])/100);
-							$tien_giam = ($item['price']*$item['quantity']) - $tien_sau_giam;
-							$price+=$tien_giam;
+				if ($dEcoupon['value_type'] == "0") {
+					foreach ($lProductApply as $key => $item) {
+						if ($dEcoupon['value'] > $item['decrement']) {
+							$this->set('coupon_id', $dEcoupon['id']);
+							$this->discount_percentItem($shop_id, $item['id'], 0, '', $created_at);
+							$tien_sau_giam  = $item['price'] * $item['quantity'] * ((100 - $dEcoupon['value']) / 100);
+							$tien_giam = ($item['price'] * $item['quantity']) - $tien_sau_giam;
+							$price += $tien_giam;
 						}
 					}
-					if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
+					if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
 						$price = $dEcoupon['value_max'];
 					}
-				}else{
-					foreach($lProductApply as $key=>$item){
-						$discount_percent=($dEcoupon['value']*100)/($item['price']*$item['quantity']);
-						if($discount_percent > $item['decrement']){
-							$this->set('coupon_id',$dEcoupon['id']);
-							$this->discount_percentItem($shop_id,$item['id'],0, '', $created_at);
+				} else {
+					foreach ($lProductApply as $key => $item) {
+						$discount_percent = ($dEcoupon['value'] * 100) / ($item['price'] * $item['quantity']);
+						if ($discount_percent > $item['decrement']) {
+							$this->set('coupon_id', $dEcoupon['id']);
+							$this->discount_percentItem($shop_id, $item['id'], 0, '', $created_at);
 							// $tien_sau_giam  = $item['price'] * $item['quantity']*((100 - $discount_percent)/100);
 							// $tien_giam = ($item['price']*$item['quantity']) - $tien_sau_giam;
 						}
 					}
-					$price=$dEcoupon['value'];
+					$price = $dEcoupon['value'];
 				}
 			}
-		}else if($dEcoupon['type']=='1'){ //free ship
-			if($dEcoupon['by_type_price']=="1"){ 
-					if($gia_le >= $dEcoupon['is_total']){//kiểm tra xem đơn hàng đã đạt giá trị tối thiểu để áp dụng coupon chưa
-							if($dEcoupon['value_type']=="0"){//0 là % 1 là tiền
-									$price = ($ship_fee*$dEcoupon['value'])/100;
-									if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
-											$price = $dEcoupon['value_max'];
-									}
-							}else{
-									$price = $dEcoupon['value'];
-							}
+		} else if ($dEcoupon['type'] == '1') { //free ship
+			if ($dEcoupon['by_type_price'] == "1") {
+				if ($gia_le >= $dEcoupon['is_total']) { //kiểm tra xem đơn hàng đã đạt giá trị tối thiểu để áp dụng coupon chưa
+					if ($dEcoupon['value_type'] == "0") { //0 là % 1 là tiền
+						$price = ($ship_fee * $dEcoupon['value']) / 100;
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
+							$price = $dEcoupon['value_max'];
+						}
+					} else {
+						$price = $dEcoupon['value'];
 					}
-			}else{
-					$gia_chiet_khau=$gia_le - $chiet_khau;
-					if($gia_chiet_khau >= $dEcoupon['is_total']){
-							if($dEcoupon['value_type']=="0"){//0 là % 1 là tiền
-									$price = ($ship_fee*$dEcoupon['value'])/100;
-									if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
-											$price = $dEcoupon['value_max'];
-									}
-							}else{
-									$price = $dEcoupon['value'];
-							}
+				}
+			} else {
+				$gia_chiet_khau = $gia_le - $chiet_khau;
+				if ($gia_chiet_khau >= $dEcoupon['is_total']) {
+					if ($dEcoupon['value_type'] == "0") { //0 là % 1 là tiền
+						$price = ($ship_fee * $dEcoupon['value']) / 100;
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
+							$price = $dEcoupon['value_max'];
+						}
+					} else {
+						$price = $dEcoupon['value'];
 					}
+				}
 			}
 		}
-		
-	
-		$this->set('default_price', $price);
-		
 
-		$this->set('quantity', $dEcoupon['type']==4 ? 0 : -1);
-		$this->set('decrement',0);
-		
-		$this->set('price', $price+0);
+
+		$this->set('default_price', $price);
+
+
+		$this->set('quantity', $dEcoupon['type'] == 4 ? 0 : -1);
+		$this->set('decrement', 0);
+
+		$this->set('price', $price + 0);
 		$this->set('inverse', 1); //đơn vị xuất cho POS
 		$this->set('expire_date', isset($dWhHis['expire_date']) ? $dWhHis['expire_date'] : 0);
-		
+
 
 		$this->set('order_id', $order_id);
-		$this->set('product_id', isset($setup['pro_coupon_fee'])?$setup['pro_coupon_fee']:0);
+		$this->set('product_id', isset($setup['pro_coupon_fee']) ? $setup['pro_coupon_fee'] : 0);
 		$this->set('ratio_convert', 0);
 
 		$this->set('sku_id', 0);
 
-		
+
 		$this->set('name', $dEcoupon['name']);
 
 		$this->set('user_add', $username);
 		$this->set('note', isset($dEcoupon['note']) ? $dEcoupon['note'] : '');
 
-		$this->set('attribute_1','0');
-		$this->set('attribute_2','0');
-		$this->set('attribute_3','0');
-		$this->set('attribute_4','0');
-		$this->set('attribute_5','0');
-		$this->set('sku_name','');
+		$this->set('attribute_1', '0');
+		$this->set('attribute_2', '0');
+		$this->set('attribute_3', '0');
+		$this->set('attribute_4', '0');
+		$this->set('attribute_5', '0');
+		$this->set('sku_name', '');
 
 		$this->set('root_price', 0);
-		$this->set('wh_history_id','');
+		$this->set('wh_history_id', '');
 		$this->set('wh_history_return_id', 0);
-		$this->set('is_coupon',$dEcoupon['type']);
-		$this->set('coupon_id',$this->get('coupon_id'));
+		$this->set('is_coupon', $dEcoupon['type']);
+		$this->set('coupon_id', $this->get('coupon_id'));
 
 		$dOrder 	= $order->get_detail($shop_id, $order_id, $created_at);
 
@@ -2091,164 +2117,163 @@ class detail_order extends model
 			// thêm sản mã giảm giá vào đơn hàng
 			$detail_order_id = $this->add($shop_id, $created_at);
 		}
-		
+
 		// trả lại thông tin đơn hàng
 		$dOrder = $order->get_detail($shop_id, $order_id, $created_at);
 		$dOrder['listItems'] 	= $this->listby_order($shop_id, $order_id, $created_at);
 
 		return $dOrder;
-		
 	}
 
 	//func update lại coupon trong đơn hàng khi update coupon
-	public function update_coupon_item($shop_id, $created_at, $dEcoupon,$ship_fee=0){
+	public function update_coupon_item($shop_id, $created_at, $dEcoupon, $ship_fee = 0)
+	{
 		global $db;
 
 		$order_id = $this->get('order_id');
 		$id       = $this->get('id');
 
-		$flag=false;
-		$price=0;
-		$chiet_khau=0;
-		$gia_le=0;
-		$gia_le_item=0;
-		$gia_chiet_khau=0;
-		$total=0;
+		$flag = false;
+		$price = 0;
+		$chiet_khau = 0;
+		$gia_le = 0;
+		$gia_le_item = 0;
+		$gia_chiet_khau = 0;
+		$total = 0;
 		$list_order = $this->listby_order($shop_id, $order_id, $created_at);
-		
-		foreach($list_order as $key=>$val){
-			if($val['is_coupon']==0){
-				$total = $val['price']*$val['quantity']*((100-$val['decrement'])/100);
-				$gia_le_item = $val['default_price']* $val['quantity'];
-				$gia_le+= $gia_le_item;
-				$chiet_khau+= $gia_le_item-$total;
+
+		foreach ($list_order as $key => $val) {
+			if ($val['is_coupon'] == 0) {
+				$total = $val['price'] * $val['quantity'] * ((100 - $val['decrement']) / 100);
+				$gia_le_item = $val['default_price'] * $val['quantity'];
+				$gia_le += $gia_le_item;
+				$chiet_khau += $gia_le_item - $total;
 			}
 		}
 		//kiểm tra loại coupon
-		if($dEcoupon['type']=='2' || $dEcoupon['type']=='4'){
+		if ($dEcoupon['type'] == '2' || $dEcoupon['type'] == '4') {
 			//by_price_type 1||0 //0 là tính theo giá chiết khấu 1 là tính theo giá lẻ
-			if($dEcoupon['by_type_price']=="1"){ 
-				if($gia_le >= $dEcoupon['is_total']){//kiểm tra xem đơn hàng đã đạt giá trị tối thiểu để áp dụng coupon chưa
-					if($dEcoupon['value_type']=="0"){//0 là % 1 là tiền
-						$price = ($dEcoupon['value']/100) * $gia_le;
-						if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max của đơn hàng thì lấy giá trị max
+			if ($dEcoupon['by_type_price'] == "1") {
+				if ($gia_le >= $dEcoupon['is_total']) { //kiểm tra xem đơn hàng đã đạt giá trị tối thiểu để áp dụng coupon chưa
+					if ($dEcoupon['value_type'] == "0") { //0 là % 1 là tiền
+						$price = ($dEcoupon['value'] / 100) * $gia_le;
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max của đơn hàng thì lấy giá trị max
 							$price = $dEcoupon['value_max'];
 						}
-					}else{
+					} else {
 						$price = $dEcoupon['value'];
 					}
-				}else{
-					$flag=true;
+				} else {
+					$flag = true;
 					//remove coupon đi vì không đạt giá trị tối thiểu
 				}
-			}else{
-				$gia_chiet_khau=$gia_le - $chiet_khau;
-				if($gia_chiet_khau >= $dEcoupon['is_total']){
-					if($dEcoupon['value_type']=="0"){//0 là % 1 là tiền
-						$price = ($dEcoupon['value']/100) * $gia_chiet_khau;
-						if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max của đơn hàng thì lấy giá trị max
+			} else {
+				$gia_chiet_khau = $gia_le - $chiet_khau;
+				if ($gia_chiet_khau >= $dEcoupon['is_total']) {
+					if ($dEcoupon['value_type'] == "0") { //0 là % 1 là tiền
+						$price = ($dEcoupon['value'] / 100) * $gia_chiet_khau;
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max của đơn hàng thì lấy giá trị max
 							$price = $dEcoupon['value_max'];
 						}
-					}else{
+					} else {
 						$price = $dEcoupon['value'];
 					}
-				}else{
-					$flag=true;
+				} else {
+					$flag = true;
 					//remove coupon đi vì không đạt giá trị tối thiểu
 				}
 			}
-		} else if($dEcoupon['type']=='3'){
-			if($gia_le >= $dEcoupon['is_total']){//kiểm tra xem đơn hàng có đạt giá trị tối thiểu không
+		} else if ($dEcoupon['type'] == '3') {
+			if ($gia_le >= $dEcoupon['is_total']) { //kiểm tra xem đơn hàng có đạt giá trị tối thiểu không
 				//truyền coupon_id qua để check sản phẩm
 				$ecoupon_apply = new ecoupon_apply();
-				$ecoupon_apply->set('ecoupon_id',$dEcoupon['id']);
-				$lProductApply = $ecoupon_apply->check_product_order($list_order,$order_id,$shop_id);
-				if(count($lProductApply)>0){
-					if($dEcoupon['value_type']=='0'){
-						foreach($lProductApply as $key=>$item){
-							$this->set('coupon_id',$dEcoupon['id']);
-							$this->discount_percentItem($shop_id,$item['id'], 0, '', $created_at);
+				$ecoupon_apply->set('ecoupon_id', $dEcoupon['id']);
+				$lProductApply = $ecoupon_apply->check_product_order($list_order, $order_id, $shop_id);
+				if (count($lProductApply) > 0) {
+					if ($dEcoupon['value_type'] == '0') {
+						foreach ($lProductApply as $key => $item) {
+							$this->set('coupon_id', $dEcoupon['id']);
+							$this->discount_percentItem($shop_id, $item['id'], 0, '', $created_at);
 							$this->discount_priceItem($shop_id, $item['id'], $item['default_price'], '', $created_at);
-							$tien_sau_giam  = $item['price'] * $item['quantity']*((100 - $dEcoupon['value'])/100);
-							$tien_giam = ($item['price']*$item['quantity']) - $tien_sau_giam;
-							$price+=$tien_giam;
+							$tien_sau_giam  = $item['price'] * $item['quantity'] * ((100 - $dEcoupon['value']) / 100);
+							$tien_giam = ($item['price'] * $item['quantity']) - $tien_sau_giam;
+							$price += $tien_giam;
 						}
-						if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
 							$price = $dEcoupon['value_max'];
 						}
-					}else{
-						foreach($lProductApply as $key=>$item){
-							$this->set('coupon_id',$dEcoupon['id']);
-							$this->discount_percentItem($shop_id,$item['id'],0, '', $created_at);
+					} else {
+						foreach ($lProductApply as $key => $item) {
+							$this->set('coupon_id', $dEcoupon['id']);
+							$this->discount_percentItem($shop_id, $item['id'], 0, '', $created_at);
 							$this->discount_priceItem($shop_id, $item['id'], $item['default_price'], '', $created_at);
 						}
-						$price=$dEcoupon['value'];
+						$price = $dEcoupon['value'];
 					}
-				}else{
-					$flag=true;
+				} else {
+					$flag = true;
 					//xóa coupon đi vì không có sản phẩm nào có thể áp dụng
 				}
-			}else{
-				$flag=true;
+			} else {
+				$flag = true;
 				//xóa coupon vì không đạt giá trị tối thiểu
 			}
-		}if($dEcoupon['type']=='1'){ //free ship
-			if($dEcoupon['by_type_price']=="1"){ 
-					if($gia_le >= $dEcoupon['is_total']){//kiểm tra xem đơn hàng đã đạt giá trị tối thiểu để áp dụng coupon chưa
-							if($dEcoupon['value_type']=="0"){//0 là % 1 là tiền
-									$price = ($ship_fee*$dEcoupon['value'])/100;
-									if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
-											$price = $dEcoupon['value_max'];
-									}
-							}else{
-									$price = $dEcoupon['value'];
-							}
+		}
+		if ($dEcoupon['type'] == '1') { //free ship
+			if ($dEcoupon['by_type_price'] == "1") {
+				if ($gia_le >= $dEcoupon['is_total']) { //kiểm tra xem đơn hàng đã đạt giá trị tối thiểu để áp dụng coupon chưa
+					if ($dEcoupon['value_type'] == "0") { //0 là % 1 là tiền
+						$price = ($ship_fee * $dEcoupon['value']) / 100;
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
+							$price = $dEcoupon['value_max'];
+						}
+					} else {
+						$price = $dEcoupon['value'];
 					}
-			}else{
-					$gia_chiet_khau=$gia_le - $chiet_khau;
-					if($gia_chiet_khau >= $dEcoupon['is_total']){
-							if($dEcoupon['value_type']=="0"){//0 là % 1 là tiền
-									$price = ($ship_fee*$dEcoupon['value'])/100;
-									if($price > $dEcoupon['value_max']){//nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
-											$price = $dEcoupon['value_max'];
-									}
-							}else{
-									$price = $dEcoupon['value'];
-							}
+				}
+			} else {
+				$gia_chiet_khau = $gia_le - $chiet_khau;
+				if ($gia_chiet_khau >= $dEcoupon['is_total']) {
+					if ($dEcoupon['value_type'] == "0") { //0 là % 1 là tiền
+						$price = ($ship_fee * $dEcoupon['value']) / 100;
+						if ($price > $dEcoupon['value_max']) { //nếu số tiền giảm giá lớn hơn giá trị max thì lấy giá trị max
+							$price = $dEcoupon['value_max'];
+						}
+					} else {
+						$price = $dEcoupon['value'];
 					}
+				}
 			}
 		}
 
 		//xóa và update giá trị của coupon
-		if($flag==true){
-			$this->set('date_add',$created_at);
-			$this->set('shop_id',$shop_id);
-			$this->set('id',$id);
+		if ($flag == true) {
+			$this->set('date_add', $created_at);
+			$this->set('shop_id', $shop_id);
+			$this->set('id', $id);
 			//func xóa coupon
 			$this->delete_item();
 			// thông báo
 			$kq['status'] = true;
 			$kq['msg'] = 'Mã giảm giá đã được xóa do không đủ điều kiện sử dụng.';
 			return $kq;
-
-		}else{
-			$this->set('default_price', $price+0);
-			$this->set('price', $price+0);
-			$this->set('root_price', $price+0);
-			$this->set('id',$id);
+		} else {
+			$this->set('default_price', $price + 0);
+			$this->set('price', $price + 0);
+			$this->set('root_price', $price + 0);
+			$this->set('id', $id);
 			//func update coupon
-			$this->update_price_coupon($shop_id,$created_at);
+			$this->update_price_coupon($shop_id, $created_at);
 			// nếu mã giảm theo sản phẩm thì sẽ thông báo thêm
-			$msg_pro='';
-			if($dEcoupon['type']=='3'){
-				$msg_pro='Đã xóa giảm giá của những sản phẩm được áp dụng. ';
+			$msg_pro = '';
+			if ($dEcoupon['type'] == '3') {
+				$msg_pro = 'Đã xóa giảm giá của những sản phẩm được áp dụng. ';
 			}
 			// thông báo
 			$kq['status'] = true;
-			$kq['msg'] = $msg_pro.'Cập nhật mã giảm giá thành công.';
+			$kq['msg'] = $msg_pro . 'Cập nhật mã giảm giá thành công.';
 			return $kq;
 		}
-
 	}
 
 	public function add_product_item_client($shop_id, $username, $order_id, $created_at, $dProduct, $dSKU = '', $order_created_by = 0)
@@ -2286,7 +2311,7 @@ class detail_order extends model
 
 			$dShop = $shop->get_detail($shop_id);
 
-			if ( !isset($dSKU['id']) ) {
+			if (!isset($dSKU['id'])) {
 				$unique_id = '';
 				$detail_order->set('default_price', $dProduct['price']); // Giá mặc định là giá lẻ
 			} else {
@@ -2319,14 +2344,14 @@ class detail_order extends model
 			$detail_order->set('decrement', $dProduct['decrement']);
 			$detail_order->set('price', $price);
 
-			if( isset($dProduct['sale_price']) && $dProduct['sale_price'] >= 0 ){
+			if (isset($dProduct['sale_price']) && $dProduct['sale_price'] >= 0) {
 				$detail_order->set('sale_price', $dProduct['sale_price']);
 			}
 
-			if( isset($dProduct['sale_decrement']) && $dProduct['sale_decrement'] >= 0 ){
+			if (isset($dProduct['sale_decrement']) && $dProduct['sale_decrement'] >= 0) {
 				$detail_order->set('sale_decrement', $dProduct['sale_decrement']);
 			}
-			
+
 			$detail_order->set('inverse', 1); //đơn vị xuất cho POS
 			$detail_order->set('expire_date', $expire_date);
 
@@ -2372,29 +2397,28 @@ class detail_order extends model
 			}
 
 			// AnCode: Nếu là sản phẩm Combo thì thêm sản phẩm vào bảng order_detail_combo
-			if($dProduct['pro_type']==4){
+			if ($dProduct['pro_type'] == 4) {
 				// lấy list sản phẩm Combo của sản phẩm đó
 				$product_combo = new product_combo();
-				$product_combo->set('product_combo_id',$dProduct['id']);
-				$lCombo = $product_combo -> list_by_product_combo();
+				$product_combo->set('product_combo_id', $dProduct['id']);
+				$lCombo = $product_combo->list_by_product_combo();
 				// lấy từng sản phẩm trong combo thêm vào bảng order_detail_combo
 				foreach ($lCombo as $key => $dCombo) {
 					//thêm vào order_detail_combo 
 					$order_detail_combo = new order_detail_combo();
-					$order_detail_combo->set('product_combo_id',$dProduct['id']);
-					$order_detail_combo->set('product_id',$dCombo['product_id']);
-					$order_detail_combo->set('unique_id',$dCombo['unique_id']);
+					$order_detail_combo->set('product_combo_id', $dProduct['id']);
+					$order_detail_combo->set('product_id', $dCombo['product_id']);
+					$order_detail_combo->set('unique_id', $dCombo['unique_id']);
 					$order_detail_combo->set('price_sale', $dCombo['price_sale']);
 					$order_detail_combo->set('quantity', $dCombo['quantity']);
 					$order_detail_combo->set('price', $dCombo['price']);
-					$order_detail_combo->set('shop_id',$shop_id);
-					$order_detail_combo->set('order_id',$order_id);
-					$order_detail_combo->set('detail_order_id',$detail_order_id);
-					$order_detail_combo->set('order_created_at',$detail_order_id);
-					$order_detail_combo->set('wh_history_id',$wh_history_id);
-					$order_detail_combo_id=$order_detail_combo->add();
+					$order_detail_combo->set('shop_id', $shop_id);
+					$order_detail_combo->set('order_id', $order_id);
+					$order_detail_combo->set('detail_order_id', $detail_order_id);
+					$order_detail_combo->set('order_created_at', $detail_order_id);
+					$order_detail_combo->set('wh_history_id', $wh_history_id);
+					$order_detail_combo_id = $order_detail_combo->add();
 				}
-				
 			}
 
 			return $detail_order_id;
@@ -2497,7 +2521,7 @@ class detail_order extends model
 		$coupon_fee_val = 0;
 		foreach ($lItems as $sitdo) {
 
-			if ($sitdo['product_id'] > 0 && $sitdo['product_id'] ==  $setup['pro_package_fee']) {//phí đóng gói
+			if ($sitdo['product_id'] > 0 && $sitdo['product_id'] ==  $setup['pro_package_fee']) { //phí đóng gói
 				$package_fee_val  += abs($sitdo['quantity'] * $sitdo['price']);
 			} else if ($sitdo['product_id'] > 0 && $sitdo['product_id'] ==  $setup['pro_ship_fee']) {
 				$ship_fee_val  += abs($sitdo['quantity'] * $sitdo['price']);
@@ -2545,7 +2569,7 @@ class detail_order extends model
 
 		return $result;
 	}
-	
+
 	/**
 	 * list_product_debt_showroom method get all products debt showroom.
 	 * @author datdat.itsn02
@@ -2556,16 +2580,16 @@ class detail_order extends model
 	 * @param  mixed $limit
 	 * @return void
 	 */
-	public function list_product_debt_showroom( $keyword, $year = '', $pro_ship_fee = '',  $offset = '', $limit = '')
+	public function list_product_debt_showroom($keyword, $year = '', $pro_ship_fee = '',  $offset = '', $limit = '')
 	{
 		//HC upgrade 210910
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 		$shop_id 	= $this->get('shop_id');
 
-		if ( $limit != '' ) 	$limit 		= "LIMIT $offset, $limit ";
-		if ( $keyword != '' )   $keyword 	= " AND (SKU.`code` = '$keyword' OR p.`name` LIKE '%$keyword%' )";
+		if ($limit != '') 	$limit 		= "LIMIT $offset, $limit ";
+		if ($keyword != '')   $keyword 	= " AND (SKU.`code` = '$keyword' OR p.`name` LIKE '%$keyword%' )";
 
 		/**
 		 * quantity_paid: tổng đã trả
@@ -2618,30 +2642,30 @@ class detail_order extends model
 		return $result;
 	}
 
-	public function list_product_debt( $keyword, $year = '', $field = '', $sort = '',  $offset = '', $limit = '')
+	public function list_product_debt($keyword, $year = '', $field = '', $sort = '',  $offset = '', $limit = '')
 	{ //hàm lấy tất cả sản phẩm còn nợ (tùng code - 27/07/2021)
 		//HC upgrade 210910
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 		$shop_id 	= $this->get('shop_id');
 
 		$sortFieldArr = array(
-            'name'  				=> 'p.`name`',
-            'quantity_debt'  		=> 'dt.`quantity_debt`',
-            'total_value_debt'  	=> 'dt.`total_value_debt`',
-            // 'total_value_debt_root' => 'dt.`total_value_debt_root`',
-        );
-		
-        $field = isset($sortFieldArr[$field]) ? $sortFieldArr[$field] : '';//kiểm tra xem có ko
-        if ($field != ''){
-            $sqlSort = " ORDER BY ".$field." $sort ";
-        }else{//ko có thì mặc định
+			'name'  				=> 'p.`name`',
+			'quantity_debt'  		=> 'dt.`quantity_debt`',
+			'total_value_debt'  	=> 'dt.`total_value_debt`',
+			// 'total_value_debt_root' => 'dt.`total_value_debt_root`',
+		);
+
+		$field = isset($sortFieldArr[$field]) ? $sortFieldArr[$field] : ''; //kiểm tra xem có ko
+		if ($field != '') {
+			$sqlSort = " ORDER BY " . $field . " $sort ";
+		} else { //ko có thì mặc định
 			$sqlSort = " ORDER BY dt.`quantity_debt` DESC ";
 		}
 
-		if ( $limit != '' ) 	$limit 		= "LIMIT $offset, $limit ";
-		if ( $keyword != '' )   $keyword 	= " AND (SKU.`code` LIKE '%$keyword%' OR p.`name` LIKE '%$keyword%' )";
+		if ($limit != '') 	$limit 		= "LIMIT $offset, $limit ";
+		if ($keyword != '')   $keyword 	= " AND (SKU.`code` LIKE '%$keyword%' OR p.`name` LIKE '%$keyword%' )";
 
 		/**
 		 * quantity_paid: tổng đã trả
@@ -2695,15 +2719,15 @@ class detail_order extends model
 		return $r;
 	}
 
-	public function list_product_debt_info( $keyword, $year = '' )
+	public function list_product_debt_info($keyword, $year = '')
 	{ 	//hàm lấy tất cả sản phẩm còn nợ (tùng code - 27/07/2021)
 		//HC upgrade 210910
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 		$shop_id 	= $this->get('shop_id');
-        
-		if ( $keyword != '' )   $keyword 	= " AND (SKU.`code` LIKE '%$keyword%' OR p.`name` LIKE '%$keyword%' )";
+
+		if ($keyword != '')   $keyword 	= " AND (SKU.`code` LIKE '%$keyword%' OR p.`name` LIKE '%$keyword%' )";
 
 		//, SUM(IFNULL(dt.`total_value_debt_root`, 0)) total_value_debt_root
 		$sql = "SELECT COUNT(*) total_record
@@ -2740,9 +2764,9 @@ class detail_order extends model
 				AND SKU.deleted = 0
 				AND p.`shop_id` = '$shop_id' 
 				$keyword ";
-		
-		$r = $db->executeQuery( $sql, 1);
-		
+
+		$r = $db->executeQuery($sql, 1);
+
 		/**
 		 * total_record: tổng số sản phẩm
 		 * quantity_paid: tổng số đã trả
@@ -2755,22 +2779,22 @@ class detail_order extends model
 		 */
 
 		return array(
-			'total_record' 	=> isset($r['total_record']) ? $r['total_record']:0,
-			'quantity_paid' => isset($r['quantity_paid']) ? $r['quantity_paid']:0,
-			'quantity_sell' => isset($r['quantity_sell']) ? $r['quantity_sell']:0,
-			'total_value' 	=> isset($r['total_value']) ? $r['total_value']:0,
-			'total_real' 	=> isset($r['total_real']) ? $r['total_real']:0,
-			'total_value_debt' 	=> isset($r['total_value_debt']) ? $r['total_value_debt']:0,
-			'total_value_debt_root' 	=> isset($r['total_value_debt_root']) ? $r['total_value_debt_root']:0,
-			'quantity_debt' => isset($r['quantity_debt']) ? $r['quantity_debt']:0
+			'total_record' 	=> isset($r['total_record']) ? $r['total_record'] : 0,
+			'quantity_paid' => isset($r['quantity_paid']) ? $r['quantity_paid'] : 0,
+			'quantity_sell' => isset($r['quantity_sell']) ? $r['quantity_sell'] : 0,
+			'total_value' 	=> isset($r['total_value']) ? $r['total_value'] : 0,
+			'total_real' 	=> isset($r['total_real']) ? $r['total_real'] : 0,
+			'total_value_debt' 	=> isset($r['total_value_debt']) ? $r['total_value_debt'] : 0,
+			'total_value_debt_root' 	=> isset($r['total_value_debt_root']) ? $r['total_value_debt_root'] : 0,
+			'quantity_debt' => isset($r['quantity_debt']) ? $r['quantity_debt'] : 0
 		);
 	}
 
-	public function list_item_need_paid_by_client( $client_id, $year = '' )
+	public function list_item_need_paid_by_client($client_id, $year = '')
 	{ 	//List item detail_order chưa trả nợ
 		//HC: 210910
 		global $db;
-		if( $year ==  '' ) $year = date('Y');
+		if ($year ==  '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 		$product_id 	= $this->get('product_id');
@@ -2788,21 +2812,21 @@ class detail_order extends model
 				AND od.`id_customer` = '$client_id'
 				ORDER BY od.`created_at` ASC";
 
-		$r = $db->executeQuery_list( $sql );
+		$r = $db->executeQuery_list($sql);
 
 		return $r;
 	}
 
-	public function list_order_by_product( $keyword = '', $year = '', $offset = '', $limit = '' )
+	public function list_order_by_product($keyword = '', $year = '', $offset = '', $limit = '')
 	{ //hàm lấy tất cả order theo sản phẩm còn nợ (tùng code - 06/08/2021)
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 		$product_id 	= $this->get('product_id');
 		$sku_id 		= $this->get('sku_id');
 
-		if ( $keyword != '' ) $keyword 	= " AND (
+		if ($keyword != '') $keyword 	= " AND (
 												mb.`code` LIKE '%$keyword%' 
 												OR mb.`fullname` LIKE '%$keyword%'
 												OR mb.`mobile` LIKE '%$keyword%'
@@ -2851,22 +2875,22 @@ class detail_order extends model
 				ORDER BY nTB.`quantity_debt` DESC
 				$limit";
 
-		$r = $db->executeQuery_list( $sql );
+		$r = $db->executeQuery_list($sql);
 
 		return $r;
 	}
 
-	public function list_order_by_product_count( $keyword = '', $year = '')
+	public function list_order_by_product_count($keyword = '', $year = '')
 	{ //hàm lấy tất cả order theo sản phẩm còn nợ (tùng code - 06/08/2021)
 		//HC: 210910 upgrade
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 		$product_id 	= $this->get('product_id');
 		$sku_id 		= $this->get('sku_id');
 
-		if ( $keyword != '' ) $keyword 	= " AND (
+		if ($keyword != '') $keyword 	= " AND (
 												mb.`code` LIKE '%$keyword%' 
 												OR mb.`fullname` LIKE '%$keyword%'
 												OR mb.`mobile` LIKE '%$keyword%'
@@ -2875,7 +2899,7 @@ class detail_order extends model
 		$sql = "SELECT COUNT(*) total
 				FROM (
 					SELECT od.`id_customer`
-					FROM " . $db->tbl_fix . "`detail_order_" . $shop_id . "_" . $year. "` as dt 
+					FROM " . $db->tbl_fix . "`detail_order_" . $shop_id . "_" . $year . "` as dt 
 					INNER JOIN " . $db->tbl_fix . "`order_" . $shop_id . "_" . $year . "` as od ON od.`id` = dt.`order_id`
 					LEFT JOIN " . $db->tbl_fix . "`members` as mb ON mb.`user_id` = od.`id_customer`
 					WHERE 
@@ -2888,12 +2912,12 @@ class detail_order extends model
 					GROUP BY od.`id_customer`
 				) nTB ";
 
-		$r = $db->executeQuery( $sql, 1 );
+		$r = $db->executeQuery($sql, 1);
 
 		return $r['total'] + 0;
 	}
 
-		
+
 	/**
 	 * list_order_by_product_showroom method get all showroom have order debt
 	 *
@@ -2903,23 +2927,23 @@ class detail_order extends model
 	 * @param  mixed $limit
 	 * @return void
 	 */
-	public function list_order_by_product_showroom( $keyword = '', $year = '', $offset = '', $limit = '' )
+	public function list_order_by_product_showroom($keyword = '', $year = '', $offset = '', $limit = '')
 	{ //hàm lấy tất cả order theo sản phẩm còn nợ của showroom (Datdat code - 13/12/2022)
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 		$product_id 	= $this->get('product_id');
 		$sku_id 		= $this->get('sku_id');
 
-		if ( $keyword != '' ) $keyword 	= " AND (
+		if ($keyword != '') $keyword 	= " AND (
 												nTB.`order_id` = '$keyword'  
 											)";
 
 		if ($limit != '') $limit 		= "LIMIT $offset, $limit ";
 
 
-		 $sql = "SELECT * 
+		$sql = "SELECT * 
 		 FROM
 		 (
 			 SELECT IFNULL(desr.`showroom_id`, '0') showroom_id
@@ -2957,11 +2981,11 @@ class detail_order extends model
 		 ) nTB
 		 ORDER BY nTB.`value_debt` DESC
 		 $limit";
-		$result = $db->executeQuery_list( $sql );
+		$result = $db->executeQuery_list($sql);
 
 		return $result;
-	}	
-	
+	}
+
 	/**
 	 * list_order_by_product_showroom_count method count total products of order debt showroom
 	 *
@@ -2969,16 +2993,16 @@ class detail_order extends model
 	 * @param  mixed $year : filter year of order
 	 * @return void
 	 */
-	public function list_order_by_product_showroom_count( $keyword = '', $year = '')
-	{ 
+	public function list_order_by_product_showroom_count($keyword = '', $year = '')
+	{
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 		$product_id 	= $this->get('product_id');
 		$sku_id 		= $this->get('sku_id');
 
-		if ( $keyword != '' ) $keyword 	= " AND (
+		if ($keyword != '') $keyword 	= " AND (
 			nTB.`order_id` = '$keyword'  
 		)";
 
@@ -3019,34 +3043,34 @@ class detail_order extends model
 			$keyword
 		) nTB
 		ORDER BY nTB.`value_debt` DESC";
-		$result = $db->executeQuery( $sql, 1 );
+		$result = $db->executeQuery($sql, 1);
 
 		return $result['total'] + 0;
 	}
-	public function list_showroom_debt( $keyword, $year = '', $field = '', $sort = '',  $offset = '', $limit = '')
+	public function list_showroom_debt($keyword, $year = '', $field = '', $sort = '',  $offset = '', $limit = '')
 	{ //hàm lấy tất cả sản phẩm còn nợ (tùng code - 27/07/2021)
 		//HC upgrade 210910
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 		$shop_id 	= $this->get('shop_id');
 
 		$sortFieldArr = array(
-            'name'  				=> 'p.`name`',
-            'quantity_debt'  		=> 'dt.`quantity_debt`',
-            'total_value_debt'  	=> 'dt.`total_value_debt`',
-            // 'total_value_debt_root' => 'dt.`total_value_debt_root`',
-        );
-		
-        $field = isset($sortFieldArr[$field]) ? $sortFieldArr[$field] : '';//kiểm tra xem có ko
-        if ($field != ''){
-            $sqlSort = " ORDER BY ".$field." $sort ";
-        }else{//ko có thì mặc định
+			'name'  				=> 'p.`name`',
+			'quantity_debt'  		=> 'dt.`quantity_debt`',
+			'total_value_debt'  	=> 'dt.`total_value_debt`',
+			// 'total_value_debt_root' => 'dt.`total_value_debt_root`',
+		);
+
+		$field = isset($sortFieldArr[$field]) ? $sortFieldArr[$field] : ''; //kiểm tra xem có ko
+		if ($field != '') {
+			$sqlSort = " ORDER BY " . $field . " $sort ";
+		} else { //ko có thì mặc định
 			$sqlSort = " ORDER BY dt.`quantity_debt` DESC ";
 		}
 
-		if ( $limit != '' ) 	$limit 		= "LIMIT $offset, $limit ";
-		if ( $keyword != '' )   $keyword 	= " AND (SKU.`code` LIKE '%$keyword%' OR p.`name` LIKE '%$keyword%' )";
+		if ($limit != '') 	$limit 		= "LIMIT $offset, $limit ";
+		if ($keyword != '')   $keyword 	= " AND (SKU.`code` LIKE '%$keyword%' OR p.`name` LIKE '%$keyword%' )";
 
 		/**
 		 * quantity_paid: tổng đã trả
@@ -3103,15 +3127,15 @@ class detail_order extends model
 		return $r;
 	}
 
-	public function list_showroom_debt_info( $keyword, $year = '' )
+	public function list_showroom_debt_info($keyword, $year = '')
 	{ 	//hàm lấy tất cả sản phẩm còn nợ (tùng code - 27/07/2021)
 		//HC upgrade 210910
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 		$shop_id 	= $this->get('shop_id');
-        
-		if ( $keyword != '' )   $keyword 	= " AND (SKU.`code` LIKE '%$keyword%' OR p.`name` LIKE '%$keyword%' )";
+
+		if ($keyword != '')   $keyword 	= " AND (SKU.`code` LIKE '%$keyword%' OR p.`name` LIKE '%$keyword%' )";
 
 		//, SUM(IFNULL(dt.`total_value_debt_root`, 0)) total_value_debt_root
 		$sql = "SELECT COUNT(*) total_record
@@ -3151,9 +3175,9 @@ class detail_order extends model
 				AND SKU.deleted = 0
 				AND p.`shop_id` = '$shop_id' 
 				$keyword ";
-		
-		$r = $db->executeQuery( $sql, 1);
-		
+
+		$r = $db->executeQuery($sql, 1);
+
 		/**
 		 * total_record: tổng số sản phẩm
 		 * quantity_paid: tổng số đã trả
@@ -3166,17 +3190,17 @@ class detail_order extends model
 		 */
 
 		return array(
-			'total_record' 	=> isset($r['total_record']) ? $r['total_record']:0,
-			'quantity_paid' => isset($r['quantity_paid']) ? $r['quantity_paid']:0,
-			'quantity_sell' => isset($r['quantity_sell']) ? $r['quantity_sell']:0,
-			'total_value' 	=> isset($r['total_value']) ? $r['total_value']:0,
-			'total_real' 	=> isset($r['total_real']) ? $r['total_real']:0,
-			'total_value_debt' 	=> isset($r['total_value_debt']) ? $r['total_value_debt']:0,
-			'total_value_debt_root' 	=> isset($r['total_value_debt_root']) ? $r['total_value_debt_root']:0,
-			'quantity_debt' => isset($r['quantity_debt']) ? $r['quantity_debt']:0
+			'total_record' 	=> isset($r['total_record']) ? $r['total_record'] : 0,
+			'quantity_paid' => isset($r['quantity_paid']) ? $r['quantity_paid'] : 0,
+			'quantity_sell' => isset($r['quantity_sell']) ? $r['quantity_sell'] : 0,
+			'total_value' 	=> isset($r['total_value']) ? $r['total_value'] : 0,
+			'total_real' 	=> isset($r['total_real']) ? $r['total_real'] : 0,
+			'total_value_debt' 	=> isset($r['total_value_debt']) ? $r['total_value_debt'] : 0,
+			'total_value_debt_root' 	=> isset($r['total_value_debt_root']) ? $r['total_value_debt_root'] : 0,
+			'quantity_debt' => isset($r['quantity_debt']) ? $r['quantity_debt'] : 0
 		);
 	}
-	
+
 	/**
 	 * list_debt_by_showroom method get all showroom have order debt
 	 * @author datdat.itsn02
@@ -3189,18 +3213,18 @@ class detail_order extends model
 	 * @param  mixed $limit
 	 * @return void
 	 */
-	public function list_debt_by_showroom( $keyword = '', $year = '', $showroom_id = '', $pro_ship_fee = '', $offset = '', $limit = '' )
-	{ 
+	public function list_debt_by_showroom($keyword = '', $year = '', $showroom_id = '', $pro_ship_fee = '', $offset = '', $limit = '')
+	{
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 
-		if ( $keyword != '' ) $keyword 	= " AND (
+		if ($keyword != '') $keyword 	= " AND (
 												desr.`order_id` = '$keyword' 
 											)";
 
-		if ( $showroom_id != '' ) $showroom_id 	= " AND (
+		if ($showroom_id != '') $showroom_id 	= " AND (
 														desr.`showroom_id` = '$showroom_id' 
 													)";
 
@@ -3245,10 +3269,10 @@ class detail_order extends model
 				ORDER BY nTB.`value_debt` DESC
 				$limit";
 
-		$result = $db->executeQuery_list( $sql );
-		
+		$result = $db->executeQuery_list($sql);
+
 		return $result;
-	}	
+	}
 	/**
 	 * list_debt_by_showroom_count get total record, total quantity, total value of order debt showroom
 	 * @author datdat.itsn02
@@ -3259,17 +3283,17 @@ class detail_order extends model
 	 * @param  mixed $pro_ship_fee  : id of ship fee product
 	 * @return void
 	 */
-	public function list_debt_by_showroom_count( $keyword = '', $year = '', $showroom_id = '', $pro_ship_fee = '')
-	{ 
+	public function list_debt_by_showroom_count($keyword = '', $year = '', $showroom_id = '', $pro_ship_fee = '')
+	{
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 
-		if ( $keyword != '' ) $keyword 	= " AND (
+		if ($keyword != '') $keyword 	= " AND (
 												desr.`order_id` = '$keyword'
 											)";
-		if ( $showroom_id != '' ) $showroom_id 	= " AND (
+		if ($showroom_id != '') $showroom_id 	= " AND (
 														desr.`showroom_id`='$showroom_id'
 												)";
 
@@ -3308,14 +3332,14 @@ class detail_order extends model
 					$showroom_id
 					GROUP BY desr.`showroom_id`
 				) nTB";
-		$result = $db->executeQuery( $sql, 1 );
-		
+		$result = $db->executeQuery($sql, 1);
+
 		return array(
-			'total_record' => isset($result['total_record']) ? $result['total_record']:0,
-			'quantity_debt' => isset($result['quantity_debt']) ? $result['quantity_debt']:0,
-			'value_debt' => isset($result['value_debt']) ? $result['value_debt']:0,
+			'total_record' => isset($result['total_record']) ? $result['total_record'] : 0,
+			'quantity_debt' => isset($result['quantity_debt']) ? $result['quantity_debt'] : 0,
+			'value_debt' => isset($result['value_debt']) ? $result['value_debt'] : 0,
 		);
-	}	
+	}
 	/**
 	 * list_debt_by_product_count: get total/value of products debt showroom
 	 * @author datdat.itsn02
@@ -3325,14 +3349,14 @@ class detail_order extends model
 	 * @param  mixed $pro_ship_fee        : id of ship fee product
 	 * @return void
 	 */
-	public function list_debt_by_product_count( $keyword = '', $year = '', $pro_ship_fee = '')
+	public function list_debt_by_product_count($keyword = '', $year = '', $pro_ship_fee = '')
 	{
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
-		
-		if ( $keyword != '' )   $keyword 	= " AND (SKU.`code` = '$keyword' OR p.`name` LIKE '%$keyword%' )";
+
+		if ($keyword != '')   $keyword 	= " AND (SKU.`code` = '$keyword' OR p.`name` LIKE '%$keyword%' )";
 
 		$sql = "SELECT COUNT(*) total_record
 						, SUM(nTB.`quantity_debt`) quantity_debt
@@ -3366,28 +3390,28 @@ class detail_order extends model
 					AND SKU.deleted = 0
 					$keyword
 				) nTB";
-		$result = $db->executeQuery( $sql, 1 );
-		
+		$result = $db->executeQuery($sql, 1);
+
 		return array(
-			'total_record' => isset($result['total_record']) ? $result['total_record']:0,
-			'quantity_debt' => isset($result['quantity_debt']) ? $result['quantity_debt']:0,
-			'value_debt' => isset($result['value_debt']) ? $result['value_debt']:0,
+			'total_record' => isset($result['total_record']) ? $result['total_record'] : 0,
+			'quantity_debt' => isset($result['quantity_debt']) ? $result['quantity_debt'] : 0,
+			'value_debt' => isset($result['value_debt']) ? $result['value_debt'] : 0,
 		);
 	}
 
-	public function list_debt_by_member( $keyword = '', $year = '', $offset = '', $limit = '' )
+	public function list_debt_by_member($keyword = '', $year = '', $offset = '', $limit = '')
 	{ 	//Load danh sách thành viên còn hàng nợ
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 
-		if ( $keyword != '' ) $keyword 	= " AND (
+		if ($keyword != '') $keyword 	= " AND (
 												mb.`name` LIKE '%$keyword%' 
 												OR mb.`fullname` LIKE '%$keyword%'
 												OR mb.`mobile` LIKE '%$keyword%'
 											)";
-		
+
 		if ($limit != '') $limit 		= "LIMIT $offset, $limit ";
 
 		$sql = "SELECT * 
@@ -3417,24 +3441,24 @@ class detail_order extends model
 				ORDER BY nTB.`value_debt` DESC
 				$limit";
 
-		$r = $db->executeQuery_list( $sql );
-		
+		$r = $db->executeQuery_list($sql);
+
 		return $r;
 	}
 
-	public function list_debt_by_member_count( $keyword = '', $year = '')
+	public function list_debt_by_member_count($keyword = '', $year = '')
 	{ 	//Load danh sách thành viên còn hàng nợ
 		global $db;
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 
-		if ( $keyword != '' ) $keyword 	= " AND (
+		if ($keyword != '') $keyword 	= " AND (
 												mb.`code` LIKE '%$keyword%' 
 												OR mb.`fullname` LIKE '%$keyword%'
 												OR mb.`mobile` LIKE '%$keyword%'
 											)";
-		
+
 		$sql = "SELECT COUNT(*) total_record
 						, SUM(nTB.`quantity_debt`) quantity_debt
 						, SUM(nTB.`value_debt`) value_debt
@@ -3458,20 +3482,20 @@ class detail_order extends model
 					$keyword
 				) nTB";
 
-		$r = $db->executeQuery( $sql, 1 );
-		
+		$r = $db->executeQuery($sql, 1);
+
 		return array(
-			'total_record' => isset($r['total_record']) ? $r['total_record']:0,
-			'quantity_debt' => isset($r['quantity_debt']) ? $r['quantity_debt']:0,
-			'value_debt' => isset($r['value_debt']) ? $r['value_debt']:0,
+			'total_record' => isset($r['total_record']) ? $r['total_record'] : 0,
+			'quantity_debt' => isset($r['quantity_debt']) ? $r['quantity_debt'] : 0,
+			'value_debt' => isset($r['value_debt']) ? $r['value_debt'] : 0,
 		);
 	}
 
-	public function info_product_debt( $year = '')
+	public function info_product_debt($year = '')
 	{ //Load danh sách thành viên còn hàng nợ hàm count
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 
@@ -3488,12 +3512,12 @@ class detail_order extends model
 		return $result;
 	}
 
-	public function list_order_debt($keyword = '', $year = '', $offset = '', $limit = '' )
+	public function list_order_debt($keyword = '', $year = '', $offset = '', $limit = '')
 	{ //hàm lấy tất cả đơn hàng còn nợ hàng thành viên (tùng code - 27/07/2021)
 		//HC 210911
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 	= $this->get('shop_id');
 
@@ -3512,18 +3536,18 @@ class detail_order extends model
 				GROUP BY od.`id`
 				ORDER BY od.`created_at` DESC 
 				$limit";
-		
+
 		$result = $db->executeQuery_list($sql);
-		
+
 		return $result;
 	}
 
-	public function list_order_debt_count( $keyword = '', $year = '' )
+	public function list_order_debt_count($keyword = '', $year = '')
 	{ //hàm đếm tổng số đơn hàng còn nợ hàng thành viên (tùng code - 27/07/2021)
 		//HC: 210912
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 	= $this->get('shop_id');
 
@@ -3544,7 +3568,6 @@ class detail_order extends model
 		$result = $db->executeQuery($sql, 1);
 
 		return $result['total'] + 0;
-
 	}
 
 	// public function list_product_by_order($keyword, $offset, $limit)
@@ -3585,7 +3608,7 @@ class detail_order extends model
 	// 	return $result['total'] + 0;
 	// }
 
-	
+
 	/**
 	 * showroom_sum_total_left method get total product debt
 	 * @author datdat.itsn02
@@ -3593,11 +3616,11 @@ class detail_order extends model
 	 * @param  mixed $year : year of order
 	 * @return void
 	 */
-	public function showroom_sum_total_left(  $year = '' )
-	{ 
+	public function showroom_sum_total_left($year = '')
+	{
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$product_id 	= $this->get('product_id');
 		$sku_id 		= $this->get('sku_id');
@@ -3611,7 +3634,7 @@ class detail_order extends model
 					SELECT showroom_id, order_id, shipper_status
 					FROM " . $db->tbl_fix . "`delivery` as de 
 					INNER JOIN " . $db->tbl_fix . "`showroom` as sr ON de.showroom_id = sr.id
-					WHERE de.shop_id = " . $shop_id ."
+					WHERE de.shop_id = " . $shop_id . "
 				) as desr ON desr.order_id = od.id
 				INNER JOIN " . $db->tbl_fix . "`product` p ON p.id = dt.product_id
 				WHERE
@@ -3627,12 +3650,12 @@ class detail_order extends model
 		return $result;
 	}
 
-	public function sum_total_left( $client_id, $year = '' )//total left by client_id
+	public function sum_total_left($client_id, $year = '') //total left by client_id
 	{ //hàm đếm tổng số đơn hàng còn nợ hàng thành viên (tùng code - 27/07/2021)
 		//HC: 210910
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$product_id 	= $this->get('product_id');
 		$sku_id 		= $this->get('sku_id');
@@ -3655,11 +3678,11 @@ class detail_order extends model
 		return $result;
 	}
 
-	public function get_detail_order_debt_left( $client_id, $year = '' )//get detail order id left to update barcode export
+	public function get_detail_order_debt_left($client_id, $year = '') //get detail order id left to update barcode export
 	{   //HC: 220217 Hàm lấy toàn bộ danh sách các detail order ID để cập nhật nợ hàng thành viên để xuất hàng ra 
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$product_id 	= $this->get('product_id');
 		$sku_id 		= $this->get('sku_id');
@@ -3678,12 +3701,12 @@ class detail_order extends model
 				AND od.`id_customer` = '$client_id'
 				AND dt.`sku_id` = '$sku_id'
 				";
-		$result = $db->executeQuery_list( $sql );
+		$result = $db->executeQuery_list($sql);
 
 		return $result;
 	}
 
-		
+
 	/**
 	 * get_detail_showroom_order_debt_left: method get single/all product of order debt showroom
 	 *
@@ -3691,22 +3714,22 @@ class detail_order extends model
 	 * @param  mixed $year                : year of order
 	 * @return void
 	 */
-	public function get_detail_showroom_order_debt_left( $year = '' )
-	{ 
+	public function get_detail_showroom_order_debt_left($year = '')
+	{
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$product_id 	= $this->get('product_id');
 		$sku_id 		= $this->get('sku_id');
 		$shop_id 		= $this->get('shop_id');
 		$order_id 		= $this->get('order_id');
 
-		if(isset($product_id) && $product_id != "") {
+		if (isset($product_id) && $product_id != "") {
 			$product_id = "AND dt.`product_id` = '$product_id'";
 		}
 
-		if(isset($sku_id) && $sku_id != "") {
+		if (isset($sku_id) && $sku_id != "") {
 			$sku_id = "AND dt.`sku_id` = '$sku_id'";
 		}
 
@@ -3718,7 +3741,7 @@ class detail_order extends model
 					SELECT showroom_id, order_id
 					FROM " . $db->tbl_fix . "`delivery` as de 
 					INNER JOIN " . $db->tbl_fix . "`showroom` as sr ON de.showroom_id = sr.id
-					WHERE de.shop_id = " . $shop_id ."
+					WHERE de.shop_id = " . $shop_id . "
 				) as desr ON desr.order_id = od.id
 				INNER JOIN " . $db->tbl_fix . "`product` p ON p.id = dt.product_id
 				WHERE
@@ -3730,11 +3753,11 @@ class detail_order extends model
 				AND (dt.`quantity` - dt.`quantity_paid`)
 				";
 
-		$result = $db->executeQuery_list( $sql );
+		$result = $db->executeQuery_list($sql);
 
 		return $result;
 	}
-	
+
 	/**
 	 * list_product_debt_by_showroom
 	 * @author datdat.itsn02
@@ -3743,11 +3766,11 @@ class detail_order extends model
 	 * @param  mixed $pro_ship_fee   : id of ship fee product
 	 * @return void 
 	 */
-	public function list_product_debt_by_showroom( $year = '' , $pro_ship_fee = '')
-	{  
+	public function list_product_debt_by_showroom($year = '', $pro_ship_fee = '')
+	{
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 		$order_id 		= $this->get('order_id');
@@ -3780,15 +3803,15 @@ class detail_order extends model
 				AND dt.`product_id` != '$pro_ship_fee'
 				GROUP BY dt.`product_id`, dt.`sku_id`
 				";
-		$result = $db->executeQuery_list( $sql );
+		$result = $db->executeQuery_list($sql);
 
 		return $result;
 	}
-	public function list_product_debt_by_client( $client_id, $year = '' )
+	public function list_product_debt_by_client($client_id, $year = '')
 	{   //HC: 220218 List toàn bộ sản phẩm mà khách hàng này đang nợ: sản phẩm được gộp theo số lượng
 		global $db;
 
-		if( $year == '' ) $year = date('Y');
+		if ($year == '') $year = date('Y');
 
 		$shop_id 		= $this->get('shop_id');
 
@@ -3813,8 +3836,8 @@ class detail_order extends model
 				AND od.`id_customer` = '$client_id'
 				GROUP BY dt.`product_id`, dt.`sku_id`
 				";
-		
-		$r = $db->executeQuery_list( $sql );
+
+		$r = $db->executeQuery_list($sql);
 
 		return $r;
 	}
@@ -3822,20 +3845,20 @@ class detail_order extends model
 	public function remove_decrement_on_bill($shop_id, $order_id, $created_at)
 	{
 		global $db;
-		
-		$sql = "UPDATE $db->tbl_fix`detail_order_".$shop_id."_" . date('Y', $created_at) ."` SET `price` = `default_price`, `decrement` = 0 WHERE `product_id` > 0 AND `quantity` > 0 AND `order_id` = '$order_id' ";
+
+		$sql = "UPDATE $db->tbl_fix`detail_order_" . $shop_id . "_" . date('Y', $created_at) . "` SET `price` = `default_price`, `decrement` = 0 WHERE `product_id` > 0 AND `quantity` > 0 AND `order_id` = '$order_id' ";
 		// echo $sql;
 		// exit();
 		$db->executeQuery($sql);
 
 		return true;
 	}
-	
+
 	//Thêm phí vận chuyển vào đơn hàng
 	public function extra_shipping_fee($shop_id, $username, $order_id, $created_at, $dDeliveryFeeItem)
 	{
-		global $shop, $order, $detail_order,$product,$setup;
-		
+		global $shop, $order, $detail_order, $product, $setup;
+
 		$price = $dDeliveryFeeItem['price'] + 0;
 		$detail_order->set('default_price', $price);
 		$detail_order->set('quantity', 1);
@@ -3846,7 +3869,7 @@ class detail_order extends model
 		$detail_order->set('order_id', $order_id);
 		$detail_order->set('product_id', $dDeliveryFeeItem['id']);
 		$detail_order->set('ratio_convert', $dDeliveryFeeItem['ratio_convert']);
-		$detail_order->set('sku_id',0);
+		$detail_order->set('sku_id', 0);
 		$detail_order->set('name', $dDeliveryFeeItem['name']);
 		$detail_order->set('user_add', $username);
 		$detail_order->set('note', '');
@@ -3856,7 +3879,7 @@ class detail_order extends model
 		$detail_order->set('attribute_4', '0');
 		$detail_order->set('attribute_5', '0');
 		$detail_order->set('sku_name', '');
-		$detail_order->set('root_price',0);
+		$detail_order->set('root_price', 0);
 		$detail_order->set('wh_history_id', '0');
 		$detail_order->set('wh_history_return_id', 0);
 		$detail_order->set('coupon_id', 0);
@@ -3867,27 +3890,27 @@ class detail_order extends model
 		$detail_order_id = '';
 		if (isset($dOrder['status']) && ($dOrder['status'] == 0 or $dOrder['status'] == -2)) {
 			$dExistShippingFee = $this->get_exist_shipping_fee($shop_id, $created_at);
-			if (empty($dExistShippingFee['id'])){
+			if (empty($dExistShippingFee['id'])) {
 				$detail_order_id = $this->add($shop_id, $created_at);
-			}else {
-				$this->set('date_add',$dExistShippingFee['date_add']);
-				$this->set('shop_id',$shop_id);
-				$this->set('id',$dExistShippingFee['id']);
+			} else {
+				$this->set('date_add', $dExistShippingFee['date_add']);
+				$this->set('shop_id', $shop_id);
+				$this->set('id', $dExistShippingFee['id']);
 				$this->delete_item();
 				$detail_order_id = $this->add($shop_id, $created_at);
 			}
-			
+
 			//update lại service_fee 
-			$order->set('shop_id',$shop_id);
-			$order->set('id',$order_id);
-			$order->set('created_at',$created_at);
-			$order->set('service_fee',$price);
+			$order->set('shop_id', $shop_id);
+			$order->set('id', $order_id);
+			$order->set('created_at', $created_at);
+			$order->set('service_fee', $price);
 			$order->update_service_fee();
 
 			//lấy dữ liệu cho đơn hàng
 			$dOrder['listItems'] 	= $this->listby_order($shop_id, $order_id, $created_at);
 			return $dOrder;
-		}else{
+		} else {
 			return $detail_order_id;
 		}
 	}

@@ -1,5 +1,4 @@
-<pre>
-{print_r($orderList)}
+
 <div class="container-fluid py-4">
       <div class="row">
         <div class="col-12">
@@ -19,6 +18,7 @@
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Order id</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Date</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                      <th class="text-secondary opacity-7"></th>
                       <th class="text-secondary opacity-7"></th>
                     </tr>
                   </thead>
@@ -46,7 +46,11 @@
                           View
                         </a>
                       </td>
-                      
+                      {if $item.order_status != 140}
+                                                    <td class="align-middle"><button id="cancel_order" data-order-id-tiktok="{$item.order_id}" data-order-status="{$item.order_status}">Cancel</button></td>
+                                                    {else}
+                                                    <td class="align-middle"><button id="cancel_order" disabled>Cancel</button></td>
+                                                    {/if}
                     </tr>
                     {/foreach}
                     

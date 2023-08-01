@@ -157,9 +157,9 @@ class order
 			$arr['code'] 		= $order_id;
 			$arr['user_add'] 	= $user_add;
 			$arr['count_print']	= 0;
-			$arr['last_update'] = time();
-			$arr['last_date'] 	= date("d/m/y H:i:s");
-			$arr['status'] 		= '0';
+			$arr['last_update'] = $this->get('last_update');
+			$arr['last_date'] 	= date("d/m/y H:i:s",$this->get('last_update'));
+			$arr['status'] 		= $this->get('order_status');
 			$arr['printed'] 	= '0';
 			$arr['status_booking'] 	= '0';
 			$arr['returned_from_order_id'] 		= '';
@@ -177,16 +177,17 @@ class order
 			$arr['export_for_wh_id'] 			= '0';
 
 			$db->record_insert($db->tbl_fix . "`order_" . $shop_id . "_" . date('Y') . "`", $arr);
+		} else {
+			$this->update_temp_storing_id();
 		}
 
 		// clone detail_order
-		// $detail_order = new detail_order();
 		// $detail_order->add($shop_id, $created_at);
 		// $detail_order->set('shop_id', $shop_id);
 		// $detail_order->set('order_id', $order_id);
 		// $detail_order->set('created_at', $created_at);
 		// $detail_order->set('user_add', $user_add);
-		// $detail_order->clonex($id);
+		// $detail_order->clonex($order_id);
 
 		return $arr;
 	}
@@ -415,17 +416,17 @@ class order
 		global $db, $main;
 
 		$shop_id 			= $this->get('shop_id');
-		$id 				= $this->get('id');
+		$id 				= $this->get('order_id');
 		$created_at 		= $this->get('created_at');
 
 		$arr['amount'] 						= 0;
 		$arr['user_add'] 					= $this->get('user_add');
 		// $arr['shop_id'] 					= $this->get('shop_id');
-		$arr['status'] 						= '0';
+		$arr['status'] 						= $this->get('order_status');
 		$arr['waiter'] 						= $this->get('waiter');
 		$arr['printed'] 					= '0';
-		$arr['last_update'] 				= time();
-		$arr['last_date'] 					= date("d/m/y H:i:s");
+		$arr['last_update'] 				= $this->get('last_update');
+		$arr['last_date'] 					= date("d/m/y H:i:s",$this->get('last_update'));
 		$arr['treasurer'] 					= $this->get('treasurer');
 		$arr['note'] 						= $this->get('note');
 		$arr['count_print'] 				= '0';

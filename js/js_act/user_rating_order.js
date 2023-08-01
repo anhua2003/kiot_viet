@@ -29,20 +29,23 @@ $(document).on('submit', '.review-form', function(e) {
         console.log(imageArray);
         let order_id = $("#_order_id").val();
         let formData = new FormData(document.getElementById("rating_form"));
-        formData.append('img_list', imageArray);
+        imageArray.forEach(function(item) {
+            formData.append('img_list[]', item);
+        })
         _doAjaxNod("POST", formData, "user", "rating_order", "insert", true, (res)=>{
             if(res.status == 200)
             {
-                swal({
-                    title: "Success",
-                    text: "Thank you for your reviews",
-                    icon: "success"
-                }).then(response=>{
-                    if(response) {
-                        BootstrapDialog.closeAll();
-                        thePage.render(res.data,order_id);
-                    }
-                });
+                console.log(res.data)
+                // swal({
+                //     title: "Success",
+                //     text: "Thank you for your reviews",
+                //     icon: "success"
+                // }).then(response=>{
+                //     if(response) {
+                //         BootstrapDialog.closeAll();
+                //         thePage.render(res.data,order_id);
+                //     }
+                // });
             }
         })
     }

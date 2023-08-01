@@ -18,4 +18,4 @@ foreach ($routeFiles as $routeFile) {
 }
 
 include_once '#directthumuc/config.php';
-include_once 'include/tiktok.php';
+// include_once 'include/tiktok.php';

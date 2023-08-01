@@ -61,18 +61,11 @@ if ($act == 'index') {
         exit();
     } else if($nod == 'rating_order') {
         $order_id = $main->post('order_id');
+        $img = $main->post('img_list');
         $user1 = new user1();
-        $result = $user1->get_detail_invoice($order_id);
-        echo 'done##'.$main->toJsonData(200, null, $result);
+        // $result = $user1->get_detail_invoice($order_id);
+        echo 'done##'.$main->toJsonData(200, null, $img);
         $db->close();
-    } else if ($nod == 'cancel_order_tiktok') {
-        $order_id = $main->post('order_id');
-        $reason = $main->post('reason_key');
-        $cancelOrder = $client->Reverse->cancelOrder($order_id, $reason);
-        echo 'done##'.$main->toJsonData(200, 'Success', null);
-    } else if($nod == 'getList_reverse_key') {
-        $reverse = $client->Reverse->getRejectReasonList();
-        echo 'done##'.$main->toJsonData(200, null, $reverse);
     } else {
         echo 'Missing action';
         $db->close();
