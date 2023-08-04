@@ -55,6 +55,7 @@ if (isset($_SESSION['email'])) {
     // setcookie('email', '', time() - 3600, '/');
     // session_destroy();
     unset($_SESSION['email']);
+    unset($_SESSION['id']);
     $main->redirect('/dang-nhap');
 }else{
     $main->redirect('/');

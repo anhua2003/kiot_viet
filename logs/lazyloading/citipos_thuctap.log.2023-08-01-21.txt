@@ -1,0 +1,139 @@
+
+
+****** 08/01/23 21:00:16 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:00:33 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:00:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:01:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:01:27 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:01:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:02:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:02:22 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:02:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:02:58 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:03:30 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:03:33 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:03:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:04:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:04:27 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:04:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:05:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:05:22 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:06:13 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:07:13 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:08:13 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:08:39 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:08:58 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:09:16 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:09:34 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:09:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:10:09 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:10:28 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:10:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:11:04 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:11:22 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:11:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:11:58 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:12:36 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:12:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:13:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:13:28 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:13:46 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:14:13 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:14:48 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:14:56 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"user","act":"rating_order","nod":"insert"}:[POST]:{"order_id":"867","id_product":"82XV00D5VN","content":"an n\u00e8 ","img_list":["data:application\/octet-stream;base64,LS0gcGhwTXlBZG1pbiBTUUwgRHVtcAotLSB2ZXJzaW9uIDUuMi4wCi0tIGh0dHBzOi8vd3d3LnBocG15YWRtaW4ubmV0LwotLQotLSBNw6F5IGNo4bunOiAxMjcuMC4wLjEKLS0gVGjhu51pIGdpYW4gxJHDoyB04bqhbzogVGgxMiAxMiwgMjAyMiBsw7pjIDAxOjUxIEFNCi0tIFBoacOqbiBi4bqjbiBtw6F5IHBo4bulYyB24bulOiAxMC40LjI3LU1hcmlhREIKLS0gUGhpw6puIGLhuqNuIFBIUDogOC4xLjEyCgpTRVQgU1FMX01PREUgPSAiTk9fQVVUT19WQUxVRV9PTl9aRVJPIjsKU1RBUlQgVFJBTlNBQ1RJT047ClNFVCB0aW1lX3pvbmUgPSAiKzAwOjAwIjsKCgovKiE0MDEwMSBTRVQgQE9MRF9DSEFSQUNURVJfU0VUX0NMSUVOVD1AQENIQVJBQ1RFUl9TRVRfQ0xJRU5UICovOwovKiE0MDEwMSBTRVQgQE9MRF9DSEFSQUNURVJfU0VUX1JFU1VMVFM9QEBDSEFSQUNURVJfU0VUX1JFU1VMVFMgKi87Ci8qITQwMTAxIFNFVCBAT0xEX0NPTExBVElPTl9DT05ORUNUSU9OPUBAQ09MTEFUSU9OX0NPTk5FQ1RJT04gKi87Ci8qITQwMTAxIFNFVCBOQU1FUyB1dGY4bWI0ICovOwoKLS0KLS0gQ8ahIHPhu58gZOG7ryBsaeG7h3U6IGB0cnV5ZW5fdHJhbmhgCi0tCgotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKLS0KLS0gQ+G6pXUgdHLDumMgYuG6o25nIGNobyBi4bqjbmcgYGhhbmdob2FgCi0tCgpDUkVBVEUgVEFCTEUgYGhhbmdob2FgICgKICBgdGVuYCB0ZXh0IE5PVCBOVUxMLAogIGBsb2FpYCB2YXJjaGFyKDQwKSBOT1QgTlVMTCwKICBgbnhiYCB0ZXh0IE5PVCBOVUxMLAogIGBnaWFgIGludCgxMSkgTk9UIE5VTEwsCiAgYGdpYW1naWFgIGludCgxMSkgTk9UIE5VTEwsCiAgYHRoZWxvYWlgIHRleHQgTk9UIE5VTEwsCiAgYG1haGhgIGludCgxMSkgTk9UIE5VTEwsCiAgYGhpbmhgIHZhcmNoYXIoNTApIE5PVCBOVUxMCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOCBDT0xMQVRFPXV0ZjhfdmlldG5hbWVzZV9jaTsKCi0tCi0tIMSQYW5nIMSR4buVIGThu68gbGnhu4d1IGNobyBi4bqjbmcgYGhhbmdob2FgCi0tCgpJTlNFUlQgSU5UTyBgaGFuZ2hvYWAgKGB0ZW5gLCBgbG9haWAsIGBueGJgLCBgZ2lhYCwgYGdpYW1naWFgLCBgdGhlbG9haWAsIGBtYWhoYCwgYGhpbmhgKSBWQUxVRVMKKCdUaGllbiBzdSBuaGEgYmVuJywgJ0xpZ2h0IG5vdmVsJywgJ0tpbSBEb25nJywgOTUwMDAsIDkwMDAwLCAnUm9tLUNvbScsIDEsICd0aGllbnN1bmhhYmVuLmpwZycpLAooJ05oYSBjbyA1IG5hbmcgZGF1JywgJ01hbmdhJywgJ0tpbSBEb25nJywgMjUwMDAsIDAsICdSb20tQ29tJywgMiwgJ25oYWNvNW5hbmdkYXUuanBnJyksCignQ2h1IFRodWF0IEhvaSBDaGllbicsICdNYW5nYScsICdLaW0gRG9uZycsIDI1MDAwLCAyMDAwMCwgJ1Nob3VuZW4nLCAzLCAnY2h1dGh1YXRob2ljaGllbi5qcGcnKSwKKCdTcHkgeCBGYW1pbHknLCAnTWFuZ2EnLCAnS2ltIERvbmcnLCAyNTAwMCwgMCwgJ0NvbWVkeScsIDQsICdzcHl4ZmFtaWx5LmpwZycpLAooJ1Rva3lvIEdob3VsJywgJ01hbmdhJywgJ1NodWVpc2hhJywgMTg3MDAwLCAxODAwMDAsICdLaW5oIERpJywgNSwgJ3Rva3lvZ2hvdWwuanBnJyksCignTG9wIGhvYyBkZSBjYW8gdGh1YyBsdWMnLCAnTGlnaHQgbm92ZWwnLCAnSVBNJywgMTIwMDAwLCAxMTAwMDAsICdTaG91bmVuJywgNiwgJ2NvdGUuanBnJyksCignQ2hhaW5zYXcgTWFuJywgJ01hbmdhJywgJ05YQiBUcmUnLCA0MDAwMCwgMCwgJ0tpbmggRGknLCA3LCAnY2hhaW5zYXdtYW4uanBnJyksCignRHVvYyBzdSB0dSBzdScsICdNYW5nYScsICdLaW0gRG9uZycsIDQ1MDAwLCAwLCAnUm9tLUNvbScsIDgsICdkdW9jc3V0dXN1LmpwZycpLAooJ1RoZSBHaW9pIEdhbWUgT3RlbWUgVGhhdCBLaGFjIE5naGlldCBWb2kgTmhhbiBWYXQgUXVhbiBDaHVuZycsICdMaWdodCBub3ZlbCcsICdOeEIgVGhlIEdpb2knLCAxMjAwMDAsIDkwMDAwLCAnSXNla2FpJywgOSwgJ3RoZWdpb2lnYW1lb3RlbWUuanBnJyksCignRUlHSFRZIFNJWCAtIDg2JywgJ0xpZ2h0IG5vdmVsJywgJ0lQTScsIDE0NTAwMCwgMTE2MDAwLCAnQ2hpZW4gVHJhbmgnLCAxMCwgJzg2LmpwZycpLAooJ0FyeWEgYmFuIGJlbiB0aGkgdGhvYW5nIGxhaSB0aGEgdGhpbmggdG9pIGJhbmcgdGllbmcgTmdhJywgJ0xpZ2h0IG5vdmVsJywgJ0tpbSBEb25nJywgOTUwMDAsIDAsICdSb20tQ29tJywgMTEsICdhcnlhLmpwZycpLAooJ1N3b3JkIEFydCBPbmxpbmUnLCAnTGlnaHQgbm92ZWwnLCAnSVBNJywgMTI1MDAwLCAwLCAnU2hvdW5lbi1oYXJlbScsIDEyLCAnc2FvLmpwZycpOwoKLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCi0tCi0tIEPhuqV1IHRyw7pjIGLhuqNuZyBjaG8gYuG6o25nIGBuZXdzYAotLQoKQ1JFQVRFIFRBQkxFIGBuZXdzYCAoCiAgYE5ld3NsZGAgaW50KDExKSBOT1QgTlVMTCwKICBgVGl0bGVgIHZhcmNoYXIoMTI4KSBOT1QgTlVMTCwKICBgQ29udGVudGAgdGV4dCBOT1QgTlVMTCwKICBgRGF0ZWAgZGF0ZSBOT1QgTlVMTCwKICBgSW1hZ2VzYCB2YXJjaGFyKDY0KSBOT1QgTlVMTAopIEVOR0lORT1Jbm5vREIgREVGQVVMVCBDSEFSU0VUPXV0ZjggQ09MTEFURT11dGY4X3ZpZXRuYW1lc2VfY2k7CgotLQotLSDEkGFuZyDEkeG7lSBk4buvIGxp4buHdSBjaG8gYuG6o25nIGBuZXdzYAotLQoKSU5TRVJUIElOVE8gYG5ld3NgIChgTmV3c2xkYCwgYFRpdGxlYCwgYENvbnRlbnRgLCBgRGF0ZWAsIGBJbWFnZXNgKSBWQUxVRVMKKDExLCAnVmFpbHonLCAnQW5oaGVvdmgxMjMnLCAnMDAwMC0wMC0wMCcsICdhbmh1YS5qcGcnKTsKQ09NTUlUOwoKLyohNDAxMDEgU0VUIENIQVJBQ1RFUl9TRVRfQ0xJRU5UPUBPTERfQ0hBUkFDVEVSX1NFVF9DTElFTlQgKi87Ci8qITQwMTAxIFNFVCBDSEFSQUNURVJfU0VUX1JFU1VMVFM9QE9MRF9DSEFSQUNURVJfU0VUX1JFU1VMVFMgKi87Ci8qITQwMTAxIFNFVCBDT0xMQVRJT05fQ09OTkVDVElPTj1AT0xEX0NPTExBVElPTl9DT05ORUNUSU9OICovOwo="],"browser":"Chrome"}[dUser]null:[dUserClient]null:\n<br />
+<b>Notice</b>:  Undefined offset: 1 in <b>D:\Thuctap\demo\demothuctap\lazyloading\user.php</b> on line <b>86</b><br />
+done##{"status":403,"message":"Not image","data":null}
+
+****** 08/01/23 21:14:57 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:15:16 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:15:34 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:15:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:16:13 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:17:13 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:17:38 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:17:58 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:18:16 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:18:34 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:19:13 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:19:49 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:20:03 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:20:22 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:20:40 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:20:58 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:22:13 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:22:45 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:23:03 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:23:21 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:23:39 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:23:57 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:24:16 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:24:34 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:24:52 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:25:10 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request
+
+****** 08/01/23 21:25:53 ******:[GET]:{"m":"notification","act":"popup_user"}:[POST]:{"security":"null"}[dUser]null:[dUserClient]null:\nMissing apikey request

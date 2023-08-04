@@ -20,7 +20,7 @@
                             </tr>
                             <tr>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Address</th>
-                                <td>{$orderDetail['order_list'][0]['recipient_address']['full_address']}</td>
+                                <td>{$orderDetail['order_list'][0]['recipient_address']['phone']}</td>
                             </tr>
                             <tr>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Total product price</th>

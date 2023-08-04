@@ -56,7 +56,7 @@
 						{else}
 						<li><a href="/tai-khoan"><i class="fa fa-user-o"></i>hello {$smarty.session.email} !</a></li>
 						<input type="hidden" id="user_id" value="{$smarty.session.id}">
-						<li><a href="logout.php">Logout</a></li>
+						<li><a href="{$domain}/logout.php">Logout</a></li>
 						{/if}
 					</ul>
 				</div>
@@ -107,7 +107,7 @@
 										<span>Your Wishlist</span>
 										<div class="qty" id="qty_wishlist">{$myWishlist|count}</div>
 									</a>
-									<div class="cart-dropdown">
+									<div class="cart-dropdown" style="left: 0px;">
 										<div class="cart-list" id="m_wishlist">
 											{if !isset($smarty.session.id) || $smarty.session.id == ''}
 											Bạn chưa đăng nhập mà

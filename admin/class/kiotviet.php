@@ -7,11 +7,11 @@
         private $grant_type;
         private $tokenUrl;
         private $url;
-        private $retailer = 'shopApiTest';
+        private $retailer = 'vinawares';
         public function __construct()
         {
-            $this->clientId = '9c57965c-c59a-44cb-8903-9f6b1bf76ab0';
-            $this->clientSecret = 'BEB7A9F522E7F90080385147C632234ED6C783AF';
+            $this->clientId = 'f21d1f36-9c7d-466f-aac6-5b778e4c58ce';
+            $this->clientSecret = 'B0E66CF68EA8B119F4A4BEAB02DAE7D7C97EF886';
             $this->scopes = 'PublicApi.Access';
             $this->grant_type = 'client_credentials';
             $this->tokenUrl = 'https://id.kiotviet.vn/connect/token';
@@ -289,7 +289,7 @@
             "code" => $post['code'],
             "barCode" => "SP_".rand(0,9999),
             "fullName" => $post['name'],
-            "categoryId" => '1660367', // Id nhóm hàng hóa
+            "categoryId" => $post['category'], // Id nhóm hàng hóa
             "allowsSale" => true,
             "description" => "testing",
             "hasVariants" => false,
@@ -305,7 +305,7 @@
             "conversionValue" => 1,
             "inventories" => array(
                 array(
-                    "branchId" => '318490', // Id của chi nhánh
+                    "branchId" => '42081', // Id của chi nhánh
                     "branchName" => "Chi nhánh trung tâm",
                     "cost" => 100000,
                     "onHand" => $post['onHand'],
@@ -344,5 +344,66 @@
             print_r($data);
     }
 
+    public function add_category($post)
+    {
+        $data = array(
+            "categoryName" => $post['name'],
+        );
+        $jsonData = json_encode($data);
+    
+            $ch = curl_init();
+    
+            curl_setopt($ch, CURLOPT_URL, $this->url.'/categories');
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/json',
+                'Retailer:'.$this->retailer,
+                'Authorization: Bearer ' . $this->getAccessToken()
+            ]);
+    
+            // Thực thi yêu cầu cURL và lấy kết quả
+            $response = curl_exec($ch);
+
+            // Kiểm tra xem có lỗi xảy ra không
+            if (curl_errno($ch)) {
+                echo 'Lỗi cURL: ' . curl_error($ch);
+            }
+
+            // Đóng cURL
+            curl_close($ch);
+
+            // Xử lý kết quả (tuỳ thuộc vào cách API phản hồi dữ liệu)
+            echo '<pre>';
+            print_r($data);
+    }
+
+    public function delete_category($id) {
+        $ch = curl_init();
+    
+        curl_setopt($ch, CURLOPT_URL, $this->url.'/categories/'.$id);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Retailer:'.$this->retailer,
+            'Authorization: Bearer ' . $this->getAccessToken()
+        ]);
+
+        // Thực thi yêu cầu cURL và lấy kết quả
+        $response = curl_exec($ch);
+
+        // Kiểm tra xem có lỗi xảy ra không
+        if (curl_errno($ch)) {
+            echo 'Lỗi cURL: ' . curl_error($ch);
+        }
+
+        // Đóng cURL
+        curl_close($ch);
+
+        // Xử lý kết quả (tuỳ thuộc vào cách API phản hồi dữ liệu)
+        echo $response;
+    }
+
 }
+
+$kiotviet = new kiotviet();
 ?>

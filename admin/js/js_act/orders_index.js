@@ -11,3 +11,7 @@ $(document).on('click', '#delete_order', function() {
         }
     })
 })
+
+$(document).on('click', '#confirm_orders', function() {
+    alert("Hello");
+})

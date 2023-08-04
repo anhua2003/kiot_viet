@@ -1,0 +1,5 @@
+
+
+****** 08/04/23 13:41:08 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"products","act":"categories","nod":"get"}:[POST]:{"browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"total":4,"pageSize":20,"data":[{"categoryId":414287,"categoryName":"Kh\u00e1c","retailerId":500293435,"createdDate":"2023-08-04T08:45:48.9900000","rank":0},{"categoryId":415431,"categoryName":"T\u00ean nh\u00f3m h\u00e0ng m\u1edbi n\u00e8 nha 64cc7bd30dbe1","retailerId":500293435,"createdDate":"2023-08-04T11:17:24.0730000","rank":0},{"categoryId":415629,"categoryName":"M\u1edbi th\u00eam v\u00e0o: fpP1m31k0HXr","retailerId":500293435,"createdDate":"2023-08-04T11:51:09.0200000","rank":0},{"categoryId":415630,"categoryName":"M\u1edbi th\u00eam v\u00e0o: LeebJa03A5NE","retailerId":500293435,"createdDate":"2023-08-04T11:51:22.8270000","rank":0}],"timestamp":"2023-08-04T13:41:27.7045638+07:00"}}
+
+****** 08/04/23 13:59:58 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"categories","act":"add","nod":"add"}:[POST]:{"category_name":"aaaa","browser":"Chrome"}[dUser]null:[dUserClient]null:\naaaa

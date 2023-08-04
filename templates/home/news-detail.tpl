@@ -59,7 +59,7 @@
                             {if $item.avatar == ''}
                             <a class="pull-left"><img class="media-object" src="{$domain}/public/img/user/user.jpg" width="80px" height="80px" style="border-radius: 90px;" alt=""></a>
                             {else}
-                            <a class="pull-left"><img class="media-object" src="{$domain}/public/img/user/{$item.user_id}/{$item.avatar}" width="80px" height="80px" style="border-radius: 90px;" alt=""></a>
+                            <a class="pull-left"><img class="media-object" src="{$domain}/public/img/user/{$item.user_id}/{$item.avatar}?time={time()}" width="80px" height="80px" style="border-radius: 90px;" alt=""></a>
                             {/if}
                             <div class="media-body" style="padding-left: 10px;">
                                 <h5 class="media-heading">{$item.user_name}</h5>

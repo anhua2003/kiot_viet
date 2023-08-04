@@ -21,11 +21,13 @@ $(document).on('submit', '.review-form', function(e) {
 
     // Gửi mảng chứa các đường dẫn ảnh qua Ajax hoặc thực hiện xử lý khác
     // console.log(imageArray); // Hiển thị mảng đường dẫn ảnh trong console
-    if(imageArray.length == 0)
-    {
-        alert("Upload image please")
-    }
-    else {
+    if(imageArray.length > 4) {
+        swal({
+            title: "Warning",
+            text: "Only 4 photos can be sent",
+            icon: "warning"
+        })
+    } else {
         console.log(imageArray);
         let order_id = $("#_order_id").val();
         let formData = new FormData(document.getElementById("rating_form"));
@@ -35,17 +37,17 @@ $(document).on('submit', '.review-form', function(e) {
         _doAjaxNod("POST", formData, "user", "rating_order", "insert", true, (res)=>{
             if(res.status == 200)
             {
-                console.log(res.data)
-                // swal({
-                //     title: "Success",
-                //     text: "Thank you for your reviews",
-                //     icon: "success"
-                // }).then(response=>{
-                //     if(response) {
-                //         BootstrapDialog.closeAll();
-                //         thePage.render(res.data,order_id);
-                //     }
-                // });
+                // console.log(res.data)
+                swal({
+                    title: "Success",
+                    text: "Thank you for your reviews",
+                    icon: "success"
+                }).then(response=>{
+                    if(response) {
+                        BootstrapDialog.closeAll();
+                        thePage.render(res.data,order_id);
+                    }
+                });
             }
         })
     }

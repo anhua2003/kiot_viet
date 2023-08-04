@@ -51,7 +51,7 @@
             </a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <li><a class="dropdown-item" href="/admin/?m=tiktokshop&act=orders">List Orders</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="/admin/?m=tiktokshop&act=products">List Products</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
           </div>
@@ -69,7 +69,7 @@
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="/admin/product_list_kiot_viet">List Products</a></li>
                 <li><a class="dropdown-item" href="/admin/?m=orders&act=index">List Orders</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="/admin/?m=categories&act=index">Category List</a></li>
               </ul>
           </div>
         </li>

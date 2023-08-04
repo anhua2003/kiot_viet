@@ -114,6 +114,7 @@
 		<script src="{$domain}/js/js_act/add_wishlist.js"></script>
 		<script src="{$domain}/js/js_act/quick_view.js"></script>
 		<script src="{$domain}/js/jquery.rateyo.js"></script>
+		<script src="{$domain}/js/cloudzoom.js"></script>
 		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	</body>
 </html>

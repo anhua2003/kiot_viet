@@ -227,7 +227,7 @@
 															<div class="row">
 																<div class="col-md-4">
 																	{if $item.avatar != ''}
-																	<img src="{$domain}/public/img/user/{$item.user_id}/{$item.avatar}" style="width: 40px; border-radius: 90px;"/>
+																	<img src="{$domain}/public/img/user/{$item.user_id}/{$item.avatar}?time={time()}" style="width: 40px; height: 40px; border-radius: 90px;"/>
 																	{else}
 																	<img src="{$domain}/public/img/user/user.jpg" style="width: 40px; border-radius: 90px;"/>
 																	{/if}
@@ -249,6 +249,13 @@
 														</div>
 														<div class="review-body">
 															<p>{$item.contents}</p>
+															{if $item.imgs != ''}
+															<div class="d-flex">
+																{foreach $item.imgArray as $imgList}
+																<img src="{$domain}/public/img/user/{$item.user_id}/comment/{$item.product_id}/{$imgList}" width="20%" height="20%" />
+																{/foreach}
+															</div>
+															{/if}
 														</div>
 													</li>
 													{/foreach}
@@ -413,3 +420,13 @@
 			<!-- /container -->
 		</div>
 		<!-- /Section -->
+		<script>
+  $(document).ready(function () {
+    $('.cloudzoom').CloudZoom();
+  });
+</script>
+
+
+
+
+

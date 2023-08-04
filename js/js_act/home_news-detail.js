@@ -56,9 +56,10 @@ $(document).on('click', '#see_more', function() {
 
 thePage.render = (list_comment) => {
     let content = '';
+    let time = new Date();
     list_comment.forEach(function(item) {
         if(item.avatar != '') {
-            img = '<img class="media-object" src="./public/img/user/'+item.user_id+'/'+item.avatar+'" width="80px" height="80px" style="border-radius: 90px;" alt="">'
+            img = '<img class="media-object" src="./public/img/user/'+item.user_id+'/'+item.avatar+'?time='+time.getTime()+'" width="80px" height="80px" style="border-radius: 90px;" alt="">'
         } else {
             img = '<img class="media-object" src="./public/img/user/user.jpg" width="80px" height="80px" style="border-radius: 90px;" alt="">'
         }

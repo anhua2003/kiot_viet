@@ -126,6 +126,7 @@
 
             $orders['order_list'][$i]['order_status_detail'] = $statusName;
         }
+        
         $st->assign('orderList', $orders);
     }
     if($act == 'detail')
@@ -133,5 +134,16 @@
         $id = $main->get('id');
         $orders = $client->Order->getOrderDetail($id);
         $st->assign('orderDetail', $orders);
+    } else if($act == 'products') {
+        $products = $client->Product->getProductList();
+        $st->assign('product_list', $products);
+        // echo '<pre>';
+        // print_r($products);
+        // exit();
+    } else if($act == 'detail_product')
+    {
+        $id_products = $main->get('id');
+        $product_detail = $client->Product->getProductDetail($id_products);
+        $st->assign('product_detail', $product_detail);
     }
 ?>

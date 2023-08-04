@@ -3,6 +3,7 @@
     if($act == 'index')
     {
         $orders = $kiotviet->getList('orders');
+        
         $st->assign('orders', $orders);
     } else if ($act == 'detail') {
         $id = $main->get('id');

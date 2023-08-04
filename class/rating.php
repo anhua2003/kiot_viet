@@ -13,6 +13,7 @@
             $arr['product_id'] = $this->get('product_id');
             $arr['contents'] = $this->get('content');
             $arr['rating'] = $this->get('rating');
+            $arr['imgs'] = $this->get('img');
             $arr['_date'] = $getdate;
             $db->record_insert($db->tbl_fix.'`comment`', $arr);
             $c['c_rate'] = 1;
@@ -27,6 +28,7 @@
             $result = $db->executeQuery($sql);
             $response = [];
             while ($row = mysqli_fetch_assoc($result)) {
+                $row['imgArray'] = explode(",", $row['imgs']);
                 $row['formatTime'] = [];
                 $formatTimeAgo = new formatTimeAgo();
                 $row['formatTime'] = $formatTimeAgo->formatTimeAgo($row['_date']);

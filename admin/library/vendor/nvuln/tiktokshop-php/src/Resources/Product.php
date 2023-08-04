@@ -66,7 +66,7 @@ class Product extends Resource
     public function editProduct($product_id, $data = [])
     {
         $data['product_id'] = $product_id;
-
+        
         return $this->call('PUT', 'products', [
             RequestOptions::JSON => $data
         ]);

@@ -37,9 +37,17 @@ if ($act == 'product_detail') {
         $post['price'] = $main->post('Price');
         $post['img'] = $main->post('img');
         $post['onHand'] = $main->post('onHand');
+        $post['category'] = $main->post('selected_category');
         $kiotviet = new kiotviet();
         $kiotviet->add_product($post);
         echo 'done##'.$main->toJsonData(200, null, null);
+    }
+} else if($act == 'categories') {
+    if($nod == 'get')
+    {
+        $kiotviet = new kiotviet();
+        $result = $kiotviet->getList('categories');
+        echo 'done##'.$main->toJsonData(200, null, $result);
     }
 } else {
     echo 'Missing action';

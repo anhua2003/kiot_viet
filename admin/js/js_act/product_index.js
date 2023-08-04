@@ -42,12 +42,11 @@ $(document).on('click', '#edit_product', function() {
                 <br>
                 <label class="upload_label" style="margin-top: 20px;">Tải lên
                 <input type='file' id='upload' name='files[]' multiple />
+                </label>
                 <div class="show_img">
                     ${img}
                 </div>
                 </form>
-                
-        </label>
     <style>        
     .upload_label {
         color: #111;
@@ -162,145 +161,166 @@ $(document).on('click', '#delete_product', function() {
 })
 
 $(document).on('click', '#add_product', function() {
-    BootstrapDialog.show({
-        title: "Add product",
-        message: `<form id="add_form">
-        <label class="form-label">Name</label>
-        <div class="input-group input-group-outline">
-          <input type="text" name="Name" value="" class="form-control">
-        </div>
-        <label class="form-label">Code</label>
-        <div class="input-group input-group-outline">
-          <input type="text" name="Code" value="" class="form-control">
-        </div>
-        <label class="form-label">Price</label>
-        <div class="input-group input-group-outline">
-          <input type="number" name="Price" value="" class="form-control">
-        </div>
-        <label class="form-label">onHand</label>
-        <div class="input-group input-group-outline">
-          <input type="number" name="onHand" value="" class="form-control">
-        </div>
-        <br>
-        
-       
+    let formData = new FormData();
+    _doAjaxNod("POST", formData, "products", "categories", "get", true, (res) => {
+        if(res.status == 200)
+        {
             
-
-            <label class="upload_label">Tải lên
-                <input type='file' id='upload' name='files[]' multiple />
-            </label>
-        
-            <div class="show_img">
-           
-            </div>
-            
-            
-        </form>
-        <style>        
-        .upload_label {
-            color: #111;
-            text-transform: uppercase;
-            font-size: 14px;
-            cursor: pointer;
-            white-space: nowrap;
-            padding: 4px;
-            border-radius: 3px;
-            min-width: 60px;
-            width: 100%;
-            max-width: 80px;
-            
-            font-weight: 400;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            background: #fff;
-            animation: popDown 300ms 1 forwards;
-            transform: translateY(-10px);
-            opacity: 1;
-            display: block;
-            transition: background 200ms, color 200ms;
-          }
-          
-          
-          .upload_label:hover {
-            color: #fff;
-            background: #222;
-          }
-          
-          
-          #upload {
-            width: 100%;
-            opacity: 0;
-            height: 0;
-            overflow: hidden;
-            display: block;
-            padding: 0;
-            
-          }
-          
-        
-            
-            .imageThumb {
-                max-height: 75px;
-                border: 2px solid;
-                padding: 1px;
-                cursor: pointer;
-            }
-            .pip {
-                display: inline-block;
-                margin: 10px 10px 0 0;
-            }
-            .remove {
-                display: block;
-                background: #444;
-                border: 1px solid black;
-                color: white;
-                text-align: center;
-                cursor: pointer;
-            }
-            .remove:hover {
-                background: white;
-                color: black;
-            }
-        </style>`,
-        size: 'size-wide',
-        buttons: [{
-            label: ' Hủy',
-            cssClass: 'btn-secondary btn-width',
-            action: function (dialogItself) {
-                dialogItself.close();
-            }
-        }, {
-            label: ' Add',
-            cssClass: 'btn bg-gradient-primary btn-width',
-            action: function (dialogItself) {
-                let imageArray = [];
-                // Lặp qua từng thẻ <span> có lớp 'pip' và lấy đường dẫn ảnh
-                $('.pip').each(function() {
-                let img = $(this).find('img');
-                let imgData = img.attr('src');
+            let option = '';
+            // let data = res.data;
+            res.data.data.forEach(function(item) {
+                option += `<option value="${item.categoryId}">${item.categoryName}</option>`;
+            })
+            BootstrapDialog.show({
+                title: "Add product",
+                message: `<form id="add_form">
+                <label class="form-label">Name</label>
+                <div class="input-group input-group-outline">
+                  <input type="text" name="Name" value="" class="form-control">
+                </div>
+                <label class="form-label">Code</label>
+                <div class="input-group input-group-outline">
+                  <input type="text" name="Code" value="" class="form-control">
+                </div>
+                <label class="form-label">Price</label>
+                <div class="input-group input-group-outline">
+                  <input type="number" name="Price" value="" class="form-control">
+                </div>
+                <label class="form-label">onHand</label>
+                <div class="input-group input-group-outline">
+                  <input type="number" name="onHand" value="" class="form-control">
+                </div>
+                <label class="form-label">Categories</label>
+                <div class="input-group input-group-outline">
+                  <select name="selected_category">
+                    <option>Choose your categories</option>
+                    ${option}
+                  </select>
+                </div>
+                <br>
                 
-                // Thêm đường dẫn ảnh vào mảng
-                imageArray.push(imgData);
-                });
-                let formData = new FormData(document.getElementById('add_form'));
-                imageArray.forEach(function(item) {
-                    formData.append("img[]", item);
-                })
-                if(imageArray.length == 0)
-                {
-                    alert("Please choose image");
-                } else {
-                    _doAjaxNod("POST", formData, "products", "add", "add", true, (res) => {
-                        if(res.status == 200)
+               
+                    
+        
+                    <label class="upload_label">Tải lên
+                        <input type='file' id='upload' name='files[]' multiple />
+                    </label>
+                
+                    <div class="show_img">
+                   
+                    </div>
+                    
+                    
+                </form>
+                <style>        
+                .upload_label {
+                    color: #111;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    cursor: pointer;
+                    white-space: nowrap;
+                    padding: 4px;
+                    border-radius: 3px;
+                    min-width: 60px;
+                    width: 100%;
+                    max-width: 80px;
+                    
+                    font-weight: 400;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    background: #fff;
+                    animation: popDown 300ms 1 forwards;
+                    transform: translateY(-10px);
+                    opacity: 1;
+                    display: block;
+                    transition: background 200ms, color 200ms;
+                  }
+                  
+                  
+                  .upload_label:hover {
+                    color: #fff;
+                    background: #222;
+                  }
+                  
+                  
+                  #upload {
+                    width: 100%;
+                    opacity: 0;
+                    height: 0;
+                    overflow: hidden;
+                    display: block;
+                    padding: 0;
+                    
+                  }
+                  
+                
+                    
+                    .imageThumb {
+                        max-height: 75px;
+                        border: 2px solid;
+                        padding: 1px;
+                        cursor: pointer;
+                    }
+                    .pip {
+                        display: inline-block;
+                        margin: 10px 10px 0 0;
+                    }
+                    .remove {
+                        display: block;
+                        background: #444;
+                        border: 1px solid black;
+                        color: white;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                    .remove:hover {
+                        background: white;
+                        color: black;
+                    }
+                </style>`,
+                size: 'size-wide',
+                buttons: [{
+                    label: ' Hủy',
+                    cssClass: 'btn-secondary btn-width',
+                    action: function (dialogItself) {
+                        dialogItself.close();
+                    }
+                }, {
+                    label: ' Add',
+                    cssClass: 'btn bg-gradient-primary btn-width',
+                    action: function (dialogItself) {
+                        let imageArray = [];
+                        // Lặp qua từng thẻ <span> có lớp 'pip' và lấy đường dẫn ảnh
+                        $('.pip').each(function() {
+                        let img = $(this).find('img');
+                        let imgData = img.attr('src');
+                        
+                        // Thêm đường dẫn ảnh vào mảng
+                        imageArray.push(imgData);
+                        });
+                        let formData = new FormData(document.getElementById('add_form'));
+                        imageArray.forEach(function(item) {
+                            formData.append("img[]", item);
+                        })
+                        if(imageArray.length == 0)
                         {
-                            window.location.reload();
+                            alert("Please choose image");
+                        } else {
+                            _doAjaxNod("POST", formData, "products", "add", "add", true, (res) => {
+                                if(res.status == 200)
+                                {
+                                    window.location.reload();
+                                }
+                            })
+                            // dialogItself.close();
                         }
-                    })
-                    // dialogItself.close();
-                }
-            }
-        }]
-    });
+                    }
+                }]
+            });
+            console.log(res.data);
+        }
+    })
+    
 })
 // $(document).on('click', '#fopen_btn', function() {
 //     $("#upload").click();

@@ -17,6 +17,12 @@ if ($act == 'save') {
             if($result != false) {
                 $_SESSION['email'] = $main->post('email');
                 $_SESSION['id'] = $result['id'];
+                $web_root = $_SERVER['DOCUMENT_ROOT'];
+                $dir_path = $web_root . '/public/img/user/' . $result['id'];
+                if(!is_dir($dir_path))
+                {
+                    mkdir($dir_path);
+                }
                 // setcookie('email', $_SESSION['email'], time() + 640000);
                 // $main->redirect('/trang-chu');
                 echo 'done##'.$main->toJsonData(200, 'Đăng nhập thành công', null);
