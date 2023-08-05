@@ -67,9 +67,14 @@ class Product extends Resource
     {
         $data['product_id'] = $product_id;
         
-        return $this->call('PUT', 'products', [
+        $result = $this->call('PUT', 'products', [
             RequestOptions::JSON => $data
         ]);
+        if(isset($result['skus']['outer_sku_id'])){
+            return $result;
+        } else{
+            $this->editProduct($product_id, $data);
+        }
     }
 
     public function updateStock($product_id, $skus = [])

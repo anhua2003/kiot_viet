@@ -1,0 +1,96 @@
+
+
+****** 08/05/23 09:04:20 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"1000","stock":"0","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729674993466837760","sales_attributes":[]}]}}
+
+****** 08/05/23 09:05:24 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"10","stock":"0","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729674995412601600","sales_attributes":[]}]}}
+
+****** 08/05/23 09:06:36 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"10","stock":"100","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729674995057527552","sales_attributes":[]}]}}
+
+****** 08/05/23 09:07:26 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"100","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729674997015153408","sales_attributes":[]}]}}
+
+****** 08/05/23 09:15:38 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"10","stock":"1000","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\n<br />
+<b>Notice</b>:  Undefined index: message in <b>D:\Thuctap\demo\demothuctap\admin\lazyloading\tiktokshop.php</b> on line <b>89</b><br />
+
+
+****** 08/05/23 09:16:16 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"100","stock":"1000","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\nArray
+(
+    [product_id] => 1729671560796211968
+    [skus] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1729674999530818304
+                    [sales_attributes] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+
+****** 08/05/23 09:18:31 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"100","stock":"10000","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\nArray
+(
+    [product_id] => 1729671560796211968
+    [skus] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1729674999907519232
+                    [sales_attributes] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+
+****** 08/05/23 09:19:37 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"2000000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\nArray
+(
+    [product_id] => 1729671560796211968
+    [skus] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1729675004177451776
+                    [sales_attributes] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+
+****** 08/05/23 09:24:03 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"200","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675004056800000","sales_attributes":[]}]}}
+
+****** 08/05/23 09:25:02 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"2000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675001882643200","sales_attributes":[]}]}}
+
+****** 08/05/23 09:25:50 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"200","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675005957344000","sales_attributes":[]}]}}
+
+****** 08/05/23 09:26:58 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"20000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675006311893760","sales_attributes":[]}]}}
+
+****** 08/05/23 09:27:45 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"200","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675007428496128","sales_attributes":[]}]}}
+
+****** 08/05/23 09:29:36 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"2000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675007827610368","sales_attributes":[]}]}}
+
+****** 08/05/23 09:30:13 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"2000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675007601117952","sales_attributes":[]}]}}
+
+****** 08/05/23 09:30:27 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"20000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675009198099200","sales_attributes":[]}]}}
+
+****** 08/05/23 09:41:28 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"200","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675009707903744","sales_attributes":[]}]}}
+
+****** 08/05/23 09:42:02 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"2000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675014943836928","sales_attributes":[]}]}}
+
+****** 08/05/23 09:58:06 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"20000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675027019238144","sales_attributes":[]}]}}
+
+****** 08/05/23 09:58:18 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"20000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675029181598464","sales_attributes":[]}]}}
+
+****** 08/05/23 09:59:25 ******:[GET]:{"apikey":"0123kSKmsdfrtl234sd","m":"tiktokshop","act":"product","nod":"edit"}:[POST]:{"product_name":"\u00c1o hoodie nam local brand unisex c\u1eb7p \u0111\u00f4i n\u1ec9 ngo\u1ea1i cotton form r\u1ed9ng c\u00f3 m\u0169 x\u00e1m \u0111en d\u00e0y oversize","price":"40000","stock":"10","product_id":"1729671560796211968","browser":"Chrome"}[dUser]null:[dUserClient]null:\ndone##{"status":200,"message":null,"data":{"product_id":"1729671560796211968","skus":[{"id":"1729675023090289408","sales_attributes":[]}]}}

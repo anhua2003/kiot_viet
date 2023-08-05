@@ -1,5 +1,4 @@
-<pre>
-{print_r($product_detail)}
+
 <div class="container-fluid py-4">
       <div class="row">
         <div class="col-12">
@@ -22,8 +21,81 @@
                 {/foreach}
                 </div>
               </form>
+              <label class="upload_label">Tải lên
+                        <input type='file' id='upload' name='files[]' multiple />
+                    </label>
+                
+                    <div class="show_img">
+                   
+                    </div>
             </div>
           </div>
         </div>
       </div>
       <button id="edit_product" data-product-id="{$product_detail['product_id']}">Edit</button>
+      <style>        
+                .upload_label {
+                    color: #111;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    cursor: pointer;
+                    white-space: nowrap;
+                    padding: 4px;
+                    border-radius: 3px;
+                    min-width: 60px;
+                    width: 100%;
+                    max-width: 80px;
+                    
+                    font-weight: 400;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    background: #fff;
+                    animation: popDown 300ms 1 forwards;
+                    transform: translateY(-10px);
+                    opacity: 1;
+                    display: block;
+                    transition: background 200ms, color 200ms;
+                  }
+                  
+                  
+                  .upload_label:hover {
+                    color: #fff;
+                    background: #222;
+                  }
+                  
+                  
+                  #upload {
+                    width: 100%;
+                    opacity: 0;
+                    height: 0;
+                    overflow: hidden;
+                    display: block;
+                    padding: 0;
+                    
+                  }
+                  
+                
+                    
+                    .imageThumb {
+                        max-height: 75px;
+                        border: 2px solid;
+                        padding: 1px;
+                        cursor: pointer;
+                    }
+                    .pip {
+                        display: inline-block;
+                        margin: 10px 10px 0 0;
+                    }
+                    .remove {
+                        display: block;
+                        background: #444;
+                        border: 1px solid black;
+                        color: white;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                    .remove:hover {
+                        background: white;
+                        color: black;
+                    }
+                </style>
